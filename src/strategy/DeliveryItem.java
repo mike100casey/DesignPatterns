@@ -9,7 +9,7 @@ public class DeliveryItem {
     public DeliveryItem(Shipment shipment) {
         this.shipment = shipment;
     }
-    private double deliveryCalculation(double miles, double weight, DeliverType deliverType){
+    public double deliveryCalculation(double miles, double weight, DeliverType deliverType){
         return shipment.calculate(miles,weight,deliverType);
     }
 }

@@ -3,7 +3,7 @@ package strategy;
 /**
  * Created by Michael on 11/18/2015.
  */
-public class UPS implements Shipment{
+public class UPC implements Shipment{
     private final double FUELPRICE = 1.40;
     private final double COSTPERMILE = 0.40;
     private final double COSTPERKG = 10;
@@ -17,7 +17,7 @@ public class UPS implements Shipment{
                 deliveryPrice = OVERNIGHTCHARGE *(FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
                 break;
             case STANDARD:
-                deliveryPrice = OVERNIGHTCHARGE *(FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = (FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
         }
         return deliveryPrice;
     }

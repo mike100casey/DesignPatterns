@@ -14,7 +14,7 @@ public class TopazObserver extends Observer {
     void update() {
         double  vat = 0.21f;
         double companyMargin = 0.18f;
-        System.out.println("Shell fuel is now " + (fuelDepo.getState() +
+        System.out.println("Topaz fuel is now " + (fuelDepo.getState() +
                 vat * fuelDepo.getState() +
                 companyMargin * fuelDepo.getState()));
     }

@@ -14,7 +14,7 @@ public class TexicoObserver extends Observer {
     void update() {
         double  vat = 0.21f;
         double companyMargin = 0.20f;
-        System.out.println("Shell fuel is now " + (fuelDepo.getState() +
+        System.out.println("Texico fuel is now " + (fuelDepo.getState() +
                 vat * fuelDepo.getState() +
                 companyMargin * fuelDepo.getState()));
     }

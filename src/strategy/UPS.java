@@ -3,11 +3,11 @@ package strategy;
 /**
  * Created by Michael on 11/18/2015.
  */
-public class Fedex implements Shipment {
-    private final double FUELPRICE = 1.55;
-    private final double COSTPERMILE = 0.55;
-    private final double COSTPERKG = 10.5;
-    private final double OVERNIGHTCHARGE = 2;
+public class UPS implements Shipment{
+    private final double FUELPRICE = 1.40;
+    private final double COSTPERMILE = 0.40;
+    private final double COSTPERKG = 10;
+    private final double OVERNIGHTCHARGE = 1.75;
 
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {

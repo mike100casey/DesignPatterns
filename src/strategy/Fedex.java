@@ -3,7 +3,7 @@ package strategy;
 /**
  * Created by Michael on 11/18/2015.
  */
-public class Fedex implements Shipment {
+public class Fedex implements IShipment {
     private final double FUELPRICE = 1.55;
     private final double COSTPERMILE = 0.55;
     private final double COSTPERKG = 10.5;

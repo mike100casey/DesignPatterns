@@ -3,7 +3,7 @@ package strategy;
 /**
  * Created by Michael on 11/18/2015.
  */
-public class UPC implements Shipment{
+public class UPC implements IShipment {
     private final double FUELPRICE = 1.40;
     private final double COSTPERMILE = 0.40;
     private final double COSTPERKG = 10;

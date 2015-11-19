@@ -3,7 +3,7 @@ package strategy;
 /**
  * Created by Michael on 11/18/2015.
  */
-public class USPS implements Shipment {
+public class USPS implements IShipment {
     private final double FUELPRICE = 1.70;
     private final double COSTPERMILE = 0.35;
     private final double COSTPERKG = 8.50;

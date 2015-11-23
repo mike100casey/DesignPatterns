@@ -10,7 +10,6 @@ public class AddNumbers extends EncryptDecorator {
     }
 
     public String encrypt(String enteredText) {
-
         int randomNum = 0 + (int)(Math.random()*100);
         return super.encrypt(enteredText) + randomNum;
     }

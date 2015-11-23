@@ -11,7 +11,7 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        IEncrypter encryptedWord = new AddWord(new Reverse(new AddNumbers(new PlainText())));
+        IEncrypter encryptedWord = new AddNumbers(new AddWord(new Reverse(new PlainText())));
 
         System.out.println("Enter Text: ");
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

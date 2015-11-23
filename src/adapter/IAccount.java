@@ -6,5 +6,5 @@ package adapter;
 public interface IAccount {
     double getBalance();
     boolean isOverDraftAvailable();
-    void credit(double credit);
+    void creditAcc(double credit);
 }

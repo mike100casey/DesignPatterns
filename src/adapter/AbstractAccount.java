@@ -27,12 +27,13 @@ public class AbstractAccount implements IAccount {
     }
 
     @Override
-    public void credit(double credit) {
+    public void creditAcc(double credit) {
         balance += credit;
     }
 
-    public String toString() {
-        return getClass().getSimpleName() + " Balance=" + getBalance()
-                + " Overdraft:" + isOverDraftAvailable();
+
+    public void printBalance(AbstractAccount abstractAccount){
+        System.out.println(abstractAccount.getClass().getSimpleName() +" Balance = " + abstractAccount.getBalance() +
+                        " Overdraft = " + abstractAccount.isOverDraftAvailable());
     }
 }

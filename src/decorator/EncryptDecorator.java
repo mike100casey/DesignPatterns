@@ -12,6 +12,6 @@ public class EncryptDecorator implements IEncrypter {
 
     @Override
     public String encrypt(String text) {
-        return this.encrypter.encrypt(text);
+        return encrypter.encrypt(text);
     }
 }

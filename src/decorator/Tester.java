@@ -10,17 +10,19 @@ import java.io.InputStreamReader;
 public class Tester {
 
     public static void main(String[] args) {
-        IEncrypter encryptedWord = new Reverse(new PlainText());
 
+        IEncrypter encryptedWord = new Reverse(new AddNumbers(new PlainText()));
+
+        System.out.println("Enter Text: ");
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        String s= "";
+        String text= "";
 
         try {
-            s = in.readLine();
+            text = in.readLine();
         }
         catch (IOException ex){
             ex.printStackTrace();
         }
-        System.out.println( "Encrypted PlainText:     " + encryptedWord.encrypt(s));
+        System.out.println( "Encrypted PlainText:     " + encryptedWord.encrypt(text));
     }
 }

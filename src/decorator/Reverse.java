@@ -10,10 +10,8 @@ public class Reverse extends EncryptDecorator {
     }
 
     public String encrypt(String enteredText) {
-        super.encrypt(enteredText);
-        System.out.println( "encrypt:" );
 
         String reversedText = new StringBuffer(enteredText).reverse().toString();
-        return reversedText;
+        return super.encrypt(reversedText);
     }
 }

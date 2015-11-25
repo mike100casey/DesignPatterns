@@ -5,7 +5,7 @@ package state;
  */
 public class CeilingFan {
 
-    private String currentState;
+    private FanState currentState;
 
     public CeilingFan()
     {

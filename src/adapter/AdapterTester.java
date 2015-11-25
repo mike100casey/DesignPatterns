@@ -20,6 +20,7 @@ public class AdapterTester {
         offShore.credit(300);
         offShoreAcc.printBalance(offShoreAcc);
         offShore.debit(500);
+        offShoreAcc.setIsOverDraftAvailable(true);
 
 
         offShoreAcc.printBalance(offShoreAcc);

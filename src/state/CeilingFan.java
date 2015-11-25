@@ -11,6 +11,11 @@ public class CeilingFan {
     {
         currentState = "off";
     }
+
+    public void setFanState(FanState currentState){
+        this.currentState = currentState;
+    }
+
     public void pull()
     {
         if (currentState == "off")

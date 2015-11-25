@@ -7,6 +7,7 @@ public class Hign implements FanState {
 
     @Override
     public void pull(CeilingFan cord) {
-
+        cord.setFanState(new Off());
+        System.out.println(" Turned Off");
     }
 }

@@ -18,25 +18,6 @@ public class CeilingFan {
 
     public void pull()
     {
-        if (currentState == "off")
-        {
-            currentState = "low";
-            System.out.println("   low speed");
-        }
-        else if (currentState == "low")
-        {
-            currentState = "medium";
-            System.out.println("   medium speed");
-        }
-        else if (currentState == "medium")
-        {
-            currentState = "high";
-            System.out.println("   high speed");
-        }
-        else
-        {
-            currentState = "off";
-            System.out.println("   turning off");
-        }
+
     }
 }

@@ -11,16 +11,12 @@ of objects uniformly.
  
 ![alt text](https://github.com/mike100casey/DesignPatterns/blob/master/img/Composite.PNG?raw=true)
 
-**Applicability:** Use the Composite pattern when
-
+**Applicability:** Use the Composite pattern when:
+ 
 * you want to represent part-whole hierarchies of objects
 * you want clients to be able to ignore the difference between compositions of objects and individual objects. Clients will treat all objects in the composite structure uniformly
 
 **Examples:**
 
-* 
-
-
-**Credits**
-
-* 
+* In this example we have sentences composed of words composed of letters. All of the objects can
+* be treated through the same interface.

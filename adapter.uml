@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="399.5">adapter.BusinessAccount</node>
+    <node x="122.50000000000006" y="0.0">adapter.IAccount</node>
+    <node x="351.234375" y="386.0">adapter.AccountAdapter</node>
+    <node x="422.6666666666667" y="179.5">adapter.OffShoreAccount</node>
+    <node x="102.5" y="166.0">adapter.AbstractAccount</node>
+    <node x="163.0" y="399.5">adapter.StandardAccount</node>
+    <node x="333.4270833333333" y="498.0">adapter.AdapterTester</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.AbstractAccount" target="adapter.IAccount">
+      <point x="2.8421709430404007E-14" y="-85.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="adapter.AdapterTester" target="adapter.OffShoreAccount">
+      <point x="59.66666666666667" y="-31.0" />
+      <point x="482.59375" y="473.0" />
+      <point x="556.1770833333333" y="473.0" />
+      <point x="556.1770833333333" y="361.0" />
+      <point x="610.1666666666667" y="361.0" />
+      <point x="62.5" y="71.5" />
+    </edge>
+    <edge source="adapter.AdapterTester" target="adapter.AccountAdapter">
+      <point x="0.0" y="-31.0" />
+      <point x="422.9270833333333" y="473.0" />
+      <point x="445.734375" y="473.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="adapter.BusinessAccount" target="adapter.AbstractAccount">
+      <point x="0.0" y="-17.5" />
+      <point x="71.5" y="361.0" />
+      <point x="147.33333333333334" y="361.0" />
+      <point x="-89.66666666666666" y="85.0" />
+    </edge>
+    <edge source="adapter.AccountAdapter" target="adapter.OffShoreAccount">
+      <point x="47.25" y="-31.0" />
+      <point x="492.984375" y="361.0" />
+      <point x="485.1666666666667" y="361.0" />
+      <point x="-62.5" y="71.5" />
+    </edge>
+    <edge source="adapter.StandardAccount" target="adapter.AbstractAccount">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="adapter.AccountAdapter" target="adapter.AbstractAccount">
+      <point x="-47.25" y="-31.0" />
+      <point x="398.484375" y="361.0" />
+      <point x="326.66666666666663" y="361.0" />
+      <point x="89.66666666666666" y="85.0" />
+    </edge>
+    <edge source="adapter.AdapterTester" target="adapter.StandardAccount">
+      <point x="-59.66666666666663" y="-31.0" />
+      <point x="363.2604166666667" y="473.0" />
+      <point x="237.0" y="473.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="236.5" y="342.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

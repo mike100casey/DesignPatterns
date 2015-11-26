@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strategy.md" />
-      <change type="DELETED" beforePath="C:\git\DesignPatterns\adapter.uml" afterPath="" />
-      <change type="DELETED" beforePath="C:\git\DesignPatterns\state.uml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite.md" afterPath="$PROJECT_DIR$/composite.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="" />
     <ignored path="DesignPatterns.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -583,7 +577,7 @@
       <workItem from="1448356795606" duration="786000" />
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
-      <workItem from="1448568697634" duration="7658000" />
+      <workItem from="1448568697634" duration="7706000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -789,11 +783,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448576001289</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Created a markdown page for the strategy pattern">
+      <created>1448577102773</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1448577102773</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45559000" />
+    <option name="totallyTimeSpent" value="45607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -838,7 +838,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inspected code with Analyze and made changed recommendations" />
     <MESSAGE value="Created observer package, FuelDepo and Observer classes" />
     <MESSAGE value="Created three observers" />
     <MESSAGE value="Added tester for observer" />
@@ -863,7 +862,8 @@
     <MESSAGE value="Created a markdown file for composite" />
     <MESSAGE value="Inserting image" />
     <MESSAGE value="Inserting image for composite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserting image for composite" />
+    <MESSAGE value="Created a markdown page for the strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a markdown page for the strategy pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

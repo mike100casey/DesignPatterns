@@ -17,7 +17,5 @@ public class Letter extends LetterComposite {
     }
 
     @Override
-    protected void printAfter() {
-
-    }
+    protected void printAfter() {}
 }

@@ -8,14 +8,14 @@ import java.util.List;
  */
 public abstract class LetterComposite {
 
-    private List<LetterComposite> children = new ArrayList<LetterComposite>();
+    private List<LetterComposite> message = new ArrayList<LetterComposite>();
 
     public void add(LetterComposite letter){
-        children.add(letter);
+        this.message.add(letter);
     }
 
     public int count(){
-        return children.size();
+        return message.size();
     }
 
     protected abstract void printBefore();
@@ -24,7 +24,7 @@ public abstract class LetterComposite {
 
     public void print(){
         printBefore();
-        for(LetterComposite letter : children){
+        for(LetterComposite letter : message){
             letter.print();
         }
         printAfter();

@@ -9,7 +9,7 @@ categories: Structural
 hierarchies. Composite lets clients treat individual objects and compositions
 of objects uniformly.  
 
-![alt text](C:\git\DesignPatterns\img\Composite.PNG "Composite")
+![alt text](Composite.PNG "Composite")  
 
 **Applicability:** Use the Composite pattern when
 
@@ -19,7 +19,7 @@ of objects uniformly.
 **Examples:**
 
 * 
-*
+
 
 **Credits**
 

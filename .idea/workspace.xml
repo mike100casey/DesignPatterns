@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="Inserting image for composite">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite.md" afterPath="$PROJECT_DIR$/composite.md" />
+    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -628,7 +627,7 @@
       <workItem from="1448356795606" duration="786000" />
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
-      <workItem from="1448568697634" duration="5138000" />
+      <workItem from="1448568697634" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -822,11 +821,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448573710027</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Inserting image for composite">
+      <created>1448573918181</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1448573918181</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43039000" />
+    <option name="totallyTimeSpent" value="43059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />

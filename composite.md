@@ -8,9 +8,10 @@ categories: Structural
 **Intent:** Compose objects into tree structures to represent part-whole
 hierarchies. Composite lets clients treat individual objects and compositions
 of objects uniformly.  
+ 
+![alt text][logo]
 
-![alt text](Composite.PNG "Composite")  
-
+[logo]: C:\git\DesignPatterns\img\Composite.PNG "Composite"
 **Applicability:** Use the Composite pattern when
 
 * you want to represent part-whole hierarchies of objects

@@ -1,5 +1,4 @@
 ---
-layout: pattern
 title: Composite
 package: composite
 categories: Structural
@@ -8,9 +7,9 @@ categories: Structural
 
 **Intent:** Compose objects into tree structures to represent part-whole
 hierarchies. Composite lets clients treat individual objects and compositions
-of objects uniformly.
+of objects uniformly.  
 
-![alt text](./img/Composite.PNG "Composite")
+![alt text](C:\git\DesignPatterns\img\Composite.PNG "Composite")
 
 **Applicability:** Use the Composite pattern when
 

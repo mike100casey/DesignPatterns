@@ -9,7 +9,7 @@ public class CeilingFan {
 
     public CeilingFan()
     {
-        currentState = "off";
+        currentState = new Off();
     }
 
     public void setFanState(FanState currentState){
@@ -18,6 +18,6 @@ public class CeilingFan {
 
     public void pull()
     {
-
+        currentState.pull(this);
     }
 }

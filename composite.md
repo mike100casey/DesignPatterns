@@ -9,9 +9,8 @@ categories: Structural
 hierarchies. Composite lets clients treat individual objects and compositions
 of objects uniformly.  
  
-![alt text][logo]
+(./img/composite.PNG)  
 
-[logo]: C:\git\DesignPatterns\img\Composite.PNG "Composite"
 **Applicability:** Use the Composite pattern when
 
 * you want to represent part-whole hierarchies of objects

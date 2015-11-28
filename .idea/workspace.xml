@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+      <change type="DELETED" beforePath="C:\git\DesignPatterns\src\template_method\DailyRoutine.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -25,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DailyRoutine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/template_method/DailyRoutine.java">
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56666666">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.5368421">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/Topaz.java" />
         <option value="$PROJECT_DIR$/src/observer/FuelDepo.java" />
         <option value="$PROJECT_DIR$/src/observer/Tester.java" />
         <option value="$PROJECT_DIR$/src/observer/TopazObserver.java" />
@@ -110,6 +111,7 @@
         <option value="$PROJECT_DIR$/patterns/adapter.md" />
         <option value="$PROJECT_DIR$/patterns/decorator.md" />
         <option value="$PROJECT_DIR$/src/template_method/DailyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       </list>
     </option>
   </component>
@@ -564,7 +566,7 @@
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
-      <workItem from="1448724970281" duration="4334000" />
+      <workItem from="1448724970281" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -782,11 +784,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448739222918</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Created a package for the template method and an abstract class for a persons daily routine">
+      <created>1448739235942</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1448739235942</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50059000" />
+    <option name="totallyTimeSpent" value="51346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
@@ -1363,10 +1371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/DailyRoutine.java">
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5368421">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,4 @@
 ---
-layout: pattern
 title: Adapter
 package: adapter
 categories: Structural

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/Tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/composite/CompositeTester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/composite/CompositeTester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/composite/Word.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/composite/Word.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" afterPath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PowerMethod.java" afterPath="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -26,25 +32,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1491228">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PowerMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
+      <file leaf-file-name="PenaltyTaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="4" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,11 +73,21 @@
         <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerMethod.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50701755">
+              <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/TexicoObserver.java" />
-        <option value="$PROJECT_DIR$/src/observer/ObserverTester.java" />
-        <option value="$PROJECT_DIR$/src/observer/ShellObserver.java" />
-        <option value="$PROJECT_DIR$/src/decorator/PasswordStrength.java" />
         <option value="$PROJECT_DIR$/src/decorator/IEncrypter.java" />
         <option value="$PROJECT_DIR$/src/decorator/PlainText.java" />
         <option value="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" />
@@ -133,10 +159,14 @@
         <option value="$PROJECT_DIR$/patterns/adapter.md" />
         <option value="$PROJECT_DIR$/patterns/decorator.md" />
         <option value="$PROJECT_DIR$/src/template_method/DailyRoutine.java" />
-        <option value="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
-        <option value="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
         <option value="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/template_method/Striker.java" />
+        <option value="$PROJECT_DIR$/src/template_method/Taker.java" />
+        <option value="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
+        <option value="$PROJECT_DIR$/src/template_method/Tester.java" />
+        <option value="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
       </list>
     </option>
   </component>
@@ -281,15 +311,15 @@
       <recent name="state" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositeTester">
-    <configuration default="false" name="CompositeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Tester">
+    <configuration default="false" name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="composite.*" />
+          <option name="PATTERN" value="template_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="composite.CompositeTester" />
+      <option name="MAIN_CLASS_NAME" value="template_method.Tester" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -360,7 +390,7 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="composite.CompositeTester" />
+      <option name="MAIN_CLASS_NAME" value="template_method.Tester" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -557,11 +587,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.CompositeTester" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Tester" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CompositeTester" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Tester" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +621,7 @@
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
-      <workItem from="1448724970281" duration="6572000" />
+      <workItem from="1448724970281" duration="8131000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -827,11 +857,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448741140445</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Created the placement method">
+      <created>1448741489980</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1448741489980</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52297000" />
+    <option name="totallyTimeSpent" value="53856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="974" height="1037" extended-state="0" />
@@ -845,7 +881,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3201804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25607064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -918,20 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11805555">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3320158">
@@ -1394,32 +1416,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1491228">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.50701755">
+          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
           <folding />
         </state>
       </provider>

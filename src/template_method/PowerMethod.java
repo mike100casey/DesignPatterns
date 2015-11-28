@@ -6,8 +6,8 @@ package template_method;
 public class PowerMethod extends penaltyRoutine {
 
     @Override
-    protected String player() {
-        return "Burly Defender";
+    protected String taker() {
+        return "burly defender";
     }
 
     @Override

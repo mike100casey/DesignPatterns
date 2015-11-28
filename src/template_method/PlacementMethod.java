@@ -6,8 +6,8 @@ package template_method;
 public class PlacementMethod extends penaltyRoutine {
 
     @Override
-    protected String player() {
-        return "Stricker";
+    protected String taker() {
+        return "striker";
     }
 
     @Override

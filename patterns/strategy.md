@@ -20,5 +20,5 @@ that use it
 
 **Examples:**
 
-* In this example ({@link IShippment}) encapsulate the strategy. The containing object
-* ({@link DeliveryItem}) can alter its behavior by changing its strategy. 
+* In this example IShippment encapsulate the strategy. The containing object
+* DeliveryItem can alter its behavior by changing its strategy. 

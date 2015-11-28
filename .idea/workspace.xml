@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -26,24 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.1491228">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PowerMethod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PowerMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1491228">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#166#167#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlacementMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/TopazObserver.java" />
         <option value="$PROJECT_DIR$/src/observer/TexicoObserver.java" />
         <option value="$PROJECT_DIR$/src/observer/ObserverTester.java" />
         <option value="$PROJECT_DIR$/src/observer/ShellObserver.java" />
@@ -121,9 +133,10 @@
         <option value="$PROJECT_DIR$/patterns/adapter.md" />
         <option value="$PROJECT_DIR$/patterns/decorator.md" />
         <option value="$PROJECT_DIR$/src/template_method/DailyRoutine.java" />
-        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
-        <option value="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
         <option value="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
+        <option value="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
+        <option value="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       </list>
     </option>
   </component>
@@ -578,7 +591,7 @@
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
-      <workItem from="1448724970281" duration="6223000" />
+      <workItem from="1448724970281" duration="6572000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -808,11 +821,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448740570773</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Created the power method">
+      <created>1448741140445</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1448741140445</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51948000" />
+    <option name="totallyTimeSpent" value="52297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="974" height="1037" extended-state="0" />
@@ -857,7 +876,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added interface class for decorator, updated name of interface in strategy package" />
     <MESSAGE value="Added interface class for decorator,&#10;updated name of interface in strategy package,&#10;Created decorator, plain text and reverse classes&#10;" />
     <MESSAGE value="Created add number class, updated variable in tester class" />
     <MESSAGE value="Created add word class and updated tester" />
@@ -882,7 +900,8 @@
     <MESSAGE value="Created a package for the template method and an abstract class for a persons daily routine" />
     <MESSAGE value="Refactored abstract class from daily routine to penalty routine" />
     <MESSAGE value="Created the power method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the power method" />
+    <MESSAGE value="Created the placement method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the placement method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,13 +918,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/observer/ObserverTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13773148">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11805555">
@@ -1382,22 +1394,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+    <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1491228">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="e#166#167#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1491228">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

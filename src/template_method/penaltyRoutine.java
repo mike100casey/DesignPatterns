@@ -3,7 +3,7 @@ package template_method;
 /**
  * Created by Michael on 11/28/2015.
  */
-public abstract class penaltyRoutine {
+public abstract class PenaltyRoutine {
 
     protected abstract String taker();
     protected abstract void distractGoalie(String player);

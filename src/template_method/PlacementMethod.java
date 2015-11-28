@@ -3,7 +3,7 @@ package template_method;
 /**
  * Created by Michael on 11/28/2015.
  */
-public class PlacementMethod extends penaltyRoutine {
+public class PlacementMethod extends PenaltyRoutine {
 
     @Override
     protected String taker() {

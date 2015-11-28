@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_method/DailyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -565,7 +564,7 @@
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
-      <workItem from="1448724970281" duration="4257000" />
+      <workItem from="1448724970281" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -777,11 +776,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448577102773</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Created a package for the template method and an abstract class for a persons daily routine">
+      <created>1448739222918</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1448739222918</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49982000" />
+    <option name="totallyTimeSpent" value="50059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
@@ -789,6 +794,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -809,7 +815,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -826,7 +831,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created observer package, FuelDepo and Observer classes" />
     <MESSAGE value="Created three observers" />
     <MESSAGE value="Added tester for observer" />
     <MESSAGE value="Added interface class for decorator, updated name of interface in strategy package" />
@@ -851,7 +855,8 @@
     <MESSAGE value="Inserting image" />
     <MESSAGE value="Inserting image for composite" />
     <MESSAGE value="Created a markdown page for the strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a markdown page for the strategy pattern" />
+    <MESSAGE value="Created a package for the template method and an abstract class for a persons daily routine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a package for the template method and an abstract class for a persons daily routine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

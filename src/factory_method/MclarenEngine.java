@@ -20,11 +20,11 @@ public class MclarenEngine implements Engine {
     public String toString(){
         switch (engineType){
             case BIKE_ENGINE:
-                return "We do not make bike engines";
+                return "Mclaren do not make bike engines";
             case SHOCK_ENGINE:
-                return "We do not make small engines";
+                return "Mclaren do not make small engines";
             case RACING_ENGINE:
-                return "Mclaren " + engineType + " requested";
+                return "Mclaren " + engineType + " Engine requested";
         }
         return null;
     }

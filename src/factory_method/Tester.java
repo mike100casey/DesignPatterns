@@ -12,12 +12,14 @@ public class Tester {
 
         engineManufacturer = new VolkswagenGarage();
         engine = engineManufacturer.buildEngine(EngineType.SHOCK_ENGINE);
-        System.out.println(engine.getEngineType());
+        System.out.println(engine);
 
         engine = engineManufacturer.buildEngine(EngineType.RACING_ENGINE);
         System.out.println(engine);
 
         engineManufacturer = new MclarenGarage();
+        engine = engineManufacturer.buildEngine(EngineType.RACING_ENGINE);
+        System.out.println(engine);
 
     }
 }

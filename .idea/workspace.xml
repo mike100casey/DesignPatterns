@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patterns/template_method.md" />
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\template_method\penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory_method/EngineType.java" />
+      <change type="MOVED" beforePath="C:\git\DesignPatterns\out\production\DesignPatterns\template_method\penaltyRoutine.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/penaltyRoutine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PenaltyTaker.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PenaltyTaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PlacementMethod.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PlacementMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PowerMethod.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/PowerMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/Tester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/Tester.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" afterPath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" afterPath="$PROJECT_DIR$/src/template_method/PlacementMethod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PowerMethod.java" afterPath="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -30,12 +35,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PenaltyRoutine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyRoutine.java">
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35831383">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EngineType.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13934426">
+              <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/decorator/PlainText.java" />
         <option value="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" />
         <option value="$PROJECT_DIR$/src/decorator/AddNumbers.java" />
         <option value="$PROJECT_DIR$/src/decorator/AddWord.java" />
@@ -113,8 +132,9 @@
         <option value="$PROJECT_DIR$/src/template_method/Tester.java" />
         <option value="$PROJECT_DIR$/src/template_method/PowerMethod.java" />
         <option value="$PROJECT_DIR$/patterns/template_method.md" />
-        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/EngineType.java" />
         <option value="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       </list>
     </option>
   </component>
@@ -138,7 +158,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1427" />
+    <option name="width" value="976" />
     <option name="height" value="1037" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -164,9 +184,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,7 +247,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,7 +643,8 @@
       <workItem from="1448480265440" duration="4632000" />
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
-      <workItem from="1448724970281" duration="8543000" />
+      <workItem from="1448724970281" duration="8767000" />
+      <workItem from="1448809178012" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -835,10 +896,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54268000" />
+    <option name="totallyTimeSpent" value="55312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1427" height="1037" extended-state="0" />
+    <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -849,22 +910,22 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3201804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22737306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34030837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -880,7 +941,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created add number class, updated variable in tester class" />
     <MESSAGE value="Created add word class and updated tester" />
     <MESSAGE value="Updated tester in decorator package, created adapter package, account interface and off shore account" />
     <MESSAGE value="Created Abstract, business and standard accounts. Created tester" />
@@ -905,7 +965,8 @@
     <MESSAGE value="Created the power method" />
     <MESSAGE value="Created the placement method" />
     <MESSAGE value="Created penalty taker and tester class. Updated variable nmes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created penalty taker and tester class. Updated variable nmes" />
+    <MESSAGE value="Created factory method package and enum class enine type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created factory method package and enum class enine type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,13 +983,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/PlainText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1230,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21643518">
           <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1302,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="140.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="140.0" />
           <SelectedNodes />
           <Categories>
             <Category>Constructors</Category>
@@ -1287,12 +1340,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8" x="308.375" y="187.375" />
+          <settings layout="Hierarchic Group" zoom="0.8" x="308.0" y="187.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1315,7 +1368,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="518.8888888888891" y="163.66666666666669" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="519.0" y="164.0" />
           <SelectedNodes />
           <Categories>
             <Category>Constructors</Category>
@@ -1449,11 +1502,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyRoutine.java">
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35831383">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13934426">
+          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

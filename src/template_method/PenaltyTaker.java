@@ -5,9 +5,9 @@ package template_method;
  */
 public class PenaltyTaker {
 
-    private PenaltyRoutine routine;
+    private penaltyRoutine routine;
 
-    public PenaltyTaker(PenaltyRoutine routine) {
+    public PenaltyTaker(penaltyRoutine routine) {
         this.routine = routine;
     }
 
@@ -15,7 +15,7 @@ public class PenaltyTaker {
         routine.takePenalty();
     }
 
-    public void changeMethod(PenaltyRoutine routine){
+    public void changeMethod(penaltyRoutine routine){
         this.routine = routine;
     }
 }

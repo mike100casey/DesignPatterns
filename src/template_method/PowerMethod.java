@@ -3,7 +3,7 @@ package template_method;
 /**
  * Created by Michael on 11/28/2015.
  */
-public class PowerMethod extends PenaltyRoutine {
+public class PowerMethod extends penaltyRoutine {
 
     @Override
     protected String taker() {

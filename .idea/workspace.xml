@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" afterPath="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/MclarenGarage.java" afterPath="$PROJECT_DIR$/src/factory_method/MclarenGarage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/Tester.java" afterPath="$PROJECT_DIR$/src/factory_method/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/VW_Engine.java" afterPath="$PROJECT_DIR$/src/factory_method/VW_Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patterns/factory_method.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -77,12 +74,113 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VW_Engine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VW_Engine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4473684">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factory_method.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patterns/factory_method.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28674698">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/factory_method" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/factory_method">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>factory_method</OriginalElement>
+              <nodes>
+                <node x="113.125" y="444.0">factory_method.VolkswagenGarage</node>
+                <node x="600.5" y="0.0">factory_method.EngineType</node>
+                <node x="581.0" y="249.0">factory_method.MclarenEngine</node>
+                <node x="337.0" y="556.0">factory_method.Tester</node>
+                <node x="292.0" y="290.5">factory_method.EngineManufacturer</node>
+                <node x="0.0" y="249.0">factory_method.VW_Engine</node>
+                <node x="470.875" y="444.0">factory_method.MclarenGarage</node>
+                <node x="7.0" y="68.5">factory_method.Engine</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="factory_method.VolkswagenGarage" target="factory_method.VW_Engine">
+                  <point x="-67.25" y="-31.0" />
+                  <point x="180.375" y="419.0" />
+                  <point x="136.0" y="419.0" />
+                  <point x="0.0" y="72.5" />
+                </edge>
+                <edge source="factory_method.VW_Engine" target="factory_method.Engine">
+                  <point x="-68.0" y="-72.5" />
+                  <point x="-61.0" y="31.0" />
+                </edge>
+                <edge source="factory_method.Tester" target="factory_method.VolkswagenGarage">
+                  <point x="-44.75" y="-31.0" />
+                  <point x="381.75" y="531.0" />
+                  <point x="247.625" y="531.0" />
+                  <point x="0.0" y="31.0" />
+                </edge>
+                <edge source="factory_method.VolkswagenGarage" target="factory_method.EngineManufacturer">
+                  <point x="67.25" y="-31.0" />
+                  <point x="314.875" y="419.0" />
+                  <point x="359.25" y="419.0" />
+                  <point x="-67.25" y="31.0" />
+                </edge>
+                <edge source="factory_method.MclarenEngine" target="factory_method.Engine">
+                  <point x="-68.0" y="-72.5" />
+                  <point x="649.0" y="219.0" />
+                  <point x="190.0" y="219.0" />
+                  <point x="61.0" y="31.0" />
+                </edge>
+                <edge source="factory_method.Tester" target="factory_method.MclarenGarage">
+                  <point x="44.75" y="-31.0" />
+                  <point x="471.25" y="531.0" />
+                  <point x="605.375" y="531.0" />
+                  <point x="0.0" y="31.0" />
+                </edge>
+                <edge source="factory_method.MclarenGarage" target="factory_method.MclarenEngine">
+                  <point x="67.25" y="-31.0" />
+                  <point x="672.625" y="419.0" />
+                  <point x="717.0" y="419.0" />
+                  <point x="0.0" y="72.5" />
+                </edge>
+                <edge source="factory_method.VW_Engine" target="factory_method.EngineType">
+                  <point x="68.0" y="-72.5" />
+                  <point x="204.0" y="229.0" />
+                  <point x="662.0" y="229.0" />
+                  <point x="-61.5" y="99.5" />
+                </edge>
+                <edge source="factory_method.MclarenGarage" target="factory_method.EngineManufacturer">
+                  <point x="-67.25" y="-31.0" />
+                  <point x="538.125" y="419.0" />
+                  <point x="493.75" y="419.0" />
+                  <point x="67.25" y="31.0" />
+                </edge>
+                <edge source="factory_method.MclarenEngine" target="factory_method.EngineType">
+                  <point x="68.0" y="-72.5" />
+                  <point x="61.5" y="99.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9" x="-119.22222222222223" y="220.33333333333348" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -111,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/decorator/adapter/AbstractAccount.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/StandardAccount.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/BusinessAccount.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/AccountAdapter.java" />
@@ -162,6 +259,7 @@
         <option value="$PROJECT_DIR$/src/factory_method/Tester.java" />
         <option value="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" />
         <option value="$PROJECT_DIR$/src/factory_method/VW_Engine.java" />
+        <option value="$PROJECT_DIR$/patterns/factory_method.md" />
       </list>
     </option>
   </component>
@@ -184,9 +282,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1037" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -650,7 +749,7 @@
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
       <workItem from="1448724970281" duration="8767000" />
-      <workItem from="1448809178012" duration="3479000" />
+      <workItem from="1448809178012" duration="3823000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -928,15 +1027,21 @@
       <option name="project" value="LOCAL" />
       <updated>1448812335156</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated engineclasses and tester">
+      <created>1448812707888</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1448812707888</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57971000" />
+    <option name="totallyTimeSpent" value="58315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -945,11 +1050,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3201804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3201804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26321587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19090909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -977,7 +1082,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created skeleton classes for, off, low, medium and high states" />
     <MESSAGE value="Changed current state from type string, to type interface. Created interface" />
     <MESSAGE value="Created pull method in interface and implemented interface for each of the states" />
     <MESSAGE value="Created set fan state method in ceiling fan class" />
@@ -1002,7 +1106,8 @@
     <MESSAGE value="Created volkswagen, vw engine class" />
     <MESSAGE value="Created tester for the factory method" />
     <MESSAGE value="Created mclaren garage and mclaren engine classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created mclaren garage and mclaren engine classes" />
+    <MESSAGE value="Updated engineclasses and tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated engineclasses and tester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,20 +1124,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/DesignPatterns/adapter/AdapterTester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/BusinessAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36823106">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter/StandardAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1534296">
@@ -1294,17 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/composite.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/adapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1371,17 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/adapter.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14337349">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patterns/observer.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1398,8 +1467,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1462,12 +1531,12 @@
         <state vertical-scroll-proportion="0.09953161">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1566,10 +1635,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/adapter.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18658537">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/composite.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14512195">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory_method">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory_method</OriginalElement>
+          <nodes>
+            <node x="113.125" y="444.0">factory_method.VolkswagenGarage</node>
+            <node x="600.5" y="0.0">factory_method.EngineType</node>
+            <node x="581.0" y="249.0">factory_method.MclarenEngine</node>
+            <node x="337.0" y="556.0">factory_method.Tester</node>
+            <node x="292.0" y="290.5">factory_method.EngineManufacturer</node>
+            <node x="0.0" y="249.0">factory_method.VW_Engine</node>
+            <node x="470.875" y="444.0">factory_method.MclarenGarage</node>
+            <node x="7.0" y="68.5">factory_method.Engine</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="factory_method.VolkswagenGarage" target="factory_method.VW_Engine">
+              <point x="-67.25" y="-31.0" />
+              <point x="180.375" y="419.0" />
+              <point x="136.0" y="419.0" />
+              <point x="0.0" y="72.5" />
+            </edge>
+            <edge source="factory_method.VW_Engine" target="factory_method.Engine">
+              <point x="-68.0" y="-72.5" />
+              <point x="-61.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.Tester" target="factory_method.VolkswagenGarage">
+              <point x="-44.75" y="-31.0" />
+              <point x="381.75" y="531.0" />
+              <point x="247.625" y="531.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.VolkswagenGarage" target="factory_method.EngineManufacturer">
+              <point x="67.25" y="-31.0" />
+              <point x="314.875" y="419.0" />
+              <point x="359.25" y="419.0" />
+              <point x="-67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenEngine" target="factory_method.Engine">
+              <point x="-68.0" y="-72.5" />
+              <point x="649.0" y="219.0" />
+              <point x="190.0" y="219.0" />
+              <point x="61.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.Tester" target="factory_method.MclarenGarage">
+              <point x="44.75" y="-31.0" />
+              <point x="471.25" y="531.0" />
+              <point x="605.375" y="531.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenGarage" target="factory_method.MclarenEngine">
+              <point x="67.25" y="-31.0" />
+              <point x="672.625" y="419.0" />
+              <point x="717.0" y="419.0" />
+              <point x="0.0" y="72.5" />
+            </edge>
+            <edge source="factory_method.VW_Engine" target="factory_method.EngineType">
+              <point x="68.0" y="-72.5" />
+              <point x="204.0" y="229.0" />
+              <point x="662.0" y="229.0" />
+              <point x="-61.5" y="99.5" />
+            </edge>
+            <edge source="factory_method.MclarenGarage" target="factory_method.EngineManufacturer">
+              <point x="-67.25" y="-31.0" />
+              <point x="538.125" y="419.0" />
+              <point x="493.75" y="419.0" />
+              <point x="67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenEngine" target="factory_method.EngineType">
+              <point x="68.0" y="-72.5" />
+              <point x="61.5" y="99.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="-119.22222222222223" y="220.33333333333348" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/factory_method.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28674698">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding />
         </state>
       </provider>

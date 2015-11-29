@@ -26,6 +26,6 @@ public class MclarenEngine implements Engine {
             case RACING_ENGINE:
                 return "Mclaren " + engineType + " Engine requested";
         }
-        return null;
+        return "";
     }
 }

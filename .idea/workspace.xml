@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory_method/EngineManufacturer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory_method/VW_Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory_method/Volkswagen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -40,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
@@ -61,12 +62,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EngineManufacturer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EngineManufacturer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factory_method/EngineManufacturer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13934426">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Volkswagen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/Volkswagen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VW_Engine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09953161">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/decorator/AddWord.java" />
-        <option value="$PROJECT_DIR$/src/decorator/Reverse.java" />
-        <option value="$PROJECT_DIR$/src/decorator/Tester.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/Rachet.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/Socket.java" />
         <option value="$PROJECT_DIR$/src/decorator/adapter/IAccount.java" />
@@ -146,6 +174,9 @@
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
         <option value="$PROJECT_DIR$/src/factory_method/Engine.java" />
         <option value="$PROJECT_DIR$/src/factory_method/EngineManufacturer.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/Volkswagon.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/Volkswagen.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/VW_Engine.java" />
       </list>
     </option>
   </component>
@@ -284,6 +315,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="factory_method" />
       <recent name="state" />
       <recent name="adapter" />
       <recent name="observer" />
@@ -615,7 +647,7 @@
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
       <workItem from="1448724970281" duration="8767000" />
-      <workItem from="1448809178012" duration="1128000" />
+      <workItem from="1448809178012" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -869,11 +901,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448810197534</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Created engine manufacturer interface">
+      <created>1448810343120</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1448810343120</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55620000" />
+    <option name="totallyTimeSpent" value="56014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
@@ -918,7 +956,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated tester in decorator package, created adapter package, account interface and off shore account" />
     <MESSAGE value="Created Abstract, business and standard accounts. Created tester" />
     <MESSAGE value="Created print balance method and added to tester" />
     <MESSAGE value="Created state package, ceiling fan and tester class" />
@@ -943,7 +980,8 @@
     <MESSAGE value="Created penalty taker and tester class. Updated variable nmes" />
     <MESSAGE value="Created factory method package and enum class enine type" />
     <MESSAGE value="Created engine interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created engine interface" />
+    <MESSAGE value="Created engine manufacturer interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created engine manufacturer interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,20 +998,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/decorator/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27546296">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/EncryptDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1473,16 +1497,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineManufacturer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,11 +1513,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineManufacturer.java">
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13934426">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/Volkswagen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09953161">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

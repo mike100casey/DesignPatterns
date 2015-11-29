@@ -16,5 +16,8 @@ public class Tester {
 
         engine = engineManufacturer.buildEngine(EngineType.RACING_ENGINE);
         System.out.println(engine);
+
+        engineManufacturer = new MclarenGarage();
+
     }
 }

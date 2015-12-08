@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter_penalty/Goalkeeper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter_penalty/GoalkeeperAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -35,7 +36,7 @@
               <nodes>
                 <node x="168.0" y="399.5">adapter.BusinessAccount</node>
                 <node x="125.61979166666666" y="0.0">adapter.IAccount</node>
-                <node x="356.50000000000006" y="386.0">adapter.AccountAdapter</node>
+                <node x="356.5" y="386.0">adapter.AccountAdapter</node>
                 <node x="423.6041666666667" y="179.5">adapter.OffShoreAccount</node>
                 <node x="105.61979166666666" y="166.0">adapter.AbstractAccount</node>
                 <node x="0.0" y="399.5">adapter.StandardAccount</node>
@@ -58,11 +59,11 @@
                 <edge source="adapter.AdapterTester" target="adapter.AccountAdapter">
                   <point x="0.0" y="-31.0" />
                   <point x="422.4375" y="473.0" />
-                  <point x="451.00000000000006" y="473.0" />
+                  <point x="451.0" y="473.0" />
                   <point x="0.0" y="31.0" />
                 </edge>
                 <edge source="adapter.BusinessAccount" target="adapter.AbstractAccount">
-                  <point x="2.8421709430404007E-14" y="-17.5" />
+                  <point x="0.0" y="-17.5" />
                   <point x="0.0" y="85.0" />
                 </edge>
                 <edge source="adapter.StandardAccount" target="adapter.AbstractAccount">
@@ -73,24 +74,24 @@
                 </edge>
                 <edge source="adapter.AccountAdapter" target="adapter.OffShoreAccount">
                   <point x="47.25" y="-31.0" />
-                  <point x="498.25000000000006" y="361.0" />
+                  <point x="498.25" y="361.0" />
                   <point x="486.1041666666667" y="361.0" />
                   <point x="-62.5" y="71.5" />
                 </edge>
                 <edge source="adapter.AdapterTester" target="adapter.StandardAccount">
-                  <point x="-59.666666666666686" y="-31.0" />
-                  <point x="362.7708333333333" y="473.0" />
+                  <point x="-59.66666666666666" y="-31.0" />
+                  <point x="362.77083333333337" y="473.0" />
                   <point x="74.0" y="473.0" />
                   <point x="0.0" y="17.5" />
                 </edge>
                 <edge source="adapter.AccountAdapter" target="adapter.AbstractAccount">
                   <point x="-47.25" y="-31.0" />
-                  <point x="403.75000000000006" y="361.0" />
+                  <point x="403.75" y="361.0" />
                   <point x="329.78645833333337" y="361.0" />
                   <point x="89.66666666666669" y="85.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-297.0" y="124.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-297.5" y="4.0" />
               <SelectedNodes>
                 <node>adapter.StandardAccount</node>
               </SelectedNodes>
@@ -103,15 +104,168 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/AccountAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OffShoreAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/OffShoreAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goalkeeper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter_penalty/Goalkeeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/template_method" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/template_method">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>template_method</OriginalElement>
+              <nodes>
+                <node x="200.50000000000003" y="386.0">template_method.Tester</node>
+                <node x="400.00000000000006" y="233.5">template_method.PenaltyTaker</node>
+                <node x="180.00000000000006" y="0.0">template_method.penaltyRoutine</node>
+                <node x="200.00000000000003" y="220.0">template_method.PowerMethod</node>
+                <node x="0.0" y="220.0">template_method.PlacementMethod</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="template_method.Tester" target="template_method.PowerMethod">
+                  <point x="0.0" y="-31.0" />
+                  <point x="0.0" y="58.0" />
+                </edge>
+                <edge source="template_method.PenaltyTaker" target="template_method.penaltyRoutine">
+                  <point x="0.0" y="-44.5" />
+                  <point x="496.50000000000006" y="195.0" />
+                  <point x="363.33333333333337" y="195.0" />
+                  <point x="73.33333333333331" y="85.0" />
+                </edge>
+                <edge source="template_method.Tester" target="template_method.PlacementMethod">
+                  <point x="-59.66666666666666" y="-31.0" />
+                  <point x="230.33333333333337" y="361.0" />
+                  <point x="90.0" y="361.0" />
+                  <point x="0.0" y="58.0" />
+                </edge>
+                <edge source="template_method.Tester" target="template_method.PenaltyTaker">
+                  <point x="59.66666666666666" y="-31.0" />
+                  <point x="349.6666666666667" y="361.0" />
+                  <point x="496.50000000000006" y="361.0" />
+                  <point x="0.0" y="44.5" />
+                </edge>
+                <edge source="template_method.PowerMethod" target="template_method.penaltyRoutine">
+                  <point x="0.0" y="-58.0" />
+                  <point x="0.0" y="85.0" />
+                </edge>
+                <edge source="template_method.PlacementMethod" target="template_method.penaltyRoutine">
+                  <point x="0.0" y="-58.0" />
+                  <point x="90.0" y="195.0" />
+                  <point x="216.66666666666674" y="195.0" />
+                  <point x="-73.33333333333333" y="85.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-383.0" y="22.0" />
+              <SelectedNodes>
+                <node>template_method.Tester</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlacementMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="84" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="84" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoalkeeperAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/adapter_penalty/GoalkeeperAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7071057">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PenaltyTaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50086653">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,8 +276,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,8 +295,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/adapter/BusinessAccount.java" />
-        <option value="$PROJECT_DIR$/src/adapter/OffShoreAccount.java" />
         <option value="$PROJECT_DIR$/src/adapter/AccountAdapter.java" />
         <option value="$PROJECT_DIR$/src/adapter/AbstractAccount.java" />
         <option value="$PROJECT_DIR$/src/adapter/AdapterTester.java" />
@@ -192,6 +344,8 @@
         <option value="$PROJECT_DIR$/src/factory_method/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/adapter_penalty/GoalkeeperAdapter.java" />
+        <option value="$PROJECT_DIR$/src/adapter_penalty/Goalkeeper.java" />
       </list>
     </option>
   </component>
@@ -292,6 +446,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter_penalty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -710,13 +882,7 @@
       <workItem from="1448568697634" duration="7824000" />
       <workItem from="1448724970281" duration="8767000" />
       <workItem from="1448809178012" duration="7591000" />
-      <workItem from="1449603657602" duration="211000" />
-    </task>
-    <task id="LOCAL-00001" summary="Created project and shipment interface">
-      <created>1447850629068</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1447850629068</updated>
+      <workItem from="1449603657602" duration="1556000" />
     </task>
     <task id="LOCAL-00002" summary="Created delivery item class,this has reference to shipment interface">
       <created>1447851121348</created>
@@ -1006,11 +1172,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448817597181</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="created non abstract method place ball in the penalty routine class">
+      <created>1449603936297</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1449603936301</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62294000" />
+    <option name="totallyTimeSpent" value="63639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -1018,6 +1190,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1037,7 +1210,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33258173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1056,7 +1228,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created set fan state method in ceiling fan class" />
     <MESSAGE value="Set the new fan state in the state classes, removed the if statements in pull method, in ceiling fan class" />
     <MESSAGE value="created composite letter and letter classes. Updated the ceiling fan class in the state package" />
     <MESSAGE value="Created word class" />
@@ -1081,7 +1252,8 @@
     <MESSAGE value="Updated engineclasses and tester" />
     <MESSAGE value="renamed pattern package and retune empty string in the mclaren engine class" />
     <MESSAGE value="Created a test for the factory method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a test for the factory method" />
+    <MESSAGE value="created non abstract method place ball in the penalty routine class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created non abstract method place ball in the penalty routine class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1098,55 +1270,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adapter/IAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/AbstractAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/OffShoreAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/AccountAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4525463">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/AdapterTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6099537">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/FanState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/Off.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/state/StateTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71662766">
@@ -1398,39 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/template_method">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>template_method</OriginalElement>
-          <nodes>
-            <node x="" y="">template_method.PenaltyTaker</node>
-            <node x="" y="">template_method.Tester</node>
-            <node x="" y="">template_method.penaltyRoutine</node>
-            <node x="" y="">template_method.PowerMethod</node>
-            <node x="" y="">template_method.PlacementMethod</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="234.0" y="140.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern_definition/template_method.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1438,36 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39390245">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3384075">
-          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23887588">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09953161">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#185#186#0" expanded="false" />
-            <element signature="e#223#224#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1670,6 +1730,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/PowerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/OffShoreAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/IAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/AdapterTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/adapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1678,7 +1781,7 @@
           <nodes>
             <node x="168.0" y="399.5">adapter.BusinessAccount</node>
             <node x="125.61979166666666" y="0.0">adapter.IAccount</node>
-            <node x="356.50000000000006" y="386.0">adapter.AccountAdapter</node>
+            <node x="356.5" y="386.0">adapter.AccountAdapter</node>
             <node x="423.6041666666667" y="179.5">adapter.OffShoreAccount</node>
             <node x="105.61979166666666" y="166.0">adapter.AbstractAccount</node>
             <node x="0.0" y="399.5">adapter.StandardAccount</node>
@@ -1701,11 +1804,11 @@
             <edge source="adapter.AdapterTester" target="adapter.AccountAdapter">
               <point x="0.0" y="-31.0" />
               <point x="422.4375" y="473.0" />
-              <point x="451.00000000000006" y="473.0" />
+              <point x="451.0" y="473.0" />
               <point x="0.0" y="31.0" />
             </edge>
             <edge source="adapter.BusinessAccount" target="adapter.AbstractAccount">
-              <point x="2.8421709430404007E-14" y="-17.5" />
+              <point x="0.0" y="-17.5" />
               <point x="0.0" y="85.0" />
             </edge>
             <edge source="adapter.StandardAccount" target="adapter.AbstractAccount">
@@ -1716,24 +1819,24 @@
             </edge>
             <edge source="adapter.AccountAdapter" target="adapter.OffShoreAccount">
               <point x="47.25" y="-31.0" />
-              <point x="498.25000000000006" y="361.0" />
+              <point x="498.25" y="361.0" />
               <point x="486.1041666666667" y="361.0" />
               <point x="-62.5" y="71.5" />
             </edge>
             <edge source="adapter.AdapterTester" target="adapter.StandardAccount">
-              <point x="-59.666666666666686" y="-31.0" />
-              <point x="362.7708333333333" y="473.0" />
+              <point x="-59.66666666666666" y="-31.0" />
+              <point x="362.77083333333337" y="473.0" />
               <point x="74.0" y="473.0" />
               <point x="0.0" y="17.5" />
             </edge>
             <edge source="adapter.AccountAdapter" target="adapter.AbstractAccount">
               <point x="-47.25" y="-31.0" />
-              <point x="403.75000000000006" y="361.0" />
+              <point x="403.75" y="361.0" />
               <point x="329.78645833333337" y="361.0" />
               <point x="89.66666666666669" y="85.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-297.0" y="124.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-297.5" y="4.0" />
           <SelectedNodes>
             <node>adapter.StandardAccount</node>
           </SelectedNodes>
@@ -1745,13 +1848,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+    <entry file="file://$PROJECT_DIR$/src/adapter/AccountAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50086653">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/PlacementMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="84" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/adapter_penalty">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>adapter_penalty</OriginalElement>
+          <nodes>
+            <node x="" y="">adapter_penalty.Goalkeeper</node>
+            <node x="" y="">adapter_penalty.GoalkeeperAdapter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="82.0" y="57.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/template_method">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>template_method</OriginalElement>
+          <nodes>
+            <node x="200.50000000000003" y="386.0">template_method.Tester</node>
+            <node x="400.00000000000006" y="233.5">template_method.PenaltyTaker</node>
+            <node x="180.00000000000006" y="0.0">template_method.penaltyRoutine</node>
+            <node x="200.00000000000003" y="220.0">template_method.PowerMethod</node>
+            <node x="0.0" y="220.0">template_method.PlacementMethod</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="template_method.Tester" target="template_method.PowerMethod">
+              <point x="0.0" y="-31.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="template_method.PenaltyTaker" target="template_method.penaltyRoutine">
+              <point x="0.0" y="-44.5" />
+              <point x="496.50000000000006" y="195.0" />
+              <point x="363.33333333333337" y="195.0" />
+              <point x="73.33333333333331" y="85.0" />
+            </edge>
+            <edge source="template_method.Tester" target="template_method.PlacementMethod">
+              <point x="-59.66666666666666" y="-31.0" />
+              <point x="230.33333333333337" y="361.0" />
+              <point x="90.0" y="361.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="template_method.Tester" target="template_method.PenaltyTaker">
+              <point x="59.66666666666666" y="-31.0" />
+              <point x="349.6666666666667" y="361.0" />
+              <point x="496.50000000000006" y="361.0" />
+              <point x="0.0" y="44.5" />
+            </edge>
+            <edge source="template_method.PowerMethod" target="template_method.penaltyRoutine">
+              <point x="0.0" y="-58.0" />
+              <point x="0.0" y="85.0" />
+            </edge>
+            <edge source="template_method.PlacementMethod" target="template_method.penaltyRoutine">
+              <point x="0.0" y="-58.0" />
+              <point x="90.0" y="195.0" />
+              <point x="216.66666666666674" y="195.0" />
+              <point x="-73.33333333333333" y="85.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-383.0" y="22.0" />
+          <SelectedNodes>
+            <node>template_method.Tester</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter_penalty/Goalkeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter_penalty/GoalkeeperAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7071057">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>

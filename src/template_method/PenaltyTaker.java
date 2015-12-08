@@ -12,7 +12,6 @@ public class PenaltyTaker {
 
     public PenaltyTaker(penaltyRoutine routine) {
         this.routine = routine;
-        this.clothing = clothing;
     }
 
     public void takePenalty() {

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/MclarenEngine.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/MclarenEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/VW_Engine.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/VW_Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns.iml" afterPath="$PROJECT_DIR$/DesignPatterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern_definition/factory_method.md" afterPath="$PROJECT_DIR$/pattern_definition/factory_method.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -30,14 +26,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MclarenEngine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
+      <file leaf-file-name="JAVA/adapter" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/adapter">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>adapter</OriginalElement>
+              <nodes>
+                <node x="168.0" y="399.5">adapter.BusinessAccount</node>
+                <node x="125.61979166666666" y="0.0">adapter.IAccount</node>
+                <node x="356.50000000000006" y="386.0">adapter.AccountAdapter</node>
+                <node x="423.6041666666667" y="179.5">adapter.OffShoreAccount</node>
+                <node x="105.61979166666666" y="166.0">adapter.AbstractAccount</node>
+                <node x="0.0" y="399.5">adapter.StandardAccount</node>
+                <node x="332.9375" y="498.0">adapter.AdapterTester</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="adapter.AbstractAccount" target="adapter.IAccount">
+                  <point x="0.0" y="-85.0" />
+                  <point x="0.0" y="58.0" />
+                </edge>
+                <edge source="adapter.AdapterTester" target="adapter.OffShoreAccount">
+                  <point x="59.66666666666667" y="-31.0" />
+                  <point x="482.1041666666667" y="473.0" />
+                  <point x="564.7604166666667" y="473.0" />
+                  <point x="564.7604166666667" y="361.0" />
+                  <point x="611.1041666666667" y="361.0" />
+                  <point x="62.5" y="71.5" />
+                </edge>
+                <edge source="adapter.AdapterTester" target="adapter.AccountAdapter">
+                  <point x="0.0" y="-31.0" />
+                  <point x="422.4375" y="473.0" />
+                  <point x="451.00000000000006" y="473.0" />
+                  <point x="0.0" y="31.0" />
+                </edge>
+                <edge source="adapter.BusinessAccount" target="adapter.AbstractAccount">
+                  <point x="2.8421709430404007E-14" y="-17.5" />
+                  <point x="0.0" y="85.0" />
+                </edge>
+                <edge source="adapter.StandardAccount" target="adapter.AbstractAccount">
+                  <point x="0.0" y="-17.5" />
+                  <point x="74.0" y="361.0" />
+                  <point x="150.45312499999997" y="361.0" />
+                  <point x="-89.66666666666669" y="85.0" />
+                </edge>
+                <edge source="adapter.AccountAdapter" target="adapter.OffShoreAccount">
+                  <point x="47.25" y="-31.0" />
+                  <point x="498.25000000000006" y="361.0" />
+                  <point x="486.1041666666667" y="361.0" />
+                  <point x="-62.5" y="71.5" />
+                </edge>
+                <edge source="adapter.AdapterTester" target="adapter.StandardAccount">
+                  <point x="-59.666666666666686" y="-31.0" />
+                  <point x="362.7708333333333" y="473.0" />
+                  <point x="74.0" y="473.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="adapter.AccountAdapter" target="adapter.AbstractAccount">
+                  <point x="-47.25" y="-31.0" />
+                  <point x="403.75000000000006" y="361.0" />
+                  <point x="329.78645833333337" y="361.0" />
+                  <point x="89.66666666666669" y="85.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-297.0" y="124.0" />
+              <SelectedNodes>
+                <node>adapter.StandardAccount</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="penaltyRoutine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15205725">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.50086653">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +175,6 @@
         <option value="$PROJECT_DIR$/patterns/template_method.md" />
         <option value="$PROJECT_DIR$/src/factory_method/EngineType.java" />
         <option value="$PROJECT_DIR$/src/template_method/PenaltyRoutine.java" />
-        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
         <option value="$PROJECT_DIR$/src/factory_method/Engine.java" />
         <option value="$PROJECT_DIR$/src/factory_method/EngineManufacturer.java" />
         <option value="$PROJECT_DIR$/src/factory_method/Volkswagon.java" />
@@ -119,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/factory_method/MclarenEngineTest.java" />
         <option value="$PROJECT_DIR$/src/factory_method/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       </list>
     </option>
   </component>
@@ -141,9 +214,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1037" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,8 +242,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,22 +276,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory_method" />
+              <option name="myItemId" value="template_method" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,12 +294,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_method" />
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,7 +709,8 @@
       <workItem from="1448568387518" duration="268000" />
       <workItem from="1448568697634" duration="7824000" />
       <workItem from="1448724970281" duration="8767000" />
-      <workItem from="1448809178012" duration="6917000" />
+      <workItem from="1448809178012" duration="7591000" />
+      <workItem from="1449603657602" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="Created project and shipment interface">
       <created>1447850629068</created>
@@ -929,41 +1000,47 @@
       <option name="project" value="LOCAL" />
       <updated>1448813360756</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Created a test for the factory method">
+      <created>1448817597181</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1448817597181</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61409000" />
+    <option name="totallyTimeSpent" value="62294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1037" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3201804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33258173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3199554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29845816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17219251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33258173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -979,7 +1056,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created pull method in interface and implemented interface for each of the states" />
     <MESSAGE value="Created set fan state method in ceiling fan class" />
     <MESSAGE value="Set the new fan state in the state classes, removed the if statements in pull method, in ceiling fan class" />
     <MESSAGE value="created composite letter and letter classes. Updated the ceiling fan class in the state package" />
@@ -1004,7 +1080,8 @@
     <MESSAGE value="Created mclaren garage and mclaren engine classes" />
     <MESSAGE value="Updated engineclasses and tester" />
     <MESSAGE value="renamed pattern package and retune empty string in the mclaren engine class" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed pattern package and retune empty string in the mclaren engine class" />
+    <MESSAGE value="Created a test for the factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a test for the factory method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1245,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21643518">
           <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,34 +1343,6 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="140.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/adapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>adapter</OriginalElement>
-          <nodes>
-            <node x="" y="">adapter.BusinessAccount</node>
-            <node x="" y="">adapter.IAccount</node>
-            <node x="" y="">adapter.OffShoreAccount</node>
-            <node x="" y="">adapter.AccountAdapter</node>
-            <node x="" y="">adapter.AbstractAccount</node>
-            <node x="" y="">adapter.StandardAccount</node>
-            <node x="" y="">adapter.AdapterTester</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8" x="308.0" y="187.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
@@ -1337,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26626506">
           <caret line="13" column="83" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38915664">
           <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,10 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39390245">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23887588">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,15 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22804879">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,12 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1467,7 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09953161">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,7 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,7 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18658537">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,7 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14512195">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,13 +1596,13 @@
               <point x="61.5" y="99.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="454.66666666666663" y="418.6666666666668" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="455.0" y="419.0" />
           <SelectedNodes>
             <node>factory_method.MclarenGarage</node>
           </SelectedNodes>
           <Categories>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -1593,10 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1607,7 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3686747">
           <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,7 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09953161">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,7 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19906323">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09953161">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,7 +1652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13934426">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1647,19 +1659,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6994633">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15205725">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.53125">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>adapter</OriginalElement>
+          <nodes>
+            <node x="168.0" y="399.5">adapter.BusinessAccount</node>
+            <node x="125.61979166666666" y="0.0">adapter.IAccount</node>
+            <node x="356.50000000000006" y="386.0">adapter.AccountAdapter</node>
+            <node x="423.6041666666667" y="179.5">adapter.OffShoreAccount</node>
+            <node x="105.61979166666666" y="166.0">adapter.AbstractAccount</node>
+            <node x="0.0" y="399.5">adapter.StandardAccount</node>
+            <node x="332.9375" y="498.0">adapter.AdapterTester</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="adapter.AbstractAccount" target="adapter.IAccount">
+              <point x="0.0" y="-85.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="adapter.AdapterTester" target="adapter.OffShoreAccount">
+              <point x="59.66666666666667" y="-31.0" />
+              <point x="482.1041666666667" y="473.0" />
+              <point x="564.7604166666667" y="473.0" />
+              <point x="564.7604166666667" y="361.0" />
+              <point x="611.1041666666667" y="361.0" />
+              <point x="62.5" y="71.5" />
+            </edge>
+            <edge source="adapter.AdapterTester" target="adapter.AccountAdapter">
+              <point x="0.0" y="-31.0" />
+              <point x="422.4375" y="473.0" />
+              <point x="451.00000000000006" y="473.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="adapter.BusinessAccount" target="adapter.AbstractAccount">
+              <point x="2.8421709430404007E-14" y="-17.5" />
+              <point x="0.0" y="85.0" />
+            </edge>
+            <edge source="adapter.StandardAccount" target="adapter.AbstractAccount">
+              <point x="0.0" y="-17.5" />
+              <point x="74.0" y="361.0" />
+              <point x="150.45312499999997" y="361.0" />
+              <point x="-89.66666666666669" y="85.0" />
+            </edge>
+            <edge source="adapter.AccountAdapter" target="adapter.OffShoreAccount">
+              <point x="47.25" y="-31.0" />
+              <point x="498.25000000000006" y="361.0" />
+              <point x="486.1041666666667" y="361.0" />
+              <point x="-62.5" y="71.5" />
+            </edge>
+            <edge source="adapter.AdapterTester" target="adapter.StandardAccount">
+              <point x="-59.666666666666686" y="-31.0" />
+              <point x="362.7708333333333" y="473.0" />
+              <point x="74.0" y="473.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="adapter.AccountAdapter" target="adapter.AbstractAccount">
+              <point x="-47.25" y="-31.0" />
+              <point x="403.75000000000006" y="361.0" />
+              <point x="329.78645833333337" y="361.0" />
+              <point x="89.66666666666669" y="85.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-297.0" y="124.0" />
+          <SelectedNodes>
+            <node>adapter.StandardAccount</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50086653">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
           </folding>
         </state>
       </provider>

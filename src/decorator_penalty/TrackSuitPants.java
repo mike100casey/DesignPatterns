@@ -5,14 +5,14 @@ package decorator_penalty;
  */
 public class TrackSuitPants extends ClothingDecorator {
 
-    Clothing clothing;
+    private PlayerGear clothing;
 
-    public TrackSuitPants(Clothing clothing) {
+    public TrackSuitPants(PlayerGear clothing) {
         this.clothing = clothing;
     }
 
     @Override
     public String getDescription() {
-        return clothing.getDescription() + " puts on a tracksuit pants for the rain";
+        return clothing.getDescription() + ", a tracksuit pants for the rain";
     }
 }

@@ -1,10 +1,11 @@
 package adapter_penalty;
+import decorator_penalty.PlayerGear;
 import template_method.penaltyRoutine;
 
 /**
  * Created by Michael on 12/8/2015.
  */
-public class GoalkeeperAdapter extends penaltyRoutine {
+public class GoalkeeperAdapter extends penaltyRoutine implements PlayerGear {
 
     Goalkeeper goalkeeper;
 
@@ -25,5 +26,10 @@ public class GoalkeeperAdapter extends penaltyRoutine {
     @Override
     protected void strikeBall(String player) {
         goalkeeper.kickOutBall(player);
+    }
+
+    @Override
+    public String getDescription() {
+        return "goalie";
     }
 }

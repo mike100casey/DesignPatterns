@@ -4,6 +4,7 @@ package adapter;
  * Created by Michael on 11/23/2015.
  */
 public class AdapterTester {
+
     public static void main(String[] args) {
 
         StandardAccount standardAccount = new StandardAccount(2000);
@@ -22,10 +23,7 @@ public class AdapterTester {
         offShore.debit(500);
         offShoreAcc.setIsOverDraftAvailable(true);
 
-
         offShoreAcc.printBalance(offShoreAcc);
 
     }
-
-
 }

@@ -12,7 +12,6 @@ public class Tester {
 
         PenaltyTaker penaltyTaker = new PenaltyTaker(new PlacementMethod());
         penaltyTaker.takePenalty();
-
         penaltyTaker.changeMethod(new PowerMethod());
         penaltyTaker.takePenalty();
 

@@ -5,11 +5,11 @@ package adapter_penalty;
  */
 public class Goalkeeper {
 
-    public void kickOutBall() {
-        System.out.println("The goalie puts his boot through the ball");
+    public void kickOutBall(String player) {
+        System.out.println("The " + player +" puts his boot through the ball");
     }
 
-    public void distractOppositionPlayer() {
-        System.out.println("The goalie waves his hands in the air");
+    public void distractOppositionPlayer(String player) {
+        System.out.println( "The " + player + " waves his hands in the air");
     }
 }

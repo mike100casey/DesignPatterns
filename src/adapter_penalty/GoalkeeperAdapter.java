@@ -7,6 +7,11 @@ import template_method.penaltyRoutine;
 public class GoalkeeperAdapter extends penaltyRoutine {
 
     Goalkeeper goalkeeper;
+
+    public GoalkeeperAdapter(Goalkeeper goalkeeper) {
+        this.goalkeeper = goalkeeper;
+    }
+
     @Override
     protected String taker() {
         return "goalie";
@@ -14,11 +19,11 @@ public class GoalkeeperAdapter extends penaltyRoutine {
 
     @Override
     protected void distractGoalie(String player) {
-        goalkeeper.distractOppositionPlayer();
+        goalkeeper.distractOppositionPlayer(player);
     }
 
     @Override
     protected void strikeBall(String player) {
-        goalkeeper.kickOutBall();
+        goalkeeper.kickOutBall(player);
     }
 }

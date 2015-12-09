@@ -5,9 +5,9 @@ package decorator_penalty;
  */
 public class Hat extends ClothingDecorator {
 
-    private PlayerGear clothing;
+    private PlayersGear clothing;
 
-    public Hat(PlayerGear clothing) {
+    public Hat(PlayersGear clothing) {
         this.clothing = clothing;
     }
 

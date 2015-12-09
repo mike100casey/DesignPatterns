@@ -1,11 +1,11 @@
 package adapter_penalty;
-import decorator_penalty.PlayerGear;
+import decorator_penalty.PlayersGear;
 import template_method.penaltyRoutine;
 
 /**
  * Created by Michael on 12/8/2015.
  */
-public class GoalkeeperAdapter extends penaltyRoutine implements PlayerGear {
+public class GoalkeeperAdapter extends penaltyRoutine implements PlayersGear {
 
     Goalkeeper goalkeeper;
 

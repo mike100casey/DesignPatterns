@@ -1,16 +1,15 @@
 package template_method;
 
-import decorator_penalty.PlayerGear;
+import decorator_penalty.PlayersGear;
 
 /**
  * Created by Michael on 11/28/2015.
  */
-public class PenaltyTaker {
+public class OutfieldPlayer {
 
     private penaltyRoutine routine;
-    private PlayerGear clothing;
 
-    public PenaltyTaker(penaltyRoutine routine) {
+    public OutfieldPlayer(penaltyRoutine routine) {
         this.routine = routine;
     }
 
@@ -21,4 +20,5 @@ public class PenaltyTaker {
     public void changeMethod(penaltyRoutine routine){
         this.routine = routine;
     }
+
 }

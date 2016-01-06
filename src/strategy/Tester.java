@@ -11,6 +11,7 @@ public class Tester {
 
         Fedex fedex = new Fedex();
         fedex.prepareItem();
+
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
         double fedexPrice = fedexDelivery.deliveryCalculation(DISTANCE, SIZE, DeliverType.STANDARD);
 

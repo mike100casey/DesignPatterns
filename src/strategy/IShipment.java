@@ -5,4 +5,5 @@ package strategy;
  */
 public interface IShipment {
     double calculate(double miles, double weight, DeliverType deliveryType);
+
 }

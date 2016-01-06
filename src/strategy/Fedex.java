@@ -34,4 +34,8 @@ public class Fedex extends BoxUpItem implements IShipment {
         System.out.println("Item is wrapped in bubble wrap");
     }
 
+    boolean isItemFragile(){
+        return true;
+    }
+
 }

@@ -25,7 +25,7 @@ public abstract class BoxUpItem {
     public abstract void addProtectiveWrapping();
 
     boolean isItemFragile(){
-        return true;
+        return false;
     }
 
     void deliverItem(){

@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template_strategy/BoxUpItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliveryItem.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliveryItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/Tester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/penaltyRoutine.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/penaltyRoutine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_strategy/BoxUpItem.java" afterPath="$PROJECT_DIR$/src/template_strategy/BoxUpItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" afterPath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Fedex.java" afterPath="$PROJECT_DIR$/src/strategy/Fedex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/IShipment.java" afterPath="$PROJECT_DIR$/src/strategy/IShipment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Tester.java" afterPath="$PROJECT_DIR$/src/strategy/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -38,15 +37,35 @@
         <entry file="file://$PROJECT_DIR$/src/template_strategy/BoxUpItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IShipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,13 +73,15 @@
       <file leaf-file-name="Fedex.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82495666">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state vertical-scroll-proportion="1.0311959">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#882#883#0" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
                 <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composite.md" />
-        <option value="$PROJECT_DIR$/strategy.md" />
         <option value="$PROJECT_DIR$/patterns/observer.md" />
         <option value="$PROJECT_DIR$/patterns/adapter.md" />
         <option value="$PROJECT_DIR$/patterns/decorator.md" />
@@ -149,8 +168,10 @@
         <option value="$PROJECT_DIR$/src/composite/Sentence.java" />
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
         <option value="$PROJECT_DIR$/src/strategy/NightLine.java" />
-        <option value="$PROJECT_DIR$/src/strategy/Tester.java" />
+        <option value="$PROJECT_DIR$/src/strategy/IShipment.java" />
+        <option value="$PROJECT_DIR$/src/strategy/DeliveryItem.java" />
         <option value="$PROJECT_DIR$/src/template_strategy/BoxUpItem.java" />
+        <option value="$PROJECT_DIR$/src/strategy/Tester.java" />
         <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
       </list>
     </option>
@@ -652,13 +673,7 @@
       <workItem from="1450894290896" duration="1807000" />
       <workItem from="1451487883482" duration="2258000" />
       <workItem from="1451655814376" duration="2067000" />
-      <workItem from="1452089062271" duration="3544000" />
-    </task>
-    <task id="LOCAL-00009" summary="Created three observers">
-      <created>1447877286804</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1447877286804</updated>
+      <workItem from="1452089062271" duration="5935000" />
     </task>
     <task id="LOCAL-00010" summary="Added tester for observer">
       <created>1447878924834</created>
@@ -948,11 +963,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449675847822</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added tempalte and strategy together">
+      <created>1452093194348</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1452093194350</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83761000" />
+    <option name="totallyTimeSpent" value="86152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -998,7 +1019,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inserting image" />
     <MESSAGE value="Inserting image for composite" />
     <MESSAGE value="Created a markdown page for the strategy pattern" />
     <MESSAGE value="Created a package for the template method and an abstract class for a persons daily routine" />
@@ -1023,7 +1043,8 @@
     <MESSAGE value="created a hat and tracksuit class for the goalie, updated the tester" />
     <MESSAGE value="Updated tester in template" />
     <MESSAGE value="created a strategy for a match" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a strategy for a match" />
+    <MESSAGE value="added tempalte and strategy together" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tempalte and strategy together" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,13 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09837963">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/DeliverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1634,25 +1648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1770,10 +1765,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/DeliverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1781,27 +1800,29 @@
     <entry file="file://$PROJECT_DIR$/src/template_strategy/BoxUpItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82495666">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state vertical-scroll-proportion="1.0311959">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
             <element signature="e#1007#1008#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
           </folding>
         </state>
       </provider>

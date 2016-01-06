@@ -1,9 +1,11 @@
 package strategy;
 
+import template_strategy.BoxUpItem;
+
 /**
  * Created by Michael on 11/18/2015.
  */
- public class DeliveryItem {
+ public class DeliveryItem  {
     private final IShipment shipment;
 
     public DeliveryItem(IShipment shipment) {
@@ -12,4 +14,5 @@ package strategy;
     public double deliveryCalculation(double miles, double weight, DeliverType deliverType){
         return shipment.calculate(miles,weight,deliverType);
     }
+
 }

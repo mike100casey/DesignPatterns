@@ -1,5 +1,6 @@
 package strategy;
 
+
 /**
  * Created by Michael on 11/18/2015.
  */
@@ -8,7 +9,9 @@ public class Tester {
         final double DISTANCE = 50;
         final double SIZE    = 1;
 
-        DeliveryItem fedexDelivery = new DeliveryItem(new Fedex());
+        Fedex fedex = new Fedex();
+        fedex.prepareItem();
+        DeliveryItem fedexDelivery = new DeliveryItem(fedex);
         double fedexPrice = fedexDelivery.deliveryCalculation(DISTANCE, SIZE, DeliverType.STANDARD);
 
         DeliveryItem upcDelivery = new DeliveryItem(new UPC());
@@ -20,6 +23,8 @@ public class Tester {
         System.out.println("Fedex Charge: " + fedexPrice +
                 "\nUPS Charge " + upcPrice +
                 "\nUSPS Charge " + uspsPrice);
+
     }
+
 
 }

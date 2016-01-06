@@ -5,13 +5,6 @@ package template_method;
  */
 public abstract class penaltyRoutine {
 
-    protected abstract String taker();
-    protected abstract void distractGoalie(String player);
-    protected abstract void strikeBall(String player);
-    protected void placeBall(String player){
-        System.out.println("The " + player + " places the ball on the penalty spot");
-    }
-
     public void takePenalty(){
         String player = taker();
         System.out.println("The " + player + " is taking the penalty.");
@@ -19,4 +12,13 @@ public abstract class penaltyRoutine {
         distractGoalie(player);
         strikeBall(player);
     }
+
+    protected abstract String taker();
+    protected abstract void distractGoalie(String player);
+    protected abstract void strikeBall(String player);
+    protected void placeBall(String player){
+        System.out.println("The " + player + " places the ball on the penalty spot");
+    }
+
+
 }

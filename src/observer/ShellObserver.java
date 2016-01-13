@@ -11,7 +11,7 @@ public class ShellObserver extends Observer {
     }
 
     @Override
-    void update() {
+    public void update() {
         double  vat = 0.21f;
         double companyMargin = 0.13f;
         System.out.println("Shell fuel is now " + (fuelDepo.getState() +

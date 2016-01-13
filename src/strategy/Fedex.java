@@ -1,41 +1,49 @@
 package strategy;
 
-import template_strategy.BoxUpItem;
+import observer.FuelDepo;
+import observer.Observer;
 
 /**
  * Created by Michael on 11/18/2015.
  */
-public class Fedex extends BoxUpItem implements IShipment {
-    private final double FUELPRICE = 1.55;
-    private final double COSTPERMILE = 0.55;
-    private final double COSTPERKG = 10.5;
-    private final double OVERNIGHTCHARGE = 2;
+public class Fedex extends Observer implements IShipment {
+
+    private final double COSTPERMILE = 0.55f;
+    private final double COSTPERKG = 10.5f;
+    private final double OVERNIGHTCHARGE = 2f;
+
+    private double FUELPRICE;
+
+    public Fedex(FuelDepo fuelDepo) {
+        this.fuelDepo = fuelDepo;
+        this.fuelDepo.attach(this);
+    }
+
+    public double getFUELPRICE() {
+        return FUELPRICE;
+    }
+
+    public void setFUELPRICE(double FUELPRICE) {
+        this.FUELPRICE = FUELPRICE;
+    }
 
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
         double deliveryPrice = 0;
-        switch (deliveryType){
+        switch (deliveryType) {
             case OVERNIGHT:
-                deliveryPrice = OVERNIGHTCHARGE *(FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = OVERNIGHTCHARGE * (getFUELPRICE() * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
                 break;
             case STANDARD:
-                deliveryPrice = (FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = (getFUELPRICE() * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
         }
-        return deliveryPrice;
+        double finalValue = Math.round(deliveryPrice * 100.0) / 100.0;
+        return finalValue;
     }
+
 
     @Override
-    public void standardWrapping() {
-        System.out.println("Item is wrapped in brown paper");
+    public void update() {
+        setFUELPRICE(fuelDepo.getState());
     }
-
-    @Override
-    public void addProtectiveWrapping() {
-        System.out.println("Item is wrapped in bubble wrap");
-    }
-
-    boolean isItemFragile(){
-        return true;
-    }
-
 }

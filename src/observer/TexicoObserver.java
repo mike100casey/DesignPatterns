@@ -11,7 +11,7 @@ public class TexicoObserver extends Observer {
     }
 
     @Override
-    void update() {
+    public void update() {
         double  vat = 0.21f;
         double companyMargin = 0.20f;
         System.out.println("Texico fuel is now " + (fuelDepo.getState() +

@@ -19,6 +19,7 @@ public class UPC implements IShipment {
             case STANDARD:
                 deliveryPrice = (FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
         }
-        return deliveryPrice;
+        double finalValue = Math.round( deliveryPrice * 100.0 ) / 100.0;
+        return finalValue;
     }
 }

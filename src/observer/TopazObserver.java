@@ -11,7 +11,7 @@ public class TopazObserver extends Observer {
     }
 
     @Override
-    void update() {
+    public void update() {
         double  vat = 0.21f;
         double companyMargin = 0.18f;
         System.out.println("Topaz fuel is now " + (fuelDepo.getState() +

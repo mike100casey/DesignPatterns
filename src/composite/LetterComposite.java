@@ -8,9 +8,9 @@ import java.util.List;
  */
 public abstract class LetterComposite {
 
-    private List<LetterComposite> message = new ArrayList<LetterComposite>();
+    private List<LetterComposite> message = new ArrayList<>();
 
-    public void add(LetterComposite letter){
+    protected void add(LetterComposite letter){
         this.message.add(letter);
     }
 
@@ -24,9 +24,7 @@ public abstract class LetterComposite {
 
     public void print(){
         printBefore();
-        for(LetterComposite letter : message){
-            letter.print();
-        }
+        message.forEach(composite.LetterComposite::print);
         printAfter();
     }
 }

@@ -7,7 +7,7 @@ public enum EngineType {
 
     SHOCK_ENGINE("standard 1.4l"), RACING_ENGINE("turbo charged"), BIKE_ENGINE("bike");
 
-    private String title;
+    private final String title;
 
     EngineType(String title) {
         this.title = title;

@@ -5,7 +5,7 @@ package factory_method;
  */
 public class MclarenEngine implements Engine {
 
-    EngineType engineType;
+    private EngineType engineType;
 
     public MclarenEngine(EngineType engineType) {
         this.engineType = engineType;
@@ -20,11 +20,11 @@ public class MclarenEngine implements Engine {
     public String toString(){
         switch (engineType){
             case BIKE_ENGINE:
-                return "Mclaren do not make bike engines";
+                return "McLaren do not make bike engines";
             case SHOCK_ENGINE:
-                return "Mclaren do not make small engines";
+                return "McLaren do not make small engines";
             case RACING_ENGINE:
-                return "Mclaren " + engineType + " Engine requested";
+                return "McLaren " + engineType + " Engine requested";
         }
         return "";
     }

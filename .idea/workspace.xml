@@ -4,19 +4,14 @@
     <option name="SCOPE_TYPE" value="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="Analyzed code in template method package, adapter singleton and applied changes&#10;">
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\decorator\IEncrypter.java" afterPath="$PROJECT_DIR$/src/decorator/IEncryptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/AddNumbers.java" afterPath="$PROJECT_DIR$/src/decorator/AddNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/AddWord.java" afterPath="$PROJECT_DIR$/src/decorator/AddWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/Defender.java" afterPath="$PROJECT_DIR$/src/template_method/Defender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" afterPath="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperAdapter.java" afterPath="$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" afterPath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/PlainText.java" afterPath="$PROJECT_DIR$/src/decorator/PlainText.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Reverse.java" afterPath="$PROJECT_DIR$/src/decorator/Reverse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/Striker.java" afterPath="$PROJECT_DIR$/src/template_method/Striker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Tester.java" afterPath="$PROJECT_DIR$/src/decorator/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+    <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter/AccountAdapter.java" afterPath="$PROJECT_DIR$/src/adapter/AccountAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/EngineType.java" afterPath="$PROJECT_DIR$/src/factory_method/EngineType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/composite/LetterComposite.java" afterPath="$PROJECT_DIR$/src/composite/LetterComposite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" afterPath="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/composite/Messenger.java" afterPath="$PROJECT_DIR$/src/composite/Messenger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter/OffShoreAccount.java" afterPath="$PROJECT_DIR$/src/adapter/OffShoreAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -40,64 +35,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EncryptDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/EncryptDecorator.java">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/AddNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IEncryptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/IEncryptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddWord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/AddWord.java">
+      <file leaf-file-name="EngineType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/AbstractAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/decorator/Reverse.java">
+      <file leaf-file-name="IAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/IAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13773148">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MclarenEngine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14731368">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VW_Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OffShoreAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/OffShoreAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/AccountAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapter/BusinessAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,14 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern_definition/factory_method.md" />
-        <option value="$PROJECT_DIR$/src/factory_method/FactoryTest.groovy" />
-        <option value="$PROJECT_DIR$/src/factory_method/test/FactoryTest.groovy" />
-        <option value="$PROJECT_DIR$/src/factory_method/MclarenEngineTest.java" />
-        <option value="$PROJECT_DIR$/src/factory_method/FactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/adapter/AdapterTester.java" />
-        <option value="$PROJECT_DIR$/src/decorator_penalty/IClothing.java" />
         <option value="$PROJECT_DIR$/src/adapter_penalty/GoalkeeperAdapter.java" />
         <option value="$PROJECT_DIR$/src/decorator_penalty/Hat.java" />
         <option value="$PROJECT_DIR$/src/decorator_penalty/Clothing.java" />
@@ -143,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/strategy_penalty/IMatch.java" />
         <option value="$PROJECT_DIR$/src/strategy_penalty/Position.java" />
         <option value="$PROJECT_DIR$/src/composite/Word.java" />
-        <option value="$PROJECT_DIR$/src/composite/Sentence.java" />
         <option value="$PROJECT_DIR$/src/strategy/NightLine.java" />
         <option value="$PROJECT_DIR$/src/template_strategy/BoxUpItem.java" />
         <option value="$PROJECT_DIR$/src/observer/Observer.java" />
@@ -178,6 +208,15 @@
         <option value="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" />
         <option value="$PROJECT_DIR$/src/decorator/AddWord.java" />
         <option value="$PROJECT_DIR$/src/decorator/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/composite/Messenger.java" />
+        <option value="$PROJECT_DIR$/src/composite/LetterComposite.java" />
+        <option value="$PROJECT_DIR$/src/composite/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/adapter/AccountAdapter.java" />
+        <option value="$PROJECT_DIR$/src/adapter/OffShoreAccount.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/MClarenEngine.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/EngineType.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/McLarenEngine.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" />
       </list>
     </option>
   </component>
@@ -276,7 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="decorator" />
+              <option name="myItemId" value="factory_method" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,13 +701,7 @@
       <workItem from="1451655814376" duration="2067000" />
       <workItem from="1452089062271" duration="8803000" />
       <workItem from="1452178378804" duration="1466000" />
-      <workItem from="1452695560131" duration="13530000" />
-    </task>
-    <task id="LOCAL-00016" summary="Created Abstract, business and standard accounts. Created tester">
-      <created>1448310054908</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1448310054908</updated>
+      <workItem from="1452695560131" duration="14304000" />
     </task>
     <task id="LOCAL-00017" summary="Created print balance method and added to tester">
       <created>1448315056120</created>
@@ -958,15 +991,21 @@
       <option name="project" value="LOCAL" />
       <updated>1452718188362</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Analyzed code in template method package, adapter singleton, decorator and applied changes&#10;">
+      <created>1452718882955</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1452718882955</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104016000" />
+    <option name="totallyTimeSpent" value="104790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -976,7 +1015,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3199554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3199554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3322185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1008,8 +1047,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created the placement method" />
-    <MESSAGE value="Created penalty taker and tester class. Updated variable nmes" />
     <MESSAGE value="Created factory method package and enum class enine type" />
     <MESSAGE value="Created engine interface" />
     <MESSAGE value="Created engine manufacturer interface" />
@@ -1033,7 +1070,9 @@
     <MESSAGE value="Made template method final." />
     <MESSAGE value="Made template method final. Added hook methods and renamed classes" />
     <MESSAGE value="Analyzed code in strategy package and applied changes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Analyzed code in strategy package and applied changes&#10;" />
+    <MESSAGE value="Analyzed code in template method package, adapter singleton, decorator and applied changes&#10;" />
+    <MESSAGE value="Analyzed code in factory method, composite  and applied changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Analyzed code in factory method, composite  and applied changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,371 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/composite/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/CompositeTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/composite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite</OriginalElement>
-          <nodes>
-            <node x="0.0" y="248.0">composite.Letter</node>
-            <node x="141.79166666666666" y="0.0">composite.LetterComposite</node>
-            <node x="471.0" y="262.0">composite.Word</node>
-            <node x="204.0" y="262.0">composite.Sentence</node>
-            <node x="209.5" y="443.0">composite.Messenger</node>
-            <node x="238.0" y="555.0">composite.CompositeTester</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="composite.Messenger" target="composite.Sentence">
-              <point x="0.0" y="-31.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="composite.Messenger" target="composite.Word">
-              <point x="78.66666666666669" y="-31.0" />
-              <point x="406.1666666666667" y="418.0" />
-              <point x="583.5" y="418.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="composite.Messenger" target="composite.Letter">
-              <point x="-78.66666666666669" y="-31.0" />
-              <point x="248.83333333333331" y="418.0" />
-              <point x="92.0" y="418.0" />
-              <point x="0.0" y="72.5" />
-            </edge>
-            <edge source="composite.Sentence" target="composite.LetterComposite">
-              <point x="0.0" y="-58.5" />
-              <point x="327.5" y="223.0" />
-              <point x="325.79166666666663" y="223.0" />
-              <point x="0.0" y="99.0" />
-            </edge>
-            <edge source="composite.Letter" target="composite.LetterComposite">
-              <point x="0.0" y="-72.5" />
-              <point x="92.0" y="223.0" />
-              <point x="203.12499999999997" y="223.0" />
-              <point x="-122.66666666666669" y="99.0" />
-            </edge>
-            <edge source="composite.CompositeTester" target="composite.Messenger">
-              <point x="0.0" y="-31.0" />
-              <point x="0.0" y="31.0" />
-            </edge>
-            <edge source="composite.Word" target="composite.LetterComposite">
-              <point x="0.0" y="-58.5" />
-              <point x="583.5" y="223.0" />
-              <point x="448.45833333333337" y="223.0" />
-              <point x="122.66666666666669" y="99.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-396.0" y="62.0" />
-          <SelectedNodes>
-            <node>composite.Word</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/LetterComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33449075">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/strategy">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>strategy</OriginalElement>
-          <nodes>
-            <node x="-542.8571428571428" y="233.85714285714283">strategy.DeliverType</node>
-            <node x="-161.85714285714278" y="14.857142857142833">strategy.Fedex</node>
-            <node x="-542.8571428571428" y="14.857142857142833">strategy.USPS</node>
-            <node x="600.1428571428572" y="14.857142857142833">strategy.DeliveryItem</node>
-            <node x="219.14285714285722" y="14.857142857142833">strategy.UPC</node>
-            <node x="28.642857142857224" y="-97.14285714285717">strategy.IShipment</node>
-            <node x="119.64285714285722" y="126.85714285714283">strategy.Tester</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="strategy.Tester" target="strategy.UPC">
-              <point x="22.375" y="-31.0" />
-              <point x="231.51785714285722" y="96.85714285714283" />
-              <point x="399.6428571428572" y="96.85714285714283" />
-              <point x="0.0" y="31.0" />
-            </edge>
-            <edge source="strategy.Tester" target="strategy.DeliveryItem">
-              <point x="67.125" y="-31.0" />
-              <point x="276.2678571428572" y="106.85714285714283" />
-              <point x="814.1428571428572" y="106.85714285714283" />
-              <point x="0.0" y="31.0" />
-            </edge>
-            <edge source="strategy.USPS" target="strategy.IShipment">
-              <point x="0.0" y="-31.0" />
-              <point x="-362.3571428571428" y="-15.142857142857167" />
-              <point x="73.76785714285722" y="-15.142857142857167" />
-              <point x="-135.375" y="31.0" />
-            </edge>
-            <edge source="strategy.DeliveryItem" target="strategy.IShipment">
-              <point x="0.0" y="-31.0" />
-              <point x="814.1428571428572" y="-15.142857142857167" />
-              <point x="344.5178571428572" y="-15.142857142857167" />
-              <point x="135.375" y="31.0" />
-            </edge>
-            <edge source="strategy.Tester" target="strategy.USPS">
-              <point x="-67.125" y="-31.0" />
-              <point x="142.01785714285722" y="106.85714285714283" />
-              <point x="-362.3571428571428" y="106.85714285714283" />
-              <point x="0.0" y="31.0" />
-            </edge>
-            <edge source="strategy.UPC" target="strategy.IShipment">
-              <point x="0.0" y="-31.0" />
-              <point x="399.6428571428572" y="-5.142857142857167" />
-              <point x="254.26785714285722" y="-5.142857142857167" />
-              <point x="45.125" y="31.0" />
-            </edge>
-            <edge source="strategy.Fedex" target="strategy.IShipment">
-              <point x="0.0" y="-31.0" />
-              <point x="18.642857142857224" y="-5.142857142857167" />
-              <point x="164.01785714285722" y="-5.142857142857167" />
-              <point x="-45.125" y="31.0" />
-            </edge>
-            <edge source="strategy.Tester" target="strategy.Fedex">
-              <point x="-22.375" y="-31.0" />
-              <point x="186.76785714285722" y="96.85714285714283" />
-              <point x="18.642857142857224" y="96.85714285714283" />
-              <point x="0.0" y="31.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-343.0" y="-85.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/template_method">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>template_method</OriginalElement>
-          <nodes>
-            <node x="213.50000000000003" y="386.0">template_method.Tester</node>
-            <node x="193.0" y="0.0">template_method.penaltyRoutine</node>
-            <node x="213.00000000000003" y="220.0">template_method.PowerMethod</node>
-            <node x="0.0" y="233.5">template_method.OutfieldPlayer</node>
-            <node x="413.0" y="220.0">template_method.PlacementMethod</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="template_method.Tester" target="template_method.PowerMethod">
-              <point x="0.0" y="-31.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="template_method.Tester" target="template_method.OutfieldPlayer">
-              <point x="-59.66666666666666" y="-31.0" />
-              <point x="243.33333333333337" y="361.0" />
-              <point x="96.5" y="361.0" />
-              <point x="0.0" y="44.5" />
-            </edge>
-            <edge source="template_method.Tester" target="template_method.PlacementMethod">
-              <point x="59.66666666666666" y="-31.0" />
-              <point x="362.6666666666667" y="361.0" />
-              <point x="503.0" y="361.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="template_method.OutfieldPlayer" target="template_method.penaltyRoutine">
-              <point x="0.0" y="-44.5" />
-              <point x="96.5" y="195.0" />
-              <point x="229.66666666666669" y="195.0" />
-              <point x="-73.33333333333333" y="85.0" />
-            </edge>
-            <edge source="template_method.PowerMethod" target="template_method.penaltyRoutine">
-              <point x="0.0" y="-58.0" />
-              <point x="0.0" y="85.0" />
-            </edge>
-            <edge source="template_method.PlacementMethod" target="template_method.penaltyRoutine">
-              <point x="0.0" y="-58.0" />
-              <point x="503.0" y="195.0" />
-              <point x="376.3333333333333" y="195.0" />
-              <point x="73.33333333333331" y="85.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-357.0" y="-38.0" />
-          <SelectedNodes>
-            <node>template_method.OutfieldPlayer</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenGarage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1574074">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17708333">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineManufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/factory_method">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>factory_method</OriginalElement>
-          <nodes>
-            <node x="460.875" y="251.0">factory_method.VolkswagenGarage</node>
-            <node x="651.0" y="0.0">factory_method.EngineType</node>
-            <node x="0.0" y="112.0">factory_method.MclarenEngine</node>
-            <node x="284.0" y="125.5">factory_method.EngineManufacturer</node>
-            <node x="196.875" y="363.0">factory_method.Tester</node>
-            <node x="601.125" y="376.5">factory_method.tests</node>
-            <node x="573.0" y="112.0">factory_method.VW_Engine</node>
-            <node x="107.125" y="251.0">factory_method.MclarenGarage</node>
-            <node x="5.0" y="0.0">factory_method.Engine</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="factory_method.VolkswagenGarage" target="factory_method.VW_Engine">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.VW_Engine" target="factory_method.Engine">
-              <point x="-66.0" y="-44.5" />
-              <point x="639.0" y="82.0" />
-              <point x="188.0" y="82.0" />
-              <point x="61.0" y="31.0" />
-            </edge>
-            <edge source="factory_method.Tester" target="factory_method.VolkswagenGarage">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.VolkswagenGarage" target="factory_method.EngineManufacturer">
-              <point x="-67.25" y="-31.0" />
-              <point x="528.125" y="226.0" />
-              <point x="485.75" y="226.0" />
-              <point x="67.25" y="31.0" />
-            </edge>
-            <edge source="factory_method.MclarenEngine" target="factory_method.Engine">
-              <point x="-66.0" y="-44.5" />
-              <point x="-61.0" y="31.0" />
-            </edge>
-            <edge source="factory_method.Tester" target="factory_method.MclarenGarage">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.MclarenGarage" target="factory_method.MclarenEngine">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.tests" target="factory_method.VolkswagenGarage">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.MclarenGarage" target="factory_method.EngineManufacturer">
-              <point x="67.25" y="-31.0" />
-              <point x="308.875" y="226.0" />
-              <point x="351.25" y="226.0" />
-              <point x="-67.25" y="31.0" />
-            </edge>
-            <edge source="factory_method.VW_Engine" target="factory_method.EngineType">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="factory_method.MclarenEngine" target="factory_method.EngineType">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="183.0" />
-          <SelectedNodes>
-            <node>factory_method.MclarenGarage</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy_penalty/IMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13773148">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/observer/ObserverTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2951389">
@@ -1472,22 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="18" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1694,20 +1352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16798419">
@@ -1787,9 +1431,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13773148">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/AddWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13773148">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/IEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.1574074">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
@@ -1797,7 +1463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/AddNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.13773148">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="e#161#162#0" expanded="true" />
@@ -1808,7 +1474,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/EncryptDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.11805555">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#205#206#0" expanded="true" />
@@ -1817,25 +1483,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/AddWord.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.3113426">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/composite/Letter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13773148">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composite/LetterComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/AdapterTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/BusinessAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/AbstractAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/IAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/OffShoreAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/AccountAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14731368">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

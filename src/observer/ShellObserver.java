@@ -5,17 +5,17 @@ package observer;
  */
 public class ShellObserver extends Observer {
 
-    public ShellObserver(FuelDepo fuelDepo) {
-        this.fuelDepo = fuelDepo;
-        this.fuelDepo.attach(this);
+    public ShellObserver(FuelDepot fuelDepot) {
+        this.fuelDepot = fuelDepot;
+        this.fuelDepot.attach(this);
     }
 
     @Override
     public void update() {
         double  vat = 0.21f;
         double companyMargin = 0.13f;
-        System.out.println("Shell fuel is now " + (fuelDepo.getState() +
-                vat * fuelDepo.getState() +
-                companyMargin * fuelDepo.getState()));
+        System.out.println("Shell fuel is now " + (fuelDepot.getState() +
+                vat * fuelDepot.getState() +
+                companyMargin * fuelDepot.getState()));
     }
 }

@@ -4,22 +4,23 @@ package strategy;
  * Created by Michael on 11/18/2015.
  */
 public class UPC implements IShipment {
-    private final double FUELPRICE = 1.40;
-    private final double COSTPERMILE = 0.40;
-    private final double COSTPERKG = 10;
-    private final double OVERNIGHTCHARGE = 1.75;
+
 
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
+        final double FUEL_PRICE = 1.40;
+        final double COST_PER_MILE = 0.40;
+        final double COST_PER_KG = 10;
+        final double OVERNIGHT_CHARGE = 1.75;
+
         double deliveryPrice = 0;
-        switch (deliveryType){
+        switch (deliveryType) {
             case OVERNIGHT:
-                deliveryPrice = OVERNIGHTCHARGE *(FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = OVERNIGHT_CHARGE * (FUEL_PRICE * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
                 break;
             case STANDARD:
-                deliveryPrice = (FUELPRICE * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = (FUEL_PRICE * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
         }
-        double finalValue = Math.round( deliveryPrice * 100.0 ) / 100.0;
-        return finalValue;
+        return Math.round(deliveryPrice * 100.0) / 100.0;
     }
 }

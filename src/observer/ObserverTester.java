@@ -7,14 +7,14 @@ public class ObserverTester {
 
     public static void main(String[] args) {
 
-        FuelDepo fuelDepo = new FuelDepo();
+        FuelDepot fuelDepot = new FuelDepot();
 
-        TexicoObserver texico = new TexicoObserver(fuelDepo);
-        ShellObserver shell = new ShellObserver(fuelDepo);
-        TopazObserver topaz = new TopazObserver(fuelDepo);
+        TexicoObserver texico = new TexicoObserver(fuelDepot);
+        ShellObserver shell = new ShellObserver(fuelDepot);
+        TopazObserver topaz = new TopazObserver(fuelDepot);
 
-        fuelDepo.setState(1.0f);
-        System.out.println("Price at depo: " + fuelDepo.getState());
+        fuelDepot.setState(1.0f);
+        System.out.println("Price at depo: " + fuelDepot.getState());
 
     }
 }

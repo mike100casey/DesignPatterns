@@ -5,17 +5,17 @@ package observer;
  */
 public class TopazObserver extends Observer {
 
-    public TopazObserver(FuelDepo fuelDepo) {
-        this.fuelDepo = fuelDepo;
-        this.fuelDepo.attach(this);
+    public TopazObserver(FuelDepot fuelDepot) {
+        this.fuelDepot = fuelDepot;
+        this.fuelDepot.attach(this);
     }
 
     @Override
     public void update() {
         double  vat = 0.21f;
         double companyMargin = 0.18f;
-        System.out.println("Topaz fuel is now " + (fuelDepo.getState() +
-                vat * fuelDepo.getState() +
-                companyMargin * fuelDepo.getState()));
+        System.out.println("Topaz fuel is now " + (fuelDepot.getState() +
+                vat * fuelDepot.getState() +
+                companyMargin * fuelDepot.getState()));
     }
 }

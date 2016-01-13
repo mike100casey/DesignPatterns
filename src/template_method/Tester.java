@@ -3,7 +3,6 @@ package template_method;
 import adapter_singleton_penalty.Goalkeeper;
 import adapter_singleton_penalty.GoalkeeperAdapter;
 
-
 /**
  * Created by Michael on 11/28/2015.
  */

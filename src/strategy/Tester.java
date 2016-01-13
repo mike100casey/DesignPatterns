@@ -1,7 +1,7 @@
 package strategy;
 
 
-import observer.FuelDepo;
+import observer.FuelDepot;
 
 /**
  * Created by Michael on 11/18/2015.
@@ -13,13 +13,13 @@ public class Tester {
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = 1;
 
-        FuelDepo fuelDepo = new FuelDepo();
+        FuelDepot fuelDepot = new FuelDepot();
 
-        DeliveryItem fedexDelivery = new DeliveryItem(new Fedex(fuelDepo));
-        fuelDepo.setState(1.0f);
-        System.out.println("Fuel price at depo is: " + fuelDepo.getState() + "\n");
+        DeliveryItem fedexDelivery = new DeliveryItem(new Fedex(fuelDepot));
+        fuelDepot.setState(1.0f);
+        System.out.println("Fuel price at depot is: " + fuelDepot.getState() + "\n");
 
-        double fedexPrice = fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.OVERNIGHT);
+        double fedexPrice = fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
 
         DeliveryItem upcDelivery = new DeliveryItem(new UPC());
         double upcPrice = upcDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.OVERNIGHT);

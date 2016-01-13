@@ -1,6 +1,5 @@
 package adapter_singleton_penalty;
 
-import decorator_penalty.PlayersGear;
 import template_method.penaltyRoutine;
 
 /**

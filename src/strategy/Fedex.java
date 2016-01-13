@@ -1,6 +1,6 @@
 package strategy;
 
-import observer.FuelDepo;
+import observer.FuelDepot;
 import observer.Observer;
 
 /**
@@ -8,44 +8,43 @@ import observer.Observer;
  */
 public class Fedex extends Observer implements IShipment {
 
-    private final double COSTPERMILE = 0.55f;
-    private final double COSTPERKG = 10.5f;
-    private final double OVERNIGHTCHARGE = 2f;
+    private double FUEL_PRICE;
 
-    private double FUELPRICE;
-
-    public Fedex(FuelDepo fuelDepo) {
-        this.fuelDepo = fuelDepo;
-        this.fuelDepo.attach(this);
+    public Fedex(FuelDepot fuelDepot) {
+        this.fuelDepot = fuelDepot;
+        this.fuelDepot.attach(this);
     }
 
-    public double getFUELPRICE() {
-        return FUELPRICE;
+    private double getFUEL_PRICE() {
+        return FUEL_PRICE;
     }
 
-    public void setFUELPRICE(double FUELPRICE) {
-        this.FUELPRICE = FUELPRICE;
+    private void setFUEL_PRICE(double FUEL_PRICE) {
+        this.FUEL_PRICE = FUEL_PRICE;
     }
 
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
+        final double COST_PER_MILE = 0.55f;
+        final double COST_PER_KG = 10.5f;
+        final double OVERNIGHT_CHARGE = 2f;
+
         double deliveryPrice = 0;
         switch (deliveryType) {
             case OVERNIGHT:
-                deliveryPrice = OVERNIGHTCHARGE * (getFUELPRICE() * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = OVERNIGHT_CHARGE * (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
                 break;
             case STANDARD:
-                deliveryPrice = (getFUELPRICE() * ((miles * COSTPERMILE) + (weight * COSTPERKG)));
+                deliveryPrice = (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
         }
-        double finalValue = Math.round(deliveryPrice * 100.0) / 100.0;
-        return finalValue;
+        return Math.round(deliveryPrice * 100.0) / 100.0;
     }
 
 
     @Override
     public void update() {
         double companyMargin = 0.18f;
-        setFUELPRICE(fuelDepo.getState() +
-                companyMargin * fuelDepo.getState());
+        setFUEL_PRICE(fuelDepot.getState() +
+                companyMargin * fuelDepot.getState());
     }
 }

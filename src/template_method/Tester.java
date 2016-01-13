@@ -1,10 +1,7 @@
 package template_method;
 
-import adapter_penalty.Goalkeeper;
-import adapter_penalty.GoalkeeperAdapter;
-import decorator_penalty.PlayersGear;
-import decorator_penalty.Hat;
-import decorator_penalty.TrackSuitPants;
+import adapter_singleton_penalty.Goalkeeper;
+import adapter_singleton_penalty.GoalkeeperAdapter;
 
 
 /**
@@ -14,19 +11,16 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        OutfieldPlayer penaltyTaker = new OutfieldPlayer(new PlacementMethod());
+        PenaltyTaker penaltyTaker = new PenaltyTaker(new Striker());
         penaltyTaker.takePenalty();
-        penaltyTaker.changeMethod(new PowerMethod());
+        System.out.println("---------------------------------------\n");
+
+        penaltyTaker.changeMethod(new Defender());
         penaltyTaker.takePenalty();
-        System.out.println("---------------------------------------");
+        System.out.println("---------------------------------------\n");
 
-        PlayersGear goalkeeperGear = new Goalkeeper();
-        goalkeeperGear = new Hat(goalkeeperGear);
-        goalkeeperGear = new TrackSuitPants(goalkeeperGear);
-        System.out.println(goalkeeperGear.getDescription());
-        System.out.println("---------------------------------------");
-
-        OutfieldPlayer goalie = new OutfieldPlayer(new GoalkeeperAdapter(new Goalkeeper()));
+        Goalkeeper goalkeeper = Goalkeeper.getUniqueGoalkeeper();
+        PenaltyTaker goalie = new PenaltyTaker(new GoalkeeperAdapter(goalkeeper));
         goalie.takePenalty();
         System.out.println("---------------------------------------");
 

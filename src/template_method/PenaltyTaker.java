@@ -5,11 +5,11 @@ import decorator_penalty.PlayersGear;
 /**
  * Created by Michael on 11/28/2015.
  */
-public class OutfieldPlayer {
+public class PenaltyTaker {
 
     private penaltyRoutine routine;
 
-    public OutfieldPlayer(penaltyRoutine routine) {
+    public PenaltyTaker(penaltyRoutine routine) {
         this.routine = routine;
     }
 

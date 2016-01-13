@@ -5,13 +5,13 @@ package decorator;
  */
 public class Reverse extends EncryptDecorator {
 
-    public Reverse(IEncrypter encrypter) {
-        super(encrypter);
+    public Reverse(IEncryptor encryptor) {
+        super(encryptor);
     }
 
     public String encrypt(String enteredText) {
 
         String reversedText = new StringBuffer(enteredText).reverse().toString();
-        return encrypter.encrypt(reversedText);
+        return encryptor.encrypt(reversedText);
     }
 }

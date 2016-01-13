@@ -3,11 +3,11 @@ package decorator;
 /**
  * Created by Michael on 11/19/2015.
  */
-public abstract class EncryptDecorator implements IEncrypter {
-    IEncrypter encrypter;
+public abstract class EncryptDecorator implements IEncryptor {
+    IEncryptor encryptor;
 
-    public EncryptDecorator(IEncrypter encrypter) {
-        this.encrypter = encrypter;
+    public EncryptDecorator(IEncryptor encryptor) {
+        this.encryptor = encryptor;
     }
 
 }

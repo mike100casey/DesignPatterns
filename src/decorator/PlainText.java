@@ -3,7 +3,7 @@ package decorator;
 /**
  * Created by Michael on 11/19/2015.
  */
-public class PlainText implements IEncrypter {
+public class PlainText implements IEncryptor {
 
     @Override
     public String encrypt(String text) {

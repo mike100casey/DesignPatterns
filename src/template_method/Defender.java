@@ -28,11 +28,7 @@ public class Defender extends penaltyRoutine {
 
         String answer = getUserInput();
 
-        if (answer.toLowerCase().startsWith("y")) {
-            return true;
-        } else {
-            return false;
-        }
+        return answer.toLowerCase().startsWith("y");
     }
 
     private String getUserInput() {

@@ -5,19 +5,19 @@ package decorator;
  */
 public class AddNumbers extends EncryptDecorator {
 
-    public AddNumbers(IEncrypter encrypter) {
-        super(encrypter);
+    public AddNumbers(IEncryptor encryptor) {
+        super(encryptor);
     }
 
     public String encrypt(String enteredText) {
-        int randomNum = 0 + (int)(Math.random()*100);
+        int randomNum = (int) (Math.random() * 100);
         String randomNumString = String.valueOf(randomNum);
 
-        StringBuffer newWord = new StringBuffer();
+        StringBuilder newWord = new StringBuilder();
         newWord.append(enteredText);
         newWord.append(randomNumString);
         String combinedWords = newWord.toString();
 
-        return encrypter.encrypt(combinedWords);
+        return encryptor.encrypt(combinedWords);
     }
 }

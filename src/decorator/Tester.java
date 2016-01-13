@@ -22,14 +22,14 @@ public class Tester {
             ex.printStackTrace();
         }
 
-        IEncrypter encryptedWord = new PlainText();
+        IEncryptor encryptedWord = new PlainText();
         encryptedWord = new Reverse(encryptedWord);
         encryptedWord = new AddWord(encryptedWord);
         encryptedWord = new AddNumbers(encryptedWord);
 
         System.out.println("Encrypted PlainText: " + encryptedWord.encrypt(text));
 
-        IEncrypter encryptedWord2 = new AddWord(new Reverse(new PlainText()));
+        IEncryptor encryptedWord2 = new AddWord(new Reverse(new PlainText()));
 
         System.out.println("\nEncrypt PlainText Again: " +encryptedWord2.encrypt(text));
 

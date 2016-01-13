@@ -1,7 +1,5 @@
 package template_method;
 
-import decorator_penalty.PlayersGear;
-
 /**
  * Created by Michael on 11/28/2015.
  */

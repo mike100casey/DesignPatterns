@@ -7,7 +7,7 @@ import template_method.penaltyRoutine;
  */
 public class GoalkeeperAdapter extends penaltyRoutine {
 
-    Goalkeeper goalkeeper;
+    private Goalkeeper goalkeeper;
 
     public GoalkeeperAdapter(Goalkeeper goalkeeper) {
         this.goalkeeper = goalkeeper;

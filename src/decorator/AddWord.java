@@ -5,21 +5,21 @@ package decorator;
  */
 public class AddWord extends EncryptDecorator {
 
-    public AddWord(IEncrypter encrypter) {
-        super(encrypter);
+    public AddWord(IEncryptor encryptor) {
+        super(encryptor);
     }
 
     public String encrypt(String enteredText) {
         String[] randomWord = {"the", "cat", "dog", "house", "make"};
-        int randomNum = 0 + (int) (Math.random() * 4);
+        int randomNum = (int) (Math.random() * 4);
         String word = randomWord[randomNum];
 
-        StringBuffer newWord = new StringBuffer();
+        StringBuilder newWord = new StringBuilder();
         newWord.append(enteredText);
         newWord.append(word);
         String combinedWords = newWord.toString();
 
-        return encrypter.encrypt(combinedWords);
+        return encryptor.encrypt(combinedWords);
 
     }
 }

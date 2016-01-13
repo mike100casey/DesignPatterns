@@ -23,7 +23,7 @@ public abstract class penaltyRoutine {
 
     protected abstract void strikeBall(String player);
 
-    protected void penaltyAwarded() {
+    private void penaltyAwarded() {
         System.out.println("The referee blows the whistle and awards a penalty");
     }
 
@@ -31,7 +31,7 @@ public abstract class penaltyRoutine {
         return false;
     }
 
-    protected void placeBall(String player) {
+    private void placeBall(String player) {
         System.out.println("The " + player + " places the ball on the penalty spot");
     }
 

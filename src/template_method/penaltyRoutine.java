@@ -5,7 +5,7 @@ package template_method;
  */
 public abstract class penaltyRoutine {
 
-    public void takePenalty(){
+    public final void takePenalty(){
         String player = taker();
         System.out.println("The " + player + " is taking the penalty.");
         placeBall(player);

@@ -5,7 +5,7 @@ import adapter_penalty.GoalkeeperAdapter;
 import decorator_penalty.PlayersGear;
 import decorator_penalty.Hat;
 import decorator_penalty.TrackSuitPants;
-import strategy_penalty.Position;
+
 
 /**
  * Created by Michael on 11/28/2015.
@@ -30,8 +30,7 @@ public class Tester {
         goalie.takePenalty();
         System.out.println("---------------------------------------");
 
-        Position goalkeeper = new Position(new Goalkeeper());
-        goalkeeper.playerPosition();
+
 
     }
 }

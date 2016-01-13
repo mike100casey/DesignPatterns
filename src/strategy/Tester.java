@@ -10,8 +10,8 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        final double DISTANCE = 50;
-        final double SIZE = 1;
+        final double DELIVERY_DISTANCE = 50;
+        final double PARCEL_SIZE = 1;
 
         FuelDepo fuelDepo = new FuelDepo();
 
@@ -19,17 +19,17 @@ public class Tester {
         fuelDepo.setState(1.0f);
         System.out.println("Fuel price at depo is: " + fuelDepo.getState() + "\n");
 
-        double fedexPrice = fedexDelivery.deliveryCalculation(DISTANCE, SIZE, DeliverType.STANDARD);
+        double fedexPrice = fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.OVERNIGHT);
 
         DeliveryItem upcDelivery = new DeliveryItem(new UPC());
-        double upcPrice = upcDelivery.deliveryCalculation(DISTANCE, SIZE, DeliverType.OVERNIGHT);
+        double upcPrice = upcDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.OVERNIGHT);
 
         DeliveryItem uspsDelivery = new DeliveryItem(new USPS());
-        double uspsPrice = uspsDelivery.deliveryCalculation(DISTANCE, SIZE, DeliverType.OVERNIGHT);
+        double uspsPrice = uspsDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.OVERNIGHT);
 
         System.out.println("Fedex Charge: " + fedexPrice + " Euros" +
-                "\nUPS Charge " + upcPrice + " Euros" +
-                "\nUSPS Charge " + uspsPrice + " Euros");
+                            "\nUPS Charge " + upcPrice + " Euros" +
+                            "\nUSPS Charge " + uspsPrice + " Euros");
 
     }
 

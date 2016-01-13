@@ -11,18 +11,31 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        IEncrypter encryptedWord = new AddNumbers(new AddWord(new Reverse(new PlainText())));
 
-        System.out.println("Enter Text: ");
+        System.out.println("Enter Text To Encrypt: ");
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        String text= "";
+        String text = "";
 
         try {
             text = in.readLine();
-        }
-        catch (IOException ex){
+        } catch (IOException ex) {
             ex.printStackTrace();
         }
-        System.out.println( "Encrypted PlainText:     " + encryptedWord.encrypt(text));
+
+        IEncrypter encryptedWord = new PlainText();
+        encryptedWord = new Reverse(encryptedWord);
+        encryptedWord = new AddWord(encryptedWord);
+        encryptedWord = new AddNumbers(encryptedWord);
+
+        System.out.println("Encrypted PlainText: " + encryptedWord.encrypt(text));
+
+        IEncrypter encryptedWord2 = new AddWord(new Reverse(new PlainText()));
+
+        System.out.println("\nEncrypt PlainText Again: " +encryptedWord2.encrypt(text));
+
     }
+
+
+
+
 }

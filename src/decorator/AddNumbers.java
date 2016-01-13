@@ -11,6 +11,13 @@ public class AddNumbers extends EncryptDecorator {
 
     public String encrypt(String enteredText) {
         int randomNum = 0 + (int)(Math.random()*100);
-        return super.encrypt(enteredText) + randomNum;
+        String randomNumString = String.valueOf(randomNum);
+
+        StringBuffer newWord = new StringBuffer();
+        newWord.append(enteredText);
+        newWord.append(randomNumString);
+        String combinedWords = newWord.toString();
+
+        return encrypter.encrypt(combinedWords);
     }
 }

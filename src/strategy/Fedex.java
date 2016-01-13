@@ -44,6 +44,8 @@ public class Fedex extends Observer implements IShipment {
 
     @Override
     public void update() {
-        setFUELPRICE(fuelDepo.getState());
+        double companyMargin = 0.18f;
+        setFUELPRICE(fuelDepo.getState() +
+                companyMargin * fuelDepo.getState());
     }
 }

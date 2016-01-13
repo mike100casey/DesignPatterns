@@ -10,11 +10,16 @@ public class AddWord extends EncryptDecorator {
     }
 
     public String encrypt(String enteredText) {
-        String[] myList = {"the","cat","dog","house","make"};
-        int randomNum = 0 + (int)(Math.random()*4);
-        String word = myList[randomNum];
-        return super.encrypt(enteredText) + word;
+        String[] randomWord = {"the", "cat", "dog", "house", "make"};
+        int randomNum = 0 + (int) (Math.random() * 4);
+        String word = randomWord[randomNum];
 
+        StringBuffer newWord = new StringBuffer();
+        newWord.append(enteredText);
+        newWord.append(word);
+        String combinedWords = newWord.toString();
+
+        return encrypter.encrypt(combinedWords);
 
     }
 }

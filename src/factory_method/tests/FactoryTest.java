@@ -1,24 +1,20 @@
 package factory_method.tests;
 
 import factory_method.*;
-import junit.framework.TestCase;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 /**
- * Created by Michael on 11/29/2015.
+ * Created by Michael on 1/14/2016.
  */
-public class FactoryTest extends TestCase {
+public class FactoryTest {
 
     @Test
-    public void vwGarageWithEngine(){
+    public void vwGarageWithEngine() {
         EngineManufacturer manufacturer = new VolkswagenGarage();
-        Engine engine = manufacturer.buildEngine(EngineType.SHOCK_ENGINE);
-        verifyEngine(engine, EngineType.SHOCK_ENGINE, VW_Engine.class);
-    }
-
-    private void verifyEngine(Engine engine, EngineType engineType, Class klass){
-        assertTrue(klass.getName(), klass.isInstance(engine));
-        assertEquals(klass.getName(), engineType, engine.getEngineType());
+        Engine engine = manufacturer.buildEngine(EngineType.STOCK_ENGINE);
+        assertEquals(EngineType.STOCK_ENGINE, engine.getEngineType());
     }
 
 }

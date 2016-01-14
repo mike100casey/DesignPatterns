@@ -11,7 +11,7 @@ public class Tester {
         Engine engine;
 
         engineManufacturer = new VolkswagenGarage();
-        engine = engineManufacturer.buildEngine(EngineType.SHOCK_ENGINE);
+        engine = engineManufacturer.buildEngine(EngineType.STOCK_ENGINE);
         System.out.println(engine);
 
         engine = engineManufacturer.buildEngine(EngineType.RACING_ENGINE);
@@ -19,6 +19,9 @@ public class Tester {
 
         engineManufacturer = new MclarenGarage();
         engine = engineManufacturer.buildEngine(EngineType.RACING_ENGINE);
+        System.out.println(engine);
+
+        engine = engineManufacturer.buildEngine(EngineType.BIKE_ENGINE);
         System.out.println(engine);
 
     }

@@ -30,6 +30,4 @@ public class FuelDepot {
         observers.forEach(observer.Observer::update);
     }
 
-
 }
-

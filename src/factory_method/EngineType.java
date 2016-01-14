@@ -5,7 +5,7 @@ package factory_method;
  */
 public enum EngineType {
 
-    SHOCK_ENGINE("standard 1.4l"), RACING_ENGINE("turbo charged"), BIKE_ENGINE("bike");
+    STOCK_ENGINE("standard 1.4l"), RACING_ENGINE("turbo charged"), BIKE_ENGINE("bike");
 
     private final String title;
 

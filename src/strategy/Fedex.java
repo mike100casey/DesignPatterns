@@ -4,15 +4,20 @@ import observer.FuelDepot;
 import observer.Observer;
 
 /**
+ *
  * Created by Michael on 11/18/2015.
  */
 public class Fedex extends Observer implements IShipment  {
 
     private double FUEL_PRICE;
 
-    public Fedex(FuelDepot fuelDepot) {
+    private Fedex(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
         this.fuelDepot.attach(this);
+    }
+
+    public static Fedex fedexObserver(FuelDepot fuelDepot){
+        return new Fedex(fuelDepot);
     }
 
     private double getFUEL_PRICE() {
@@ -26,7 +31,7 @@ public class Fedex extends Observer implements IShipment  {
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
         final double COST_PER_MILE = 0.55f;
-        final double COST_PER_KG = 10.5f;
+        final double COST_PER_KG = 0.25f;
         final double OVERNIGHT_CHARGE = 2f;
 
         double deliveryPrice = 0;

@@ -1,6 +1,7 @@
 package strategy;
 
 /**
+ *
  * Created by Michael on 11/18/2015.
  */
 public class UPC implements IShipment {
@@ -10,7 +11,7 @@ public class UPC implements IShipment {
     public double calculate(double miles, double weight, DeliverType deliveryType) {
         final double FUEL_PRICE = 1.40;
         final double COST_PER_MILE = 0.40;
-        final double COST_PER_KG = 10;
+        final double COST_PER_KG = 0.30;
         final double OVERNIGHT_CHARGE = 1.75;
 
         double deliveryPrice = 0;

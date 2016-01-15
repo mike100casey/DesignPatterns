@@ -1,38 +1,42 @@
 package iterator;
 
+import strategy.USPS;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
+ *
  * Created by Michael on 1/15/2016.
  */
 public class App {
 
     public static void main(String[] args) {
 
-        TreasureChest chest = new TreasureChest();
+        List<Item> listOfItems = new ArrayList<>();
+        Item item = new Item(ItemType.JEWELLERY, "Gold watch");
 
-        ItemIterator ringIterator = chest.iterator(ItemType.RING);
+        listOfItems.add(item);
+        USPS chest = new USPS();
+        chest.addItems(listOfItems);
+
+
+        ItemIterator ringIterator = chest.iterator(ItemType.JEWELLERY);
         while (ringIterator.hasNext()) {
             System.out.println(ringIterator.next());
         }
 
-        System.out.println("----------");
-
-        ItemIterator potionIterator = chest.iterator(ItemType.POTION);
-        while (potionIterator.hasNext()) {
-            System.out.println(potionIterator.next());
+        for (ItemType f : ItemType.values()) {
+            System.out.printf("%s has index %d%n", f, f.index());
+            int y = f.index();
         }
 
-        System.out.println("----------");
 
-        ItemIterator weaponIterator = chest.iterator(ItemType.WEAPON);
-        while (weaponIterator.hasNext()) {
-            System.out.println(weaponIterator.next());
-        }
 
-        System.out.println("----------");
-
-        ItemIterator it = chest.iterator(ItemType.ANY);
+        ItemIterator it = chest.iterator(ItemType.DOMESTIC_APPLIANCE);
         while (it.hasNext()) {
             System.out.println(it.next());
         }
+
     }
 }

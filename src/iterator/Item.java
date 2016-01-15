@@ -1,21 +1,23 @@
 package iterator;
 
+import factoryMethod.Appliance;
+
 /**
  *
  * Created by Michael on 1/15/2016.
  */
 public class Item {
     private ItemType type;
-    private String name;
+    private Appliance appliance;
 
-    public Item(ItemType type, String name) {
+    public Item(ItemType type, Appliance appliance) {
         this.setType(type);
-        this.name = name;
+        this.appliance = appliance;
     }
 
     @Override
     public String toString() {
-        return name;
+        return appliance.getName();
     }
 
     public ItemType getType() {

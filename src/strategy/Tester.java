@@ -1,5 +1,9 @@
 package strategy;
 
+import factoryMethod.Appliance;
+import factoryMethod.ApplianceManufacturer;
+import factoryMethod.DomesticApplianceType;
+import factoryMethod.WhirlpoolFactory;
 import iterator.Item;
 import iterator.ItemIterator;
 import iterator.ItemType;
@@ -41,11 +45,19 @@ public class Tester {
 
         System.out.println("--------------------------------------------");
 
+
+        ApplianceManufacturer applianceManufacturer = new WhirlpoolFactory();
+        Appliance drier, kettle, washing_machine, toaster;
+        drier = applianceManufacturer.buildAppliance(DomesticApplianceType.DRIER);
+        kettle = applianceManufacturer.buildAppliance(DomesticApplianceType.KETTLE);
+        washing_machine = applianceManufacturer.buildAppliance(DomesticApplianceType.WASHING_MACHINE);
+        toaster = applianceManufacturer.buildAppliance(DomesticApplianceType.TOASTER);
+
         List<Item> listOfItems = new ArrayList<>();
-        Item jewelleryItem = new Item(ItemType.DOMESTIC_APPLIANCE, "Washing Machine");
-        Item otherItem = new Item(ItemType.DOMESTIC_APPLIANCE, "Fridge");
-        Item electronicsItem = new Item(ItemType.DOMESTIC_APPLIANCE, "Toaster");
-        Item domesticItem = new Item(ItemType.DOMESTIC_APPLIANCE, "Drier");
+        Item jewelleryItem = new Item(ItemType.DOMESTIC_APPLIANCE, drier);
+        Item otherItem = new Item(ItemType.DOMESTIC_APPLIANCE, kettle);
+        Item electronicsItem = new Item(ItemType.DOMESTIC_APPLIANCE, washing_machine);
+        Item domesticItem = new Item(ItemType.DOMESTIC_APPLIANCE, toaster);
 
         listOfItems.add(jewelleryItem);
         listOfItems.add(otherItem);
@@ -58,7 +70,7 @@ public class Tester {
         ItemIterator uspsIterator = deliveryItems.iterator(ItemType.DOMESTIC_APPLIANCE);
         System.out.println("DOMESTIC APPLIANCES that USPS deliver are: ");
         while (uspsIterator.hasNext()) {
-            System.out.println(uspsIterator.next());
+            System.out.println(uspsIterator.next().toString());
         }
 
         System.out.println("-------------------------------------------------");

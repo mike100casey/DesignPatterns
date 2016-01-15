@@ -3,19 +3,24 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="2" />
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/strategy/USPS.java" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\git\DesignPatterns\src\iterator\TreasureChest.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\iterator\TreasureChestItemIterator.java" afterPath="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/ApplianceManufacturer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/DomesticApplianceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/Whirlpool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/WhirlpoolFactory.java" />
+      <change type="DELETED" beforePath="C:\git\DesignPatterns\src\iterator\App.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/EngineType.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/EngineType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/App.java" afterPath="$PROJECT_DIR$/src/iterator/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/EngineType.java" afterPath="$PROJECT_DIR$/src/factory_method/EngineType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Fedex.java" afterPath="$PROJECT_DIR$/src/strategy/Fedex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/Item.java" afterPath="$PROJECT_DIR$/src/iterator/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/ItemType.java" afterPath="$PROJECT_DIR$/src/iterator/ItemType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Tester.java" afterPath="$PROJECT_DIR$/src/strategy/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/UPC.java" afterPath="$PROJECT_DIR$/src/strategy/UPC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/USPS.java" afterPath="$PROJECT_DIR$/src/strategy/USPS.java" />
@@ -42,42 +47,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/App.java">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory_method/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/ItemType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,13 +69,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fedex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fedex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67128026">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Whirlpool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factoryMethod/Whirlpool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,13 +98,33 @@
         <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UPC.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3529412">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyItemIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +137,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -149,15 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/FuelDepo.java" />
-        <option value="$PROJECT_DIR$/src/template_method/Striker.java" />
-        <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
-        <option value="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
-        <option value="$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperAdapter.java" />
-        <option value="$PROJECT_DIR$/src/decorator/IEncrypter.java" />
-        <option value="$PROJECT_DIR$/src/decorator/IEncryptor.java" />
-        <option value="$PROJECT_DIR$/src/decorator/AddNumbers.java" />
-        <option value="$PROJECT_DIR$/src/decorator/EncryptDecorator.java" />
         <option value="$PROJECT_DIR$/src/decorator/AddWord.java" />
         <option value="$PROJECT_DIR$/src/decorator/Reverse.java" />
         <option value="$PROJECT_DIR$/src/adapter/AccountAdapter.java" />
@@ -167,12 +166,10 @@
         <option value="$PROJECT_DIR$/src/factory_method/MclarenEngine.java" />
         <option value="$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperTest.java" />
         <option value="$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperSingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/factory_method/EngineType.java" />
         <option value="$PROJECT_DIR$/src/factory_method/tests/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/adapter_singleton_penalty/tests/GoalkeeperSingletonTest.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/TransactionTest.java" />
         <option value="$PROJECT_DIR$/src/strategy/tests/FedexDeliveryCalculationTest.java" />
-        <option value="$PROJECT_DIR$/src/factory_method/Tester.java" />
         <option value="$PROJECT_DIR$/src/composite/LetterCompositeTest.java" />
         <option value="$PROJECT_DIR$/src/observer/FuelDepot.java" />
         <option value="$PROJECT_DIR$/src/before/Movie.java" />
@@ -193,13 +190,24 @@
         <option value="$PROJECT_DIR$/src/iterator/TreasureChest.java" />
         <option value="$PROJECT_DIR$/src/iterator/TreasureChestItemIterator.java" />
         <option value="$PROJECT_DIR$/src/iterator/App.java" />
-        <option value="$PROJECT_DIR$/src/iterator/Item.java" />
         <option value="$PROJECT_DIR$/src/iterator/ItemType.java" />
-        <option value="$PROJECT_DIR$/src/strategy/UPC.java" />
-        <option value="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
-        <option value="$PROJECT_DIR$/src/strategy/USPS.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/DomesticAppliance.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/DomesticAppliancTypee.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/DomesticAppliancType.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/ApplianceManufacter.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/ApplianceManufacturer.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/WhirlpoolFactory.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/EngineType.java" />
+        <option value="$PROJECT_DIR$/src/factory_method/Tester.java" />
+        <option value="$PROJECT_DIR$/src/iterator/Item.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/DomesticApplianceType.java" />
         <option value="$PROJECT_DIR$/src/strategy/Tester.java" />
+        <option value="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
+        <option value="$PROJECT_DIR$/src/factoryMethod/Whirlpool.java" />
         <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
+        <option value="$PROJECT_DIR$/src/strategy/USPS.java" />
+        <option value="$PROJECT_DIR$/src/strategy/UPC.java" />
       </list>
     </option>
   </component>
@@ -333,7 +341,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="factoryMethod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,13 +773,7 @@
       <workItem from="1452695560131" duration="14342000" />
       <workItem from="1452770075227" duration="10425000" />
       <workItem from="1452791116450" duration="5651000" />
-      <workItem from="1452860172813" duration="8461000" />
-    </task>
-    <task id="LOCAL-00021" summary="Created pull method in interface and implemented interface for each of the states">
-      <created>1448482980750</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1448482980750</updated>
+      <workItem from="1452860172813" duration="13276000" />
     </task>
     <task id="LOCAL-00022" summary="Created set fan state method in ceiling fan class">
       <created>1448483153823</created>
@@ -1043,11 +1063,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452859703852</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="created iterator in tester strategy package">
+      <created>1452880812621</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1452880812645</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129365000" />
+    <option name="totallyTimeSpent" value="134180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -1055,17 +1081,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3188406" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29765886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17593583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1078,7 +1105,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1093,7 +1119,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created volkswagen, vw engine class" />
     <MESSAGE value="Created tester for the factory method" />
     <MESSAGE value="Created mclaren garage and mclaren engine classes" />
     <MESSAGE value="Updated engineclasses and tester" />
@@ -1118,7 +1143,8 @@
     <MESSAGE value="Created test classes in factory and adapter. removed unused code" />
     <MESSAGE value="Added iterator package and updated read me file" />
     <MESSAGE value="created iterator classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created iterator classes" />
+    <MESSAGE value="created iterator in tester strategy package" />
+    <option name="LAST_COMMIT_MESSAGE" value="created iterator in tester strategy package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1131,55 +1157,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/template_method/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/DeliverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06719368">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16798419">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/Striker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/Defender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template_method/PenaltyTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17708333">
@@ -1264,45 +1241,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13773148">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03935185">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53125">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter_singleton_penalty/Goalkeeper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09837963">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/VolkswagenGarage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1328,13 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11805555">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_method/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1381,6 +1316,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4180328">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,14 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/ItemIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19675925">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/composite/CompositeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059027776">
@@ -1497,70 +1425,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
+    <entry file="uml://JAVA/factory_method">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory_method</OriginalElement>
+          <nodes>
+            <node x="460.875" y="251.0">factory_method.VolkswagenGarage</node>
+            <node x="0.0" y="112.0">factory_method.MclarenEngine</node>
+            <node x="651.0" y="0.0">factory_method.EngineType</node>
+            <node x="284.0" y="125.5">factory_method.EngineManufacturer</node>
+            <node x="196.875" y="363.0">factory_method.Tester</node>
+            <node x="601.125" y="376.5">factory_method.tests</node>
+            <node x="573.0" y="112.0">factory_method.VW_Engine</node>
+            <node x="107.125" y="251.0">factory_method.MclarenGarage</node>
+            <node x="5.0" y="0.0">factory_method.Engine</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="factory_method.VolkswagenGarage" target="factory_method.VW_Engine">
+              <point x="67.25" y="-31.0" />
+              <point x="662.625" y="226.0" />
+              <point x="705.0" y="226.0" />
+              <point x="0.0" y="44.5" />
+            </edge>
+            <edge source="factory_method.VW_Engine" target="factory_method.Engine">
+              <point x="-66.0" y="-44.5" />
+              <point x="639.0" y="82.0" />
+              <point x="188.0" y="82.0" />
+              <point x="61.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.Tester" target="factory_method.VolkswagenGarage">
+              <point x="44.75" y="-31.0" />
+              <point x="331.125" y="338.0" />
+              <point x="528.125" y="338.0" />
+              <point x="-67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.VolkswagenGarage" target="factory_method.EngineManufacturer">
+              <point x="-67.25" y="-31.0" />
+              <point x="528.125" y="226.0" />
+              <point x="485.75" y="226.0" />
+              <point x="67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenEngine" target="factory_method.Engine">
+              <point x="-66.0" y="-44.5" />
+              <point x="-61.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.Tester" target="factory_method.MclarenGarage">
+              <point x="-44.75" y="-31.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenGarage" target="factory_method.MclarenEngine">
+              <point x="-67.25" y="-31.0" />
+              <point x="174.375" y="226.0" />
+              <point x="132.0" y="226.0" />
+              <point x="0.0" y="44.5" />
+            </edge>
+            <edge source="factory_method.tests" target="factory_method.VolkswagenGarage">
+              <point x="0.0" y="-17.5" />
+              <point x="67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenGarage" target="factory_method.EngineManufacturer">
+              <point x="67.25" y="-31.0" />
+              <point x="308.875" y="226.0" />
+              <point x="351.25" y="226.0" />
+              <point x="-67.25" y="31.0" />
+            </edge>
+            <edge source="factory_method.VW_Engine" target="factory_method.EngineType">
+              <point x="66.0" y="-44.5" />
+              <point x="40.0" y="31.0" />
+            </edge>
+            <edge source="factory_method.MclarenEngine" target="factory_method.EngineType">
+              <point x="66.0" y="-44.5" />
+              <point x="198.0" y="92.0" />
+              <point x="691.0" y="92.0" />
+              <point x="-40.0" y="31.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-331.5" y="4.0" />
+          <SelectedNodes>
+            <node>factory_method.MclarenGarage</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1574074">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+          <folding>
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/App.java">
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineManufacturer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/ApplianceManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/VW_Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41319445">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/VolkswagenGarage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/EngineType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27546296">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/MclarenGarage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1574074">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/WhirlpoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/ItemIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19675925">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory_method/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/ItemType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11805555">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Appliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/ItemType.java">
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/DomesticApplianceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.113902844">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Whirlpool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1568,7 +1692,7 @@
     <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1577,11 +1701,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67128026">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3529412">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -30,7 +30,7 @@ public class Fedex extends Observer implements IShipment  {
 
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
-        final double COST_PER_MILE = 0.55f;
+        final double COST_PER_MILE = 0.05f;
         final double COST_PER_KG = 0.25f;
         final double OVERNIGHT_CHARGE = 2f;
 

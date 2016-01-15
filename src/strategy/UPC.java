@@ -10,7 +10,7 @@ public class UPC implements IShipment {
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
         final double FUEL_PRICE = 1.40;
-        final double COST_PER_MILE = 0.40;
+        final double COST_PER_MILE = 0.20;
         final double COST_PER_KG = 0.30;
         final double OVERNIGHT_CHARGE = 1.75;
 

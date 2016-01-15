@@ -13,8 +13,9 @@ public enum EngineType {
         this.title = title;
     }
 
-    @Override
-    public String toString(){
+    String getTitle(){
         return title;
     }
+
+
 }

@@ -1,6 +1,10 @@
 package strategy;
 
 
+import iterator.ItemIterator;
+import iterator.Item;
+import iterator.Iterator;
+import iterator.ItemType;
 import observer.FuelDepot;
 
 /**
@@ -13,9 +17,12 @@ public class Tester {
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = 1;
 
-        FuelDepot fuelDepot = new FuelDepot();
+        Item item = new Item(ItemType.BOOK);
 
-        DeliveryItem fedexDelivery = new DeliveryItem(new Fedex(fuelDepot));
+        FuelDepot fuelDepot = new FuelDepot();
+        Fedex fedex = new Fedex(fuelDepot);
+
+        DeliveryItem fedexDelivery = new DeliveryItem(fedex);
         fuelDepot.setState(1.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getState() + "\n");
 

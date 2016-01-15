@@ -1,10 +1,6 @@
 package strategy;
 
 
-import iterator.ItemIterator;
-import iterator.Item;
-import iterator.Iterator;
-import iterator.ItemType;
 import observer.FuelDepot;
 
 /**
@@ -16,8 +12,6 @@ public class Tester {
 
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = 1;
-
-        Item item = new Item(ItemType.BOOK);
 
         FuelDepot fuelDepot = new FuelDepot();
         Fedex fedex = new Fedex(fuelDepot);

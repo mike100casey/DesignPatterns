@@ -1,14 +1,7 @@
 package strategy;
 
-import iterator.ItemIterator;
-import iterator.Item;
-import iterator.Iterator;
-import iterator.ItemType;
 import observer.FuelDepot;
 import observer.Observer;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Michael on 11/18/2015.

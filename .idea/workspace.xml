@@ -8,20 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/ApplianceManufacturer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/DomesticApplianceType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/Whirlpool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factoryMethod/WhirlpoolFactory.java" />
-      <change type="DELETED" beforePath="C:\git\DesignPatterns\src\iterator\App.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/EngineType.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/factory_method/EngineType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Tester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/IShipment.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/IShipment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory_method/EngineType.java" afterPath="$PROJECT_DIR$/src/factory_method/EngineType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" afterPath="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Fedex.java" afterPath="$PROJECT_DIR$/src/strategy/Fedex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/Item.java" afterPath="$PROJECT_DIR$/src/iterator/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Tester.java" afterPath="$PROJECT_DIR$/src/strategy/Tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/IShipment.java" afterPath="$PROJECT_DIR$/src/strategy/IShipment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/UPC.java" afterPath="$PROJECT_DIR$/src/strategy/UPC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/USPS.java" afterPath="$PROJECT_DIR$/src/strategy/USPS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -57,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.43598616">
+              <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,60 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fedex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
+      <file leaf-file-name="IShipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Whirlpool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/factoryMethod/Whirlpool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="USPS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UPC.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3529412">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyItemIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/decorator/AddWord.java" />
         <option value="$PROJECT_DIR$/src/decorator/Reverse.java" />
         <option value="$PROJECT_DIR$/src/adapter/AccountAdapter.java" />
         <option value="$PROJECT_DIR$/src/adapter/OffShoreAccount.java" />
@@ -203,11 +148,12 @@
         <option value="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/DomesticApplianceType.java" />
         <option value="$PROJECT_DIR$/src/strategy/Tester.java" />
-        <option value="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/Whirlpool.java" />
-        <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
+        <option value="$PROJECT_DIR$/src/strategy/IShipment.java" />
         <option value="$PROJECT_DIR$/src/strategy/USPS.java" />
+        <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
         <option value="$PROJECT_DIR$/src/strategy/UPC.java" />
+        <option value="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
       </list>
     </option>
   </component>
@@ -773,13 +719,7 @@
       <workItem from="1452695560131" duration="14342000" />
       <workItem from="1452770075227" duration="10425000" />
       <workItem from="1452791116450" duration="5651000" />
-      <workItem from="1452860172813" duration="13276000" />
-    </task>
-    <task id="LOCAL-00022" summary="Created set fan state method in ceiling fan class">
-      <created>1448483153823</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1448483153823</updated>
+      <workItem from="1452860172813" duration="13588000" />
     </task>
     <task id="LOCAL-00023" summary="Set the new fan state in the state classes, removed the if statements in pull method, in ceiling fan class">
       <created>1448483536641</created>
@@ -1069,11 +1009,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452880812645</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Created factory method to create appliances">
+      <created>1452886878009</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1452886878009</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134180000" />
+    <option name="totallyTimeSpent" value="134492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -1119,7 +1065,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created tester for the factory method" />
     <MESSAGE value="Created mclaren garage and mclaren engine classes" />
     <MESSAGE value="Updated engineclasses and tester" />
     <MESSAGE value="renamed pattern package and retune empty string in the mclaren engine class" />
@@ -1144,7 +1089,8 @@
     <MESSAGE value="Added iterator package and updated read me file" />
     <MESSAGE value="created iterator classes" />
     <MESSAGE value="created iterator in tester strategy package" />
-    <option name="LAST_COMMIT_MESSAGE" value="created iterator in tester strategy package" />
+    <MESSAGE value="Created factory method to create appliances" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created factory method to create appliances" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1157,13 +1103,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adapter_singleton_penalty/GoalkeeperAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17708333">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13773148">
@@ -1668,19 +1607,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factoryMethod/Whirlpool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5115741">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#463#464#0" expanded="true" />
@@ -1689,30 +1618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.8425926">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
@@ -1723,9 +1632,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3529412">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.7083333">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.724537">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09490741">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43598616">
+          <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,10 @@
 package strategy;
 
+import iterator.Item;
 import observer.FuelDepot;
 import observer.Observer;
+
+import java.util.List;
 
 /**
  *
@@ -43,6 +46,11 @@ public class Fedex extends Observer implements IShipment  {
                 deliveryPrice = (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
         }
         return Math.round(deliveryPrice * 100.0) / 100.0;
+    }
+
+    @Override
+    public List<Item> getItems() {
+        return null;
     }
 
     @Override

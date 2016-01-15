@@ -1,6 +1,6 @@
 package iterator;
 
-import strategy.USPS;
+import strategy.IShipment;
 
 import java.util.List;
 
@@ -10,15 +10,15 @@ import java.util.List;
  */
 public class CompanyItemIterator implements ItemIterator {
 
-    private USPS uspsDeliveries;
+    private IShipment companyDeliveries;
     private int index;
     private ItemType type;
 
     /**
      * Constructor
      */
-    public CompanyItemIterator(USPS uspsDeliveries, ItemType type) {
-        this.uspsDeliveries = uspsDeliveries;
+    public CompanyItemIterator(IShipment companyDeliveries, ItemType type) {
+        this.companyDeliveries = companyDeliveries;
         this.type = type;
         this.index = -1;
     }
@@ -32,14 +32,14 @@ public class CompanyItemIterator implements ItemIterator {
     public Item next() {
         index = findNextIndex();
         if (index != -1) {
-            return uspsDeliveries.getItems().get(index);
+            return companyDeliveries.getItems().get(index);
         }
         return null;
     }
 
     private int findNextIndex() {
 
-        List<Item> items = uspsDeliveries.getItems();
+        List<Item> items = companyDeliveries.getItems();
         boolean found = false;
         int tempIndex = index;
         while (!found) {

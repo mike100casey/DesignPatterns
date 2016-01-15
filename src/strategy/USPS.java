@@ -48,5 +48,4 @@ public class USPS implements IShipment {
         return Math.round(deliveryPrice * 100.0) / 100.0;
     }
 
-
 }

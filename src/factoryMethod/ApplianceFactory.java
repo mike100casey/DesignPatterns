@@ -8,5 +8,5 @@ import iterator.ItemType;
  */
 public interface ApplianceFactory {
 
-    DomesticAppliances[] buildAppliance(ItemType type);
+    Appliance[] buildAppliance(ItemType type);
 }

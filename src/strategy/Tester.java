@@ -1,7 +1,7 @@
 package strategy;
 
+import factoryMethod.Appliance;
 import factoryMethod.ApplianceFactory;
-import factoryMethod.DomesticAppliances;
 import factoryMethod.LocalFactory;
 import iterator.Item;
 import iterator.ItemIterator;
@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
- *
  * Created by Michael on 11/18/2015.
  */
 public class Tester {
@@ -54,15 +53,19 @@ public class Tester {
         System.out.println("\n----------- ITERATOR + FACTORY -----------\n");
 
         ApplianceFactory applianceFactory = new LocalFactory();
-        DomesticAppliances[] appliances = applianceFactory.buildAppliance(ItemType.DOMESTIC_APPLIANCE);
+        Appliance[] domesticAppliances = applianceFactory.buildAppliance(ItemType.DOMESTIC_APPLIANCE);
+        Appliance[] electonicAppliances = applianceFactory.buildAppliance(ItemType.ELECTRONICS);
 
-        String washing_machine = "", drier = "", toaster = "", kettle = "";
+        String washing_machine = "";
+        String drier = "";
+        String toaster = "";
+        String kettle = "";
 
-        for (DomesticAppliances dir : appliances) {
-            washing_machine = String.valueOf(dir.values()[0].getName());
-            drier = String.valueOf(dir.values()[1].getName());
-            toaster = String.valueOf(dir.values()[2].getName());
-            kettle = String.valueOf(dir.values()[3].getName());
+        for (Appliance dir : domesticAppliances) {
+            washing_machine = String.valueOf(dir.getName(0));
+            drier = String.valueOf(dir.getName(1));
+            toaster = String.valueOf(dir.getName(2));
+            kettle = String.valueOf(dir.getName(3));
         }
 
         List<Item> listOfItems = new ArrayList<>();

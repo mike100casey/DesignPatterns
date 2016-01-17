@@ -4,7 +4,7 @@ package factoryMethod;
  *
  * Created by Michael on 1/17/2016.
  */
-public enum ElectronicAppliance {
+public enum ElectronicAppliance implements Appliance {
 
     CD_PLAYER("Personal Stereo"), SMART_PHONE("Apple"), TELEVISION("Smart TV"), Printer("Printer Scanner");
 
@@ -14,7 +14,9 @@ public enum ElectronicAppliance {
         this.title = title;
     }
 
-    public String getName() {
-        return title;
+    @Override
+    public Appliance getName(int index){
+        return DomesticAppliances.values()[index];
     }
+
 }

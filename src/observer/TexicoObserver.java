@@ -7,7 +7,7 @@ public class TexicoObserver extends Observer {
 
     public TexicoObserver(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
-        this.fuelDepot.attach(this);
+        this.fuelDepot.addObserver(this);
     }
 
     @Override

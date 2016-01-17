@@ -12,6 +12,7 @@ import observer.FuelDepot;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.TreeMap;
 
 /**
  * Created by Michael on 11/18/2015.
@@ -20,31 +21,38 @@ public class Tester {
 
     public static void main(String[] args) {
 
+        System.out.println("----------- STRATEGY + OBSERVER -----------\n");
         final double DELIVERY_DISTANCE = 50;
-        final double PARCEL_SIZE = ItemType.DOMESTIC_APPLIANCE.index();
+        final double PARCEL_SIZE = ItemType.ELECTRONICS.index();
+
+        TreeMap<Double, String> priceSortMap = new TreeMap<>();
 
         FuelDepot fuelDepot = new FuelDepot();
+
         Fedex fedex = Fedex.fedexObserver(fuelDepot);
+        UPC upc = UPC.upcObserver(fuelDepot);
+        USPS usps = new USPS();
+
+        fuelDepot.setState(1.0f);
+        System.out.println("Fuel price at depot is: " + fuelDepot.getState());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
-        fuelDepot.setState(1.0f);
-        System.out.println("Fuel price at depot is: " + fuelDepot.getState() + "\n");
-
         double fedexPrice = fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        priceSortMap.put(fedexPrice, fedex.toString());
 
-        DeliveryItem upcDelivery = new DeliveryItem(new UPC());
+        DeliveryItem upcDelivery = new DeliveryItem(upc);
         double upcPrice = upcDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        priceSortMap.put(upcPrice, upc.toString());
 
-        DeliveryItem uspsDelivery = new DeliveryItem(new USPS());
+        DeliveryItem uspsDelivery = new DeliveryItem(usps);
         double uspsPrice = uspsDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        priceSortMap.put(uspsPrice, usps.toString());
 
-        System.out.println("To deliver a " + ItemType.DOMESTIC_APPLIANCE.name() +
-                "\nFedex Charge: " + fedexPrice + " Euros" +
-                "\nUPS Charge " + upcPrice + " Euros" +
-                "\nUSPS Charge " + uspsPrice + " Euros");
+        System.out.println(priceSortMap.firstEntry().getValue() + " is the cheapest at: "
+                + priceSortMap.firstEntry().getKey() + " Euro, " +
+                "To deliver a " + ItemType.DOMESTIC_APPLIANCE.name());
 
-        System.out.println("--------------------------------------------");
-
+        System.out.println("\n----------- ITERATOR + FACTORY -----------\n");
 
         ApplianceManufacturer applianceManufacturer = new WhirlpoolFactory();
         Appliance drier, kettle, washing_machine, toaster;
@@ -81,6 +89,4 @@ public class Tester {
         }
 
     }
-
-
 }

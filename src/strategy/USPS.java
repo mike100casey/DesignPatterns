@@ -16,23 +16,9 @@ public class USPS implements IShipment {
 
     private List<Item> items;
 
-    public ItemIterator iterator(ItemType itemType) {
-        return new CompanyItemIterator(this, itemType);
-    }
-
-    public void addItems(List<Item> myList) {
-        items = myList;
-    }
-
-    public List<Item> getItems() {
-        ArrayList<Item> list = new ArrayList<>();
-        list.addAll(items);
-        return list;
-    }
-
     @Override
     public double calculate(double miles, double weight, DeliverType deliveryType) {
-        final double FUEL_PRICE = 1.70;
+        final double FUEL_PRICE = 1.0f;
         final double COST_PER_MILE = 0.10;
         final double COST_PER_KG = 0.10;
         final double OVERNIGHT_CHARGE = 1.75;
@@ -48,4 +34,22 @@ public class USPS implements IShipment {
         return Math.round(deliveryPrice * 100.0) / 100.0;
     }
 
+    public ItemIterator iterator(ItemType itemType) {
+        return new CompanyItemIterator(this, itemType);
+    }
+
+    public void addItems(List<Item> myList) {
+        items = myList;
+    }
+
+    public List<Item> getItems() {
+        ArrayList<Item> list = new ArrayList<>();
+        list.addAll(items);
+        return list;
+    }
+
+    @Override
+    public String toString(){
+        return "USPS";
+    }
 }

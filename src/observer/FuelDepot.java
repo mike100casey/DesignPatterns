@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
  * Created by Michael on 11/18/2015.
  */
 public class FuelDepot {
@@ -18,7 +19,7 @@ public class FuelDepot {
         this.state = state;
         notifyAllObservers();
     }
-    public void attach(Observer observer) {
+    public void addObserver(Observer observer) {
         observers.add(observer);
     }
 

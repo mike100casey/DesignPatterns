@@ -16,7 +16,7 @@ public class Fedex extends Observer implements IShipment  {
 
     private Fedex(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
-        this.fuelDepot.attach(this);
+        this.fuelDepot.addObserver(this);
     }
 
     public static Fedex fedexObserver(FuelDepot fuelDepot){
@@ -58,6 +58,11 @@ public class Fedex extends Observer implements IShipment  {
         double companyMargin = 0.18f;
         setFUEL_PRICE(fuelDepot.getState() +
                 companyMargin * fuelDepot.getState());
+    }
+
+    @Override
+    public String toString(){
+        return "Fedex";
     }
 
 }

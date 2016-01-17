@@ -7,7 +7,7 @@ public class ShellObserver extends Observer {
 
     public ShellObserver(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
-        this.fuelDepot.attach(this);
+        this.fuelDepot.addObserver(this);
     }
 
     @Override

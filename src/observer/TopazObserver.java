@@ -7,7 +7,7 @@ public class TopazObserver extends Observer {
 
     public TopazObserver(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
-        this.fuelDepot.attach(this);
+        this.fuelDepot.addObserver(this);
     }
 
     @Override

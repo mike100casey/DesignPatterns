@@ -1,11 +1,12 @@
 package factoryMethod;
 
 /**
+ *
  * Created by Michael on 1/15/2016.
  */
 public class Whirlpool implements Appliance {
 
-    DomesticApplianceType domesticApplianceType;
+    private DomesticApplianceType domesticApplianceType;
 
     public Whirlpool(DomesticApplianceType domesticApplianceType) {
         this.domesticApplianceType = domesticApplianceType;

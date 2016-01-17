@@ -17,6 +17,10 @@ public enum ItemType {
     public int index() {
         return index;
     }
+
+    public String getName(){
+        return ItemType.DOMESTIC_APPLIANCE.getName();
+    }
 }
 
 

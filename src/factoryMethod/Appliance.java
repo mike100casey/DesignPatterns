@@ -6,6 +6,6 @@ package factoryMethod;
  */
 public interface Appliance {
     
-    DomesticApplianceType getDomesticApplianceType();
+    DomesticAppliances getApplianceType();
     String getName();
 }

@@ -8,8 +8,6 @@ import factoryMethod.Appliance;
  */
 public class Audio extends ApplianceDecorator {
 
-    private String title;
-
     public Audio(Appliance appliance) {
         super(appliance);
     }

@@ -6,20 +6,19 @@ import factoryMethod.Appliance;
  *
  * Created by Michael on 1/18/2016.
  */
-public class Headphones extends ApplianceDecorator {
+public class Charger extends ApplianceDecorator {
 
-    public Headphones(Appliance appliance) {
+    public Charger(Appliance appliance) {
         super(appliance);
     }
 
     @Override
     public Appliance getName(int index) {
-        return HeadphoneEnum.HEADPHONES;
+        return ChargerEnum.CHARGER_CASE;
     }
 
     @Override
     public String getTitle (){
-        return appliance.getTitle() + " with " + HeadphoneEnum.values()[0].getTitle();
+        return appliance.getTitle() + " with " + ChargerEnum.values()[0].getTitle();
     }
 }
-

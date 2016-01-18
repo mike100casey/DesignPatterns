@@ -3,22 +3,21 @@ package applianceDecorator;
 import factoryMethod.Appliance;
 
 /**
- *
  * Created by Michael on 1/18/2016.
  */
-public enum HeadphoneEnum implements Appliance {
+public enum ChargerEnum implements Appliance {
 
-    HEADPHONES("Beats Headphones");
+    CHARGER_CASE("Charging Case");
 
     private final String title;
 
-    HeadphoneEnum(String title) {
+    ChargerEnum(String title) {
         this.title = title;
     }
 
     @Override
     public Appliance getName(int index){
-        return HeadphoneEnum.values()[index];
+        return ChargerEnum.values()[index];
     }
 
     @Override

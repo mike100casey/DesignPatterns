@@ -8,5 +8,6 @@ import iterator.ItemType;
  */
 public interface ApplianceFactory {
 
-    Appliance[] buildAppliance(ItemType type);
+    Appliance[] buildAppliances(ItemType type);
+    Appliance buildAppliance(Appliance type);
 }

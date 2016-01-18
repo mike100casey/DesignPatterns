@@ -1,6 +1,7 @@
 package strategy;
 
 import applianceDecorator.Audio;
+import applianceDecorator.Charger;
 import applianceDecorator.HeadphoneEnum;
 import applianceDecorator.Headphones;
 import factoryMethod.Appliance;
@@ -58,8 +59,8 @@ public class Tester {
         System.out.println("\n----------- ITERATOR + FACTORY -----------\n");
 
         ApplianceFactory applianceFactory = new LocalFactory();
-        Appliance[] domesticAppliances = applianceFactory.buildAppliance(ItemType.DOMESTIC_APPLIANCE);
-        Appliance[] electonicAppliances = applianceFactory.buildAppliance(ItemType.ELECTRONICS);
+        Appliance[] domesticAppliances = applianceFactory.buildAppliances(ItemType.DOMESTIC_APPLIANCE);
+        Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
 
         String washing_machine = "";
         String drier = "";
@@ -93,8 +94,9 @@ public class Tester {
             System.out.println(uspsIterator.next().getName());
         }
 
-        Appliance appliance1 = new Audio(new Headphones(ElectronicAppliance.SMART_PHONE));
+        System.out.println("\n----------- DECORATOR -----------\n");
 
+        Appliance appliance1 = new Charger(new Headphones(smartPhone));
         System.out.println(appliance1.getTitle());
 
 //        System.out.println("-------------------------------------------------");

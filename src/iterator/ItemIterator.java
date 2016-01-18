@@ -1,7 +1,5 @@
 package iterator;
 
-import composite.Word;
-
 /**
  * Created by Michael on 1/14/2016.
  */

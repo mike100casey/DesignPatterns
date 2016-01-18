@@ -1,4 +1,4 @@
-package adapter;
+package st_adapter;
 
 /**
  * Created by Michael on 11/23/2015.

@@ -1,6 +1,6 @@
 ---
 title: Decorator
-package: decorator
+package: st_decorator
 categories: Structural
              
 ---

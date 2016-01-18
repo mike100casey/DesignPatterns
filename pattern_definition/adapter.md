@@ -1,6 +1,6 @@
 ---
 title: Adapter
-package: adapter
+package: stand_alone_patterns.a.st_adapter
 categories: Structural
 
 ---

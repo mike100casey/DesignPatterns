@@ -1,7 +1,6 @@
-package applianceDecorator;
+package decorator;
 
 import factoryMethod.Appliance;
-import factoryMethod.ElectronicAppliance;
 
 /**
  * Created by Michael on 1/18/2016.

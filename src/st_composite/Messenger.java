@@ -1,4 +1,4 @@
-package composite;
+package st_composite;
 
 import java.util.ArrayList;
 import java.util.Arrays;

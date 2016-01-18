@@ -1,9 +1,7 @@
 package strategy;
 
-import applianceDecorator.Audio;
-import applianceDecorator.Charger;
-import applianceDecorator.HeadphoneEnum;
-import applianceDecorator.Headphones;
+import decorator.Charger;
+import decorator.Headphones;
 import factoryMethod.Appliance;
 import factoryMethod.ApplianceFactory;
 import factoryMethod.ElectronicAppliance;
@@ -14,7 +12,6 @@ import iterator.ItemType;
 import observer.FuelDepot;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 

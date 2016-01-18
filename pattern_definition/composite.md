@@ -1,6 +1,6 @@
 ---
 title: Composite
-package: composite
+package: st_composite
 categories: Structural
 
 ---
@@ -14,7 +14,7 @@ of objects uniformly.
 **Applicability:** Use the Composite pattern when:
  
 * you want to represent part-whole hierarchies of objects
-* you want clients to be able to ignore the difference between compositions of objects and individual objects. Clients will treat all objects in the composite structure uniformly
+* you want clients to be able to ignore the difference between compositions of objects and individual objects. Clients will treat all objects in the st_composite structure uniformly
 
 **Examples:**
 

@@ -1,4 +1,4 @@
-package composite;
+package st_composite;
 
 import java.util.List;
 
@@ -7,21 +7,21 @@ import java.util.List;
  * <h2>H2 Title</h2>
  * Created by Michael on 11/26/2015.
  */
-public class Word extends LetterComposite {
+public class Sentence extends LetterComposite {
 
-    public Word(List<Letter> letters) {
-        for(Letter letter: letters){
-            this.add(letter);
+    public Sentence(List<Word> words) {
+        for(Word word: words){
+            this.add(word);
         }
     }
 
     @Override
     protected void printBefore() {
-        System.out.println(" ");
+
     }
 
     @Override
     protected void printAfter() {
-
+        System.out.println(".");
     }
 }

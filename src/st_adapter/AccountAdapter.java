@@ -1,6 +1,4 @@
-package adapter;
-
-import adapter.OffShoreAccount;
+package st_adapter;
 
 /**
  * Created by Michael on 11/23/2015.

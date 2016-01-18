@@ -1,4 +1,4 @@
-package composite;
+package st_composite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,7 @@ public abstract class LetterComposite {
 
     public void print(){
         printBefore();
-        message.forEach(composite.LetterComposite::print);
+        message.forEach(st_composite.LetterComposite::print);
         printAfter();
     }
 }

@@ -1,4 +1,4 @@
-package composite;
+package st_composite;
 
 /**
  * ## H1 Title

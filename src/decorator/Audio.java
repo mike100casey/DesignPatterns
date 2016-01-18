@@ -1,4 +1,4 @@
-package applianceDecorator;
+package decorator;
 
 import factoryMethod.Appliance;
 

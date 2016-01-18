@@ -1,4 +1,4 @@
-package decorator;
+package st_decorator;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -16,7 +16,11 @@ public enum ElectronicAppliance implements Appliance {
 
     @Override
     public Appliance getName(int index){
-        return DomesticAppliances.values()[index];
+        return ElectronicAppliance.values()[index];
     }
 
+    @Override
+    public String getTitle (){
+        return title;
+    }
 }

@@ -19,4 +19,9 @@ public enum DomesticAppliances implements Appliance {
         return DomesticAppliances.values()[index];
     }
 
+    @Override
+    public String getTitle (){
+        return title;
+    }
+
 }

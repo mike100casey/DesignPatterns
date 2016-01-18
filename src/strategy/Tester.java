@@ -1,7 +1,11 @@
 package strategy;
 
+import applianceDecorator.Audio;
+import applianceDecorator.HeadphoneEnum;
+import applianceDecorator.Headphones;
 import factoryMethod.Appliance;
 import factoryMethod.ApplianceFactory;
+import factoryMethod.ElectronicAppliance;
 import factoryMethod.LocalFactory;
 import iterator.Item;
 import iterator.ItemIterator;
@@ -89,12 +93,16 @@ public class Tester {
             System.out.println(uspsIterator.next().getName());
         }
 
-        System.out.println("-------------------------------------------------");
-        List<ItemType> enumList = Arrays.asList(ItemType.values());
-        for (int i = 0; i < enumList.size(); i++) {
-            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
-                    + " euro, to deliver " + enumList.get(i).name());
-        }
+        Appliance appliance1 = new Audio(new Headphones(ElectronicAppliance.SMART_PHONE));
+
+        System.out.println(appliance1.getTitle());
+
+//        System.out.println("-------------------------------------------------");
+//        List<ItemType> enumList = Arrays.asList(ItemType.values());
+//        for (int i = 0; i < enumList.size(); i++) {
+//            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
+//                    + " euro, to deliver " + enumList.get(i).name());
+//        }
 
     }
 }

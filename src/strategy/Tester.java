@@ -9,6 +9,7 @@ import iterator.ItemType;
 import observer.FuelDepot;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -31,7 +32,7 @@ public class Tester {
         UPC upc = UPC.upcObserver(fuelDepot);
         USPS usps = new USPS();
 
-        fuelDepot.setState(1.0f);
+        fuelDepot.setState(2.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getState());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
@@ -87,13 +88,13 @@ public class Tester {
         while (uspsIterator.hasNext()) {
             System.out.println(uspsIterator.next().getName());
         }
-//
-//        System.out.println("-------------------------------------------------");
-//        List<ItemType> enumList = Arrays.asList(ItemType.values());
-//        for (int i = 0; i < enumList.size(); i++) {
-//            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
-//                    + " euro, to deliver " + enumList.get(i).name());
-//        }
+
+        System.out.println("-------------------------------------------------");
+        List<ItemType> enumList = Arrays.asList(ItemType.values());
+        for (int i = 0; i < enumList.size(); i++) {
+            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
+                    + " euro, to deliver " + enumList.get(i).name());
+        }
 
     }
 }

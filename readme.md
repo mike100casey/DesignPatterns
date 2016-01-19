@@ -13,6 +13,6 @@ Contains all code for **Design Patterns CA**, patterns implemented were:
 All package starting with "st" are stand alone design patterns with individual tester classes.
 ***
 > For the purpose of this CA,  
-the 1.**template method**, the 2.**adapter** and the 3.**singleton** work together and  
-strategy, observer, iterator, factory method and decorator work together.
+The **template method**, **adapter** and **singleton** work together and  
+The **strategy**, **observer**, **iterator**, **factory method** and **decorator** work together.
 

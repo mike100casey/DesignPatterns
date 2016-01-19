@@ -6,7 +6,9 @@ package st_adapter;
 public class OffShoreAccount {
     private double balance;
 
-    /** The tax for the country where the account is */
+    /**
+     * The tax for the country where the account is
+     */
     private final double TAX_RATE = 0.04;
 
     public OffShoreAccount(double balance) {
@@ -21,7 +23,7 @@ public class OffShoreAccount {
         return balance;
     }
 
-    public void debit( double debit) {
+    public void debit(double debit) {
         if (balance >= debit) {
             balance -= debit;
         }

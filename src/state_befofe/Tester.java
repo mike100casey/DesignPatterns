@@ -12,11 +12,11 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        CeilingFan chain = new CeilingFan();
+        CeilingFan cord = new CeilingFan();
         while (true) {
             System.out.print("Press ");
             get_line();
-            chain.pull();
+            cord.pull();
         }
     }
 

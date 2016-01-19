@@ -32,8 +32,8 @@ public class AbstractAccount implements IAccount {
     }
 
 
-    public void printBalance(AbstractAccount abstractAccount){
-        System.out.println(abstractAccount.getClass().getSimpleName() +" Balance = " + abstractAccount.getBalance() +
-                        " Overdraft = " + abstractAccount.isOverDraftAvailable());
+    public void printBalance(AbstractAccount abstractAccount) {
+        System.out.println(abstractAccount.getClass().getSimpleName() + " Balance = " + abstractAccount.getBalance() +
+                " Overdraft = " + abstractAccount.isOverDraftAvailable());
     }
 }

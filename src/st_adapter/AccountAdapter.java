@@ -14,7 +14,7 @@ public class AccountAdapter extends AbstractAccount {
 
     public double getBalance() {
         final double taxRate = offShoreAccount.getTaxRate();
-        double grossBalance =  offShoreAccount.getOffshoreBalance();
+        double grossBalance = offShoreAccount.getOffshoreBalance();
         double taxableBalance = grossBalance * taxRate;
         return grossBalance - taxableBalance;
     }

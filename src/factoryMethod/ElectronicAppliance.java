@@ -6,7 +6,7 @@ package factoryMethod;
  */
 public enum ElectronicAppliance implements Appliance {
 
-    CD_PLAYER("Personal Stereo"), SMART_PHONE("Apple"), TELEVISION("Smart TV"), Printer("Printer Scanner");
+    CD_PLAYER("Personal Stereo"), SMART_PHONE("Apple Phone"), TELEVISION("Smart TV"), Printer("Printer Scanner");
 
     private final String title;
 

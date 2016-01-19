@@ -1,15 +1,12 @@
-package strategy;
-
+import decorator.Audio;
 import decorator.Charger;
 import decorator.Headphones;
-import factoryMethod.Appliance;
-import factoryMethod.ApplianceFactory;
-import factoryMethod.ElectronicAppliance;
-import factoryMethod.LocalFactory;
+import factoryMethod.*;
 import iterator.Item;
 import iterator.ItemIterator;
 import iterator.ItemType;
 import observer.FuelDepot;
+import strategy.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,7 +17,7 @@ import java.util.TreeMap;
  *
  * Created by Michael on 11/18/2015.
  */
-public class Tester {
+public class Strategy_Observer_Tester {
 
     public static void main(String[] args) {
 
@@ -59,7 +56,7 @@ public class Tester {
 
         ApplianceFactory applianceFactory = new LocalFactory();
         Appliance[] domesticAppliances = applianceFactory.buildAppliances(ItemType.DOMESTIC_APPLIANCE);
-        Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
+
 
         String washing_machine = "";
         String drier = "";
@@ -93,10 +90,15 @@ public class Tester {
             System.out.println(uspsIterator.next().getName());
         }
 
-        System.out.println("\n----------- DECORATOR -----------\n");
+        System.out.println("\n----------- DECORATOR + FACTORY -----------\n");
 
-        Appliance appliance1 = new Charger(new Headphones(smartPhone));
-        System.out.println(appliance1.getTitle());
+        Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
+        Appliance phoneWithGadgets = new Charger(new Headphones(smartPhone));
+        System.out.println(phoneWithGadgets.getTitle());
+
+        Appliance cdPlayer = applianceFactory.buildAppliance(ElectronicAppliance.CD_PLAYER);
+        Appliance cdPlayerWithSpeakers = new Audio(cdPlayer);
+        System.out.println(cdPlayerWithSpeakers.getTitle());
 
         System.out.println("-------------------------------------------------");
         List<ItemType> enumList = Arrays.asList(ItemType.values());

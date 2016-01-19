@@ -1,6 +1,6 @@
-package adapter_singleton_penalty.tests;
+package adapter_singleton.tests;
 
-import adapter_singleton_penalty.Goalkeeper;
+import adapter_singleton.Goalkeeper;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,4 +1,4 @@
-package adapter_singleton_penalty;
+package adapter_singleton;
 
 /**
  * Created by Michael on 12/8/2015.

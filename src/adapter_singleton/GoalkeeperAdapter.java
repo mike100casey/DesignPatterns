@@ -1,4 +1,4 @@
-package adapter_singleton_penalty;
+package adapter_singleton;
 
 import template_method.penaltyRoutine;
 

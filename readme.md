@@ -10,4 +10,9 @@ Contains all code for **Design Patterns CA**, patterns implemented were:
 * Observer
 * Command
 
-All commits with comments can be viewed on the commits page
+All package starting with "st" are stand alone design patterns with individual tester classes.
+***
+> For the purpose of this CA,  
+the template method, the adapter and the singleton work together and  
+strategy, observer, iterator, factory method and decorator work together.
+

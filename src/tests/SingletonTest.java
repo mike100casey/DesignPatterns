@@ -1,4 +1,4 @@
-package adapter_singleton.tests;
+package tests;
 
 import adapter_singleton.Goalkeeper;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  *
  * Created by Michael on 1/14/2016.
  */
-public class GoalkeeperSingletonTest {
+public class SingletonTest {
 
     /**
      * Test the singleton in a non-concurrent setting

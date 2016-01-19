@@ -1,4 +1,4 @@
-package st_factory_method.tests;
+package tests;
 
 import st_factory_method.*;
 import org.junit.Test;

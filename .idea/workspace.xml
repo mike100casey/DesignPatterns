@@ -8,11 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\adapter_singleton_penalty\Goalkeeper.java" afterPath="$PROJECT_DIR$/src/adapter_singleton/Goalkeeper.java" />
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\adapter_singleton_penalty\GoalkeeperAdapter.java" afterPath="$PROJECT_DIR$/src/adapter_singleton/GoalkeeperAdapter.java" />
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\adapter_singleton_penalty\tests\GoalkeeperSingletonTest.java" afterPath="$PROJECT_DIR$/src/adapter_singleton/tests/GoalkeeperSingletonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/Tester.java" afterPath="$PROJECT_DIR$/src/template_method/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -656,13 +651,7 @@
       <workItem from="1453125028580" duration="1609000" />
       <workItem from="1453145825194" duration="8075000" />
       <workItem from="1453194687424" duration="3696000" />
-      <workItem from="1453235594977" duration="718000" />
-    </task>
-    <task id="LOCAL-00035" summary="Created a markdown page for the strategy pattern">
-      <created>1448577102773</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1448577102773</updated>
+      <workItem from="1453235594977" duration="742000" />
     </task>
     <task id="LOCAL-00036" summary="Created a package for the template method and an abstract class for a persons daily routine">
       <created>1448739222918</created>
@@ -952,11 +941,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453235710856</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Updated read me file">
+      <created>1453236338229</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1453236338229</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165586000" />
+    <option name="totallyTimeSpent" value="165610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -1002,7 +997,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added tempalte and strategy together" />
     <MESSAGE value="added fuel depo observer to the delivery companies in the strategy pattern" />
     <MESSAGE value="update decorator to encrypt entire word" />
     <MESSAGE value="Made template method final." />
@@ -1027,7 +1021,8 @@
     <MESSAGE value="Create state before package" />
     <MESSAGE value="Create state before classes" />
     <MESSAGE value="Renamed factory package&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed factory package&#10;" />
+    <MESSAGE value="Updated read me file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated read me file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1080,15 +1075,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#1629#1630#0" expanded="false" />
+            <element signature="e#1657#1658#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1126,7 +1121,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,8 +1139,8 @@
         <state vertical-scroll-proportion="0.4525463">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1251,10 +1246,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1264,8 +1259,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="5" selection-start-line="8" selection-start-column="19" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1275,12 +1270,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#464#465#0" expanded="false" />
           </folding>
         </state>
       </provider>

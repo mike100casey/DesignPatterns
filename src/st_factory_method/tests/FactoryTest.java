@@ -1,6 +1,6 @@
-package factory_method.tests;
+package st_factory_method.tests;
 
-import factory_method.*;
+import st_factory_method.*;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

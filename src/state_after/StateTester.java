@@ -1,10 +1,11 @@
-package state;
+package state_after;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
+ *
  * Created by Michael on 11/25/2015.
  */
 public class StateTester

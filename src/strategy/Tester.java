@@ -12,10 +12,12 @@ import iterator.ItemType;
 import observer.FuelDepot;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 
 /**
+ *
  * Created by Michael on 11/18/2015.
  */
 public class Tester {
@@ -96,12 +98,12 @@ public class Tester {
         Appliance appliance1 = new Charger(new Headphones(smartPhone));
         System.out.println(appliance1.getTitle());
 
-//        System.out.println("-------------------------------------------------");
-//        List<ItemType> enumList = Arrays.asList(ItemType.values());
-//        for (int i = 0; i < enumList.size(); i++) {
-//            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
-//                    + " euro, to deliver " + enumList.get(i).name());
-//        }
+        System.out.println("-------------------------------------------------");
+        List<ItemType> enumList = Arrays.asList(ItemType.values());
+        for (int i = 0; i < enumList.size(); i++) {
+            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
+                    + " euro, to deliver " + enumList.get(i).name());
+        }
 
     }
 }

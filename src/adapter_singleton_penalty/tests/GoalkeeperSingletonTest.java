@@ -6,6 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ *
  * Created by Michael on 1/14/2016.
  */
 public class GoalkeeperSingletonTest {

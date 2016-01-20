@@ -8,22 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" afterPath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Audio.java" afterPath="$PROJECT_DIR$/src/decorator/Audio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/AudioEnum.java" afterPath="$PROJECT_DIR$/src/decorator/AudioEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Charger.java" afterPath="$PROJECT_DIR$/src/decorator/Charger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/ChargerEnum.java" afterPath="$PROJECT_DIR$/src/decorator/ChargerEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/DeliverType.java" afterPath="$PROJECT_DIR$/src/strategy/DeliverType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" afterPath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java" afterPath="$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java" afterPath="$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Fedex.java" afterPath="$PROJECT_DIR$/src/strategy/Fedex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/HeadphoneEnum.java" afterPath="$PROJECT_DIR$/src/decorator/HeadphoneEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Headphones.java" afterPath="$PROJECT_DIR$/src/decorator/Headphones.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/IShipment.java" afterPath="$PROJECT_DIR$/src/strategy/IShipment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" afterPath="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/UPC.java" afterPath="$PROJECT_DIR$/src/strategy/UPC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/USPS.java" afterPath="$PROJECT_DIR$/src/strategy/USPS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -640,13 +624,7 @@
       <workItem from="1453290810473" duration="3477000" />
       <workItem from="1453295242654" duration="565000" />
       <workItem from="1453309600280" duration="735000" />
-      <workItem from="1453320745604" duration="5777000" />
-    </task>
-    <task id="LOCAL-00042" summary="Created engine interface">
-      <created>1448810197534</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1448810197534</updated>
+      <workItem from="1453320745604" duration="5866000" />
     </task>
     <task id="LOCAL-00043" summary="Created engine manufacturer interface">
       <created>1448810343120</created>
@@ -936,11 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453326435263</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Renamed method in factory method">
+      <created>1453327616782</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1453327616783</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180929000" />
+    <option name="totallyTimeSpent" value="181018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -986,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made template method final. Added hook methods and renamed classes" />
     <MESSAGE value="Analyzed code in strategy package and applied changes&#10;" />
     <MESSAGE value="Analyzed code in template method package, adapter singleton, decorator and applied changes&#10;" />
     <MESSAGE value="Analyzed code in factory method, composite  and applied changes&#10;" />
@@ -1011,7 +994,8 @@
     <MESSAGE value="Created tests for singleton, iterator" />
     <MESSAGE value="Rename letter composite in composite class" />
     <MESSAGE value="Formatted code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted code" />
+    <MESSAGE value="Renamed method in factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed method in factory method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

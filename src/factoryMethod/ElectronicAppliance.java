@@ -15,7 +15,7 @@ public enum ElectronicAppliance implements Appliance {
     }
 
     @Override
-    public Appliance getAppliance(int index){
+    public Appliance getApplianceName(int index){
         return ElectronicAppliance.values()[index];
     }
 

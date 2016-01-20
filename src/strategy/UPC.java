@@ -36,7 +36,7 @@ public class UPC extends Observer implements IShipment {
         this.FUEL_PRICE = FUEL_PRICE;
     }
     @Override
-    public double calculate(double miles, double weight, DeliverType deliveryType) {
+    public double calculatePrice(double miles, double weight, DeliverType deliveryType) {
         final double COST_PER_MILE = 0.20f;
         final double COST_PER_KG = 0.30f;
         final double OVERNIGHT_CHARGE = 1.75f;

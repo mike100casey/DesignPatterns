@@ -8,42 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/st_composite/MessageComposite.java" />
-      <change type="DELETED" beforePath="C:\git\DesignPatterns\src\st_composite\LetterComposite.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" afterPath="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/ApplianceDecorator.java" afterPath="$PROJECT_DIR$/src/decorator/ApplianceDecorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Audio.java" afterPath="$PROJECT_DIR$/src/decorator/Audio.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/AudioEnum.java" afterPath="$PROJECT_DIR$/src/decorator/AudioEnum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Charger.java" afterPath="$PROJECT_DIR$/src/decorator/Charger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/ChargerEnum.java" afterPath="$PROJECT_DIR$/src/decorator/ChargerEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" afterPath="$PROJECT_DIR$/src/iterator/CompanyItemIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/Defender.java" afterPath="$PROJECT_DIR$/src/template_method/Defender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/DeliverType.java" afterPath="$PROJECT_DIR$/src/strategy/DeliverType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" afterPath="$PROJECT_DIR$/src/strategy/DeliveryItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java" afterPath="$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java" afterPath="$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Fedex.java" afterPath="$PROJECT_DIR$/src/strategy/Fedex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/FuelDepot.java" afterPath="$PROJECT_DIR$/src/observer/FuelDepot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter_singleton/Goalkeeper.java" afterPath="$PROJECT_DIR$/src/adapter_singleton/Goalkeeper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter_singleton/GoalkeeperAdapter.java" afterPath="$PROJECT_DIR$/src/adapter_singleton/GoalkeeperAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/HeadphoneEnum.java" afterPath="$PROJECT_DIR$/src/decorator/HeadphoneEnum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorator/Headphones.java" afterPath="$PROJECT_DIR$/src/decorator/Headphones.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/IShipment.java" afterPath="$PROJECT_DIR$/src/strategy/IShipment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/Item.java" afterPath="$PROJECT_DIR$/src/iterator/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iterator/ItemIterator.java" afterPath="$PROJECT_DIR$/src/iterator/ItemIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/st_composite/Letter.java" afterPath="$PROJECT_DIR$/src/st_composite/Letter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factoryMethod/LocalFactory.java" afterPath="$PROJECT_DIR$/src/factoryMethod/LocalFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/st_composite/Messenger.java" afterPath="$PROJECT_DIR$/src/st_composite/Messenger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="$PROJECT_DIR$/src/observer/Observer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" afterPath="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/st_composite/Sentence.java" afterPath="$PROJECT_DIR$/src/st_composite/Sentence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" afterPath="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/UPC.java" afterPath="$PROJECT_DIR$/src/strategy/UPC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/USPS.java" afterPath="$PROJECT_DIR$/src/strategy/USPS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/st_composite/Word.java" afterPath="$PROJECT_DIR$/src/st_composite/Word.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -66,126 +46,7 @@
     <favorites_list name="DesignPatterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ItemType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/ItemType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/ItemIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="USPS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fedex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="e#1547#1548#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UPC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/UPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding>
-                <element signature="e#1528#1529#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyItemIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/CompanyItemIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Headphones.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/decorator/Headphones.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44117647">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChargerEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/ChargerEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Appliance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/factoryMethod/Appliance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strategy_Observer_Tester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy_Observer_Tester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="53" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -212,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/applianceDecorator/Charger.java" />
-        <option value="$PROJECT_DIR$/src/factoryMethod/ApplianceFactory.java" />
         <option value="$PROJECT_DIR$/pattern_definition/adapter.md" />
         <option value="$PROJECT_DIR$/src/adapter/AbstractAccount.java" />
         <option value="$PROJECT_DIR$/src/state_after/Medium.java" />
@@ -244,9 +103,7 @@
         <option value="$PROJECT_DIR$/src/st_composite/LetterComposite.java" />
         <option value="$PROJECT_DIR$/src/st_composite/MessageComposite.java" />
         <option value="$PROJECT_DIR$/src/st_composite/Sentence.java" />
-        <option value="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" />
         <option value="$PROJECT_DIR$/src/observer/FuelDepot.java" />
-        <option value="$PROJECT_DIR$/src/strategy/IShipment.java" />
         <option value="$PROJECT_DIR$/src/template_method/Defender.java" />
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
         <option value="$PROJECT_DIR$/src/template_method/PenaltyTaker.java" />
@@ -260,9 +117,13 @@
         <option value="$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/LocalFactory.java" />
         <option value="$PROJECT_DIR$/src/strategy/USPS.java" />
-        <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
         <option value="$PROJECT_DIR$/src/strategy/UPC.java" />
+        <option value="$PROJECT_DIR$/src/strategy/DeliverType.java" />
+        <option value="$PROJECT_DIR$/src/strategy/DeliveryItem.java" />
+        <option value="$PROJECT_DIR$/src/strategy/IShipment.java" />
+        <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
+        <option value="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" />
       </list>
     </option>
   </component>
@@ -362,24 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -797,13 +640,7 @@
       <workItem from="1453290810473" duration="3477000" />
       <workItem from="1453295242654" duration="565000" />
       <workItem from="1453309600280" duration="735000" />
-      <workItem from="1453320745604" duration="4598000" />
-    </task>
-    <task id="LOCAL-00041" summary="Created penalty taker and tester class. Updated variable nmes">
-      <created>1448746291309</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1448746291309</updated>
+      <workItem from="1453320745604" duration="5777000" />
     </task>
     <task id="LOCAL-00042" summary="Created engine interface">
       <created>1448810197534</created>
@@ -1093,11 +930,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453294352147</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Formatted code">
+      <created>1453326435261</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1453326435263</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179750000" />
+    <option name="totallyTimeSpent" value="180929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
@@ -1105,6 +948,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1126,7 +970,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1143,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made template method final." />
     <MESSAGE value="Made template method final. Added hook methods and renamed classes" />
     <MESSAGE value="Analyzed code in strategy package and applied changes&#10;" />
     <MESSAGE value="Analyzed code in template method package, adapter singleton, decorator and applied changes&#10;" />
@@ -1168,7 +1010,8 @@
     <MESSAGE value="Updated read me file" />
     <MESSAGE value="Created tests for singleton, iterator" />
     <MESSAGE value="Rename letter composite in composite class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename letter composite in composite class" />
+    <MESSAGE value="Formatted code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1181,13 +1024,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/DecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27546296">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/adapter_singleton">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1239,14 +1075,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,14 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32771084">
           <caret line="16" column="97" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,14 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17321688">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/HeadphoneEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19675925">
@@ -1495,37 +1307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethod/ApplianceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factoryMethod/ElectronicAppliance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethod/LocalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1538,36 +1323,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy_Observer_Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="53" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/USPS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1593,8 +1355,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1615,17 +1377,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Appliance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/ChargerEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.25578704">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
@@ -1633,14 +1387,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/Headphones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44117647">
+        <state vertical-scroll-proportion="0.2951389">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/DeliveryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/DeliverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13773148">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/IShipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/Fedex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/LocalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Appliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/ApplianceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/DomesticAppliances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy_Observer_Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13773148">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

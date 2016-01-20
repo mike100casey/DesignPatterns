@@ -17,7 +17,7 @@ public class USPS implements IShipment {
     private List<Item> items;
 
     @Override
-    public double calculate(double miles, double weight, DeliverType deliveryType) {
+    public double calculatePrice(double miles, double weight, DeliverType deliveryType) {
         final double FUEL_PRICE = 1.0f;
         final double COST_PER_MILE = 0.10;
         final double COST_PER_KG = 0.10;

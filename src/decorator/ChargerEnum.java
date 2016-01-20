@@ -17,7 +17,7 @@ public enum ChargerEnum implements Appliance {
     }
 
     @Override
-    public Appliance getAppliance(int index){
+    public Appliance getApplianceName(int index){
         return ChargerEnum.values()[index];
     }
 

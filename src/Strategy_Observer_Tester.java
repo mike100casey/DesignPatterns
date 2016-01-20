@@ -29,24 +29,26 @@ public class Strategy_Observer_Tester {
 
         FuelDepot fuelDepot = new FuelDepot();
 
-        Fedex fedex = Fedex.fedexObserver(/*fuelDepot*/);
+        Fedex fedex = Fedex.fedexObserver();
         fedex.observeFuelDepot(fuelDepot);
+
         UPC upc = UPC.upcObserver(fuelDepot);
+
         USPS usps = new USPS();
 
         fuelDepot.setState(1.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getState());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
-        double fedexPrice = fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        double fedexPrice = fedexDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
         priceSortMap.put(fedexPrice, fedex.toString());
 
         DeliveryItem upcDelivery = new DeliveryItem(upc);
-        double upcPrice = upcDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        double upcPrice = upcDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
         priceSortMap.put(upcPrice, upc.toString());
 
         DeliveryItem uspsDelivery = new DeliveryItem(usps);
-        double uspsPrice = uspsDelivery.deliveryCalculation(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
+        double uspsPrice = uspsDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
         priceSortMap.put(uspsPrice, usps.toString());
 
         System.out.println(priceSortMap.firstEntry().getValue() + " is the cheapest at: "
@@ -65,10 +67,10 @@ public class Strategy_Observer_Tester {
         String kettle = "";
 
         for (Appliance dir : domesticAppliances) {
-            washing_machine = String.valueOf(dir.getAppliance(0));
-            drier = String.valueOf(dir.getAppliance(1));
-            toaster = String.valueOf(dir.getAppliance(2));
-            kettle = String.valueOf(dir.getAppliance(3));
+            washing_machine = String.valueOf(dir.getApplianceName(0));
+            drier = String.valueOf(dir.getApplianceName(1));
+            toaster = String.valueOf(dir.getApplianceName(2));
+            kettle = String.valueOf(dir.getApplianceName(3));
         }
 
         List<Item> listOfItems = new ArrayList<>();
@@ -104,7 +106,7 @@ public class Strategy_Observer_Tester {
         System.out.println("-------------------------------------------------");
         List<ItemType> enumList = Arrays.asList(ItemType.values());
         for (int i = 0; i < enumList.size(); i++) {
-            System.out.println("Fedex Charge " + fedexDelivery.deliveryCalculation(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
+            System.out.println("Fedex Charge " + fedexDelivery.deliveryPrice(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
                     + " euro, to deliver " + enumList.get(i).name());
         }
 

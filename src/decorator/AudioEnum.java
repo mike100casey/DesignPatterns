@@ -17,7 +17,7 @@ public enum AudioEnum implements Appliance {
     }
 
     @Override
-    public Appliance getAppliance(int index) {
+    public Appliance getApplianceName(int index) {
         return HeadphoneEnum.values()[index];
     }
 

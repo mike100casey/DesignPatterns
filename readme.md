@@ -8,7 +8,6 @@ Contains all code for **Design Patterns CA**, Patterns implemented were:
 * Composite
 * State
 * Observer
-* Command
 
 All package starting with "st" are stand alone design patterns with individual tester classes.
 ***

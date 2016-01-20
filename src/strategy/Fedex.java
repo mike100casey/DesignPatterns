@@ -4,6 +4,7 @@ import iterator.Item;
 import observer.FuelDepot;
 import observer.Observer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,6 +14,7 @@ import java.util.List;
 public class Fedex extends Observer implements IShipment  {
 
     private double FUEL_PRICE;
+    private List<Item> items;
 
     private Fedex(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
@@ -50,7 +52,9 @@ public class Fedex extends Observer implements IShipment  {
 
     @Override
     public List<Item> getItems() {
-        return null;
+        ArrayList<Item> list = new ArrayList<>();
+        list.addAll(items);
+        return list;
     }
 
     @Override

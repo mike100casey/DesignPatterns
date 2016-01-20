@@ -10,7 +10,7 @@ public class CompositeTester {
     public static void main(String[] args) {
 
         System.out.println("New Message");
-        LetterComposite message = new Messenger().message();
+        MessageComposite message = new Messenger().message();
         message.print();
         System.out.println(message.count());
     }

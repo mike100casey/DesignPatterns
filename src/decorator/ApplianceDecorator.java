@@ -13,6 +13,4 @@ public abstract class ApplianceDecorator implements Appliance {
     public ApplianceDecorator(Appliance appliance) {
         this.appliance = appliance;
     }
-
-
 }

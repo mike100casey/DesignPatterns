@@ -29,11 +29,12 @@ public class Strategy_Observer_Tester {
 
         FuelDepot fuelDepot = new FuelDepot();
 
-        Fedex fedex = Fedex.fedexObserver(fuelDepot);
+        Fedex fedex = Fedex.fedexObserver(/*fuelDepot*/);
+        fedex.observeFuelDepot(fuelDepot);
         UPC upc = UPC.upcObserver(fuelDepot);
         USPS usps = new USPS();
 
-        fuelDepot.setState(2.0f);
+        fuelDepot.setState(1.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getState());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
@@ -64,10 +65,10 @@ public class Strategy_Observer_Tester {
         String kettle = "";
 
         for (Appliance dir : domesticAppliances) {
-            washing_machine = String.valueOf(dir.getName(0));
-            drier = String.valueOf(dir.getName(1));
-            toaster = String.valueOf(dir.getName(2));
-            kettle = String.valueOf(dir.getName(3));
+            washing_machine = String.valueOf(dir.getAppliance(0));
+            drier = String.valueOf(dir.getAppliance(1));
+            toaster = String.valueOf(dir.getAppliance(2));
+            kettle = String.valueOf(dir.getAppliance(3));
         }
 
         List<Item> listOfItems = new ArrayList<>();

@@ -1,9 +1,13 @@
 package strategy;
 
+import iterator.CompanyItemIterator;
 import iterator.Item;
+import iterator.ItemIterator;
+import iterator.ItemType;
 import observer.FuelDepot;
 import observer.Observer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,6 +17,7 @@ import java.util.List;
 public class UPC extends Observer implements IShipment {
 
     private double FUEL_PRICE;
+    private List<Item> items;
 
     private UPC(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
@@ -47,9 +52,20 @@ public class UPC extends Observer implements IShipment {
         return Math.round(deliveryPrice * 100.0) / 100.0;
     }
 
+    public ItemIterator iterator(ItemType itemType) {
+        return new CompanyItemIterator(this, itemType);
+    }
+
+    @Override
+    public void addItems(List<Item> myList) {
+        items = myList;
+    }
+
     @Override
     public List<Item> getItems() {
-        return null;
+        ArrayList<Item> list = new ArrayList<>();
+        list.addAll(items);
+        return list;
     }
 
     @Override

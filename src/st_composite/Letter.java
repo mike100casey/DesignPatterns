@@ -5,7 +5,7 @@ package st_composite;
  * <h2>H2 Title</h2>
  * Created by Michael on 11/26/2015.
  */
-public class Letter extends LetterComposite {
+public class Letter extends MessageComposite {
 
     private char aChar;
 

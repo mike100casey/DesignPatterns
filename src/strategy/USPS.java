@@ -38,6 +38,7 @@ public class USPS implements IShipment {
         return new CompanyItemIterator(this, itemType);
     }
 
+    @Override
     public void addItems(List<Item> myList) {
         items = myList;
     }

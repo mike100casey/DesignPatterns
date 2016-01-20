@@ -8,6 +8,7 @@ import java.util.List;
  * Created by Michael on 11/18/2015.
  */
 public class FuelDepot {
+
     List<Observer> observers = new ArrayList<Observer>();
     double state;
 

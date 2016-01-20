@@ -3,6 +3,7 @@ package adapter_singleton;
 import template_method.penaltyRoutine;
 
 /**
+ *
  * Created by Michael on 12/8/2015.
  */
 public class GoalkeeperAdapter extends penaltyRoutine {

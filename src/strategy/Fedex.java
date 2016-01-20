@@ -1,6 +1,9 @@
 package strategy;
 
+import iterator.CompanyItemIterator;
 import iterator.Item;
+import iterator.ItemIterator;
+import iterator.ItemType;
 import observer.FuelDepot;
 import observer.Observer;
 
@@ -16,13 +19,15 @@ public class Fedex extends Observer implements IShipment  {
     private double FUEL_PRICE;
     private List<Item> items;
 
-    private Fedex(FuelDepot fuelDepot) {
+    private Fedex() {}
+
+    public void observeFuelDepot(FuelDepot fuelDepot){
         this.fuelDepot = fuelDepot;
         this.fuelDepot.addObserver(this);
     }
 
-    public static Fedex fedexObserver(FuelDepot fuelDepot){
-        return new Fedex(fuelDepot);
+    public static Fedex fedexObserver(){
+        return new Fedex();
     }
 
     private double getFUEL_PRICE() {
@@ -48,6 +53,15 @@ public class Fedex extends Observer implements IShipment  {
                 deliveryPrice = (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
         }
         return Math.round(deliveryPrice * 100.0) / 100.0;
+    }
+
+    public ItemIterator iterator(ItemType itemType) {
+        return new CompanyItemIterator(this, itemType);
+    }
+
+    @Override
+    public void addItems(List<Item> myList) {
+        items = myList;
     }
 
     @Override

@@ -13,7 +13,7 @@ public class Headphones extends ApplianceDecorator {
     }
 
     @Override
-    public Appliance getName(int index) {
+    public Appliance getAppliance(int index) {
         return HeadphoneEnum.HEADPHONES;
     }
 

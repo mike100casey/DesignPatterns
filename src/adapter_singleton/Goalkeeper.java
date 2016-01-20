@@ -1,6 +1,7 @@
 package adapter_singleton;
 
 /**
+ *
  * Created by Michael on 12/8/2015.
  */
 public class Goalkeeper {

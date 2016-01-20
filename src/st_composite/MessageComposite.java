@@ -8,11 +8,11 @@ import java.util.List;
  * <h2>H2 Title</h2>
  * Created by Michael on 11/26/2015.
  */
-public abstract class LetterComposite {
+public abstract class MessageComposite {
 
-    private List<LetterComposite> message = new ArrayList<>();
+    private List<MessageComposite> message = new ArrayList<>();
 
-    protected void add(LetterComposite letter){
+    protected void add(MessageComposite letter){
         this.message.add(letter);
     }
 
@@ -26,7 +26,7 @@ public abstract class LetterComposite {
 
     public void print(){
         printBefore();
-        message.forEach(st_composite.LetterComposite::print);
+        message.forEach(MessageComposite::print);
         printAfter();
     }
 }

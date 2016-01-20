@@ -6,7 +6,7 @@ package factoryMethod;
  */
 public interface Appliance {
 
-    Appliance getName(int index);
-    String getTitle();
+    Appliance getAppliance(int index);
 
+    String getTitle();
 }

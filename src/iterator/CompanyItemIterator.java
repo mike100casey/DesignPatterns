@@ -14,9 +14,6 @@ public class CompanyItemIterator implements ItemIterator {
     private int index;
     private ItemType type;
 
-    /**
-     * Constructor
-     */
     public CompanyItemIterator(IShipment companyDeliveries, ItemType type) {
         this.companyDeliveries = companyDeliveries;
         this.type = type;

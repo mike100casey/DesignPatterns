@@ -5,6 +5,7 @@ package iterator;
  * Created by Michael on 1/15/2016.
  */
 public class Item {
+
     private ItemType type;
     private String appliance;
 
@@ -21,7 +22,7 @@ public class Item {
         this.type = type;
     }
 
-    public String getName(){
+    public String getName() {
         return appliance;
     }
 }

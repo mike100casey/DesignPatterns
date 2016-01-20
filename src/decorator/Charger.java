@@ -13,7 +13,7 @@ public class Charger extends ApplianceDecorator {
     }
 
     @Override
-    public Appliance getName(int index) {
+    public Appliance getAppliance(int index) {
         return ChargerEnum.CHARGER_CASE;
     }
 

@@ -7,7 +7,7 @@ import java.util.List;
  * <h2>H2 Title</h2>
  * Created by Michael on 11/26/2015.
  */
-public class Sentence extends LetterComposite {
+public class Sentence extends MessageComposite {
 
     public Sentence(List<Word> words) {
         for(Word word: words){
@@ -16,9 +16,7 @@ public class Sentence extends LetterComposite {
     }
 
     @Override
-    protected void printBefore() {
-
-    }
+    protected void printBefore() {}
 
     @Override
     protected void printAfter() {

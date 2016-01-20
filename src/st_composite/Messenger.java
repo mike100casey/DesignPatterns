@@ -13,7 +13,7 @@ import java.util.List;
 public class Messenger {
 
     List<Word> words;
-    LetterComposite message() {
+    MessageComposite message() {
 
         words = new ArrayList<>();
 

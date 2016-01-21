@@ -17,11 +17,12 @@ import java.util.TreeMap;
  *
  * Created by Michael on 11/18/2015.
  */
-public class Strategy_Observer_Tester {
+public class Tester_SODIF {
 
     public static void main(String[] args) {
 
-        System.out.println("----------- STRATEGY + OBSERVER -----------\n");
+        Tester_SODIF tester = new Tester_SODIF();
+
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = ItemType.ELECTRONICS.index();
 
@@ -36,7 +37,7 @@ public class Strategy_Observer_Tester {
 
         USPS usps = new USPS();
 
-        fuelDepot.setState(1.0f);
+        fuelDepot.setState(2.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getState());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
@@ -53,13 +54,45 @@ public class Strategy_Observer_Tester {
 
         System.out.println(priceSortMap.firstEntry().getValue() + " is the cheapest at: "
                 + priceSortMap.firstEntry().getKey() + " Euro, " +
-                "To deliver a " + ItemType.DOMESTIC_APPLIANCE.name());
+                "To deliver a " + ItemType.DOMESTIC_APPLIANCE.name() + "\n");
 
-        System.out.println("\n----------- ITERATOR + FACTORY -----------\n");
 
+        tester.fedexDeliveryCharges(fedexDelivery, PARCEL_SIZE);
+        tester.iteratorOverItems();
+        tester.buildPhone();
+        tester.buildCD_Player();
+
+    }
+
+    private void fedexDeliveryCharges(DeliveryItem deliveryItem, Double parcelSize){
+        System.out.println();
+        List<ItemType> enumList = Arrays.asList(ItemType.values());
+        for (int i = 0; i < enumList.size(); i++) {
+            System.out.println("Fedex Charge " + deliveryItem.deliveryPrice(parcelSize, enumList.get(i).index(), DeliverType.STANDARD)
+                    + " euro, to deliver " + enumList.get(i).name());
+        }
+    }
+
+    private void buildPhone(){
+        System.out.println();
+        ApplianceFactory applianceFactory = new LocalFactory();
+        Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
+        Appliance phoneWithGadgets = new Charger(new Headphones(smartPhone));
+        System.out.println(phoneWithGadgets.getTitle());
+    }
+
+    private void buildCD_Player(){
+        System.out.println();
+        ApplianceFactory applianceFactory = new LocalFactory();
+        Appliance cdPlayer = applianceFactory.buildAppliance(ElectronicAppliance.CD_PLAYER);
+        Appliance cdPlayerWithSpeakers = new Audio(cdPlayer);
+        System.out.println(cdPlayerWithSpeakers.getTitle());
+    }
+
+    private void iteratorOverItems(){
+        System.out.println();
         ApplianceFactory applianceFactory = new LocalFactory();
         Appliance[] domesticAppliances = applianceFactory.buildAppliances(ItemType.DOMESTIC_APPLIANCE);
-
 
         String washing_machine = "";
         String drier = "";
@@ -92,23 +125,7 @@ public class Strategy_Observer_Tester {
         while (uspsIterator.hasNext()) {
             System.out.println(uspsIterator.next().getName());
         }
-
-        System.out.println("\n----------- DECORATOR + FACTORY -----------\n");
-
-        Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
-        Appliance phoneWithGadgets = new Charger(new Headphones(smartPhone));
-        System.out.println(phoneWithGadgets.getTitle());
-
-        Appliance cdPlayer = applianceFactory.buildAppliance(ElectronicAppliance.CD_PLAYER);
-        Appliance cdPlayerWithSpeakers = new Audio(cdPlayer);
-        System.out.println(cdPlayerWithSpeakers.getTitle());
-
-        System.out.println("-------------------------------------------------");
-        List<ItemType> enumList = Arrays.asList(ItemType.values());
-        for (int i = 0; i < enumList.size(); i++) {
-            System.out.println("Fedex Charge " + fedexDelivery.deliveryPrice(DELIVERY_DISTANCE, enumList.get(i).index(), DeliverType.STANDARD)
-                    + " euro, to deliver " + enumList.get(i).name());
-        }
-
     }
+
+
 }

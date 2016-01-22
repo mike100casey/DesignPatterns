@@ -36,7 +36,7 @@ public class CompanyTester {
         Fedex fedex = new Fedex();
         fedex.observeFuelDepot(fuelDepot);
 
-        UPC upc = UPC.upcObserver(fuelDepot);
+        UPC upc = UPC.observeFuelDepot(fuelDepot);
 
         USPS usps = new USPS();
 

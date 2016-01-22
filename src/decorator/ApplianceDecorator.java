@@ -8,9 +8,9 @@ import factoryMethod.Appliance;
  */
 public abstract class ApplianceDecorator implements Appliance {
 
-    Appliance appliance;
+    protected Appliance appliance;
 
-    public ApplianceDecorator(Appliance appliance) {
+    protected ApplianceDecorator(Appliance appliance) {
         this.appliance = appliance;
     }
 }

@@ -4,11 +4,11 @@ package strategy;
  *
  * Created by Michael on 11/18/2015.
  */
-public class DeliveryItem {
+public class ItemToDeliver {
 
     private final IShipment shipment;
 
-    public DeliveryItem(IShipment shipment) {
+    public ItemToDeliver(IShipment shipment) {
         this.shipment = shipment;
     }
 

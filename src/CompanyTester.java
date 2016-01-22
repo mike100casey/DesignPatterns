@@ -29,7 +29,7 @@ public class CompanyTester {
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = ItemType.ELECTRONICS.index();
 
-        TreeMap<Double, String> priceSortMap = new TreeMap<>();
+        TreeMap<Double, String> sortPriceMap = new TreeMap<>();
 
         FuelDepot fuelDepot = new FuelDepot();
 
@@ -43,20 +43,20 @@ public class CompanyTester {
         fuelDepot.setPrice(2.0f);
         System.out.println("Fuel price at depot is: " + fuelDepot.getPrice());
 
-        DeliveryItem fedexDelivery = new DeliveryItem(fedex);
+        ItemToDeliver fedexDelivery = new ItemToDeliver(fedex);
         double fedexPrice = fedexDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
-        priceSortMap.put(fedexPrice, fedex.toString());
+        sortPriceMap.put(fedexPrice, fedex.toString());
 
-        DeliveryItem upcDelivery = new DeliveryItem(upc);
+        ItemToDeliver upcDelivery = new ItemToDeliver(upc);
         double upcPrice = upcDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
-        priceSortMap.put(upcPrice, upc.toString());
+        sortPriceMap.put(upcPrice, upc.toString());
 
-        DeliveryItem uspsDelivery = new DeliveryItem(usps);
+        ItemToDeliver uspsDelivery = new ItemToDeliver(usps);
         double uspsPrice = uspsDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);
-        priceSortMap.put(uspsPrice, usps.toString());
+        sortPriceMap.put(uspsPrice, usps.toString());
 
-        System.out.println(priceSortMap.firstEntry().getValue() + " is the cheapest at: "
-                + priceSortMap.firstEntry().getKey() + " Euro, " +
+        System.out.println(sortPriceMap.firstEntry().getValue() + " is the cheapest at: "
+                + sortPriceMap.firstEntry().getKey() + " Euro, " +
                 "To deliver a " + ItemType.DOMESTIC_APPLIANCE.name() + "\n");
 
 
@@ -67,11 +67,11 @@ public class CompanyTester {
 
     }
 
-    private void fedexDeliveryCharges(DeliveryItem deliveryItem, Double parcelSize) {
+    private void fedexDeliveryCharges(ItemToDeliver itemToDeliver, Double parcelSize) {
         System.out.println();
         List<ItemType> enumList = Arrays.asList(ItemType.values());
         for (int i = 0; i < enumList.size(); i++) {
-            System.out.println("Fedex Charge " + deliveryItem.deliveryPrice(parcelSize, enumList.get(i).index(), DeliverType.STANDARD)
+            System.out.println("Fedex Charge " + itemToDeliver.deliveryPrice(parcelSize, enumList.get(i).index(), DeliverType.STANDARD)
                     + " euro, to deliver " + enumList.get(i).name());
         }
     }

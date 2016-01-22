@@ -10,14 +10,14 @@ import java.util.List;
 public class FuelDepot {
 
     List<Observer> observers = new ArrayList<Observer>();
-    double state;
+    double price;
 
-    public double getState() {
-        return state;
+    public double getPrice() {
+        return price;
     }
 
-    public void setState(double state) {
-        this.state = state;
+    public void setPrice(double price) {
+        this.price = price;
         notifyAllObservers();
     }
     public void addObserver(Observer observer) {

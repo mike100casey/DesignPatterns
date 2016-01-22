@@ -33,15 +33,15 @@ public class CompanyTester {
 
         FuelDepot fuelDepot = new FuelDepot();
 
-        Fedex fedex = Fedex.fedexObserver();
+        Fedex fedex = new Fedex();
         fedex.observeFuelDepot(fuelDepot);
 
         UPC upc = UPC.upcObserver(fuelDepot);
 
         USPS usps = new USPS();
 
-        fuelDepot.setState(2.0f);
-        System.out.println("Fuel price at depot is: " + fuelDepot.getState());
+        fuelDepot.setPrice(2.0f);
+        System.out.println("Fuel price at depot is: " + fuelDepot.getPrice());
 
         DeliveryItem fedexDelivery = new DeliveryItem(fedex);
         double fedexPrice = fedexDelivery.deliveryPrice(DELIVERY_DISTANCE, PARCEL_SIZE, DeliverType.STANDARD);

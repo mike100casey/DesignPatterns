@@ -14,28 +14,15 @@ import java.util.List;
  *
  * Created by Michael on 11/18/2015.
  */
-public class Fedex extends Observer implements IShipment  {
+public class Fedex extends Observer implements IShipment {
 
-    private double FUEL_PRICE;
+    private double COMPANY_MARGIN = 1.18f;
+    private double fuelPrice;
     private List<Item> items;
 
-    private Fedex() {}
-
-    public static Fedex fedexObserver(){
-        return new Fedex();
-    }
-
-    public void observeFuelDepot(FuelDepot fuelDepot){
+    public void observeFuelDepot(FuelDepot fuelDepot) {
         this.fuelDepot = fuelDepot;
         this.fuelDepot.addObserver(this);
-    }
-
-    private double getFUEL_PRICE() {
-        return FUEL_PRICE;
-    }
-
-    private void setFUEL_PRICE(double FUEL_PRICE) {
-        this.FUEL_PRICE = FUEL_PRICE;
     }
 
     @Override
@@ -47,10 +34,10 @@ public class Fedex extends Observer implements IShipment  {
         double deliveryPrice = 0;
         switch (deliveryType) {
             case OVERNIGHT:
-                deliveryPrice = OVERNIGHT_CHARGE * (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
+                deliveryPrice = OVERNIGHT_CHARGE * (fuelPrice * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
                 break;
             case STANDARD:
-                deliveryPrice = (getFUEL_PRICE() * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
+                deliveryPrice = (fuelPrice * ((miles * COST_PER_MILE) + (weight * COST_PER_KG)));
         }
         return Math.round(deliveryPrice * 100.0) / 100.0;
     }
@@ -73,13 +60,11 @@ public class Fedex extends Observer implements IShipment  {
 
     @Override
     public void update() {
-        double companyMargin = 0.18f;
-        setFUEL_PRICE(fuelDepot.getState() +
-                companyMargin * fuelDepot.getState());
+        fuelPrice = fuelDepot.getPrice() * COMPANY_MARGIN;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Fedex";
     }
 

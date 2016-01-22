@@ -71,8 +71,8 @@ public class UPC extends Observer implements IShipment {
     @Override
     public void update() {
         double companyMargin = 0.2f;
-        setFUEL_PRICE(fuelDepot.getState() +
-                companyMargin * fuelDepot.getState());
+        setFUEL_PRICE(fuelDepot.getPrice() +
+                companyMargin * fuelDepot.getPrice());
     }
 
     @Override

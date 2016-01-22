@@ -1,7 +1,10 @@
 import decorator.Audio;
 import decorator.Charger;
 import decorator.Headphones;
-import factoryMethod.*;
+import factoryMethod.Appliance;
+import factoryMethod.ApplianceFactory;
+import factoryMethod.ElectronicAppliance;
+import factoryMethod.LocalFactory;
 import iterator.Item;
 import iterator.ItemIterator;
 import iterator.ItemType;
@@ -17,11 +20,11 @@ import java.util.TreeMap;
  *
  * Created by Michael on 11/18/2015.
  */
-public class Tester_SODIF {
+public class CompanyTester {
 
     public static void main(String[] args) {
 
-        Tester_SODIF tester = new Tester_SODIF();
+        CompanyTester tester = new CompanyTester();
 
         final double DELIVERY_DISTANCE = 50;
         final double PARCEL_SIZE = ItemType.ELECTRONICS.index();
@@ -64,7 +67,7 @@ public class Tester_SODIF {
 
     }
 
-    private void fedexDeliveryCharges(DeliveryItem deliveryItem, Double parcelSize){
+    private void fedexDeliveryCharges(DeliveryItem deliveryItem, Double parcelSize) {
         System.out.println();
         List<ItemType> enumList = Arrays.asList(ItemType.values());
         for (int i = 0; i < enumList.size(); i++) {
@@ -73,7 +76,7 @@ public class Tester_SODIF {
         }
     }
 
-    private void buildPhone(){
+    private void buildPhone() {
         System.out.println();
         ApplianceFactory applianceFactory = new LocalFactory();
         Appliance smartPhone = applianceFactory.buildAppliance(ElectronicAppliance.SMART_PHONE);
@@ -81,7 +84,7 @@ public class Tester_SODIF {
         System.out.println(phoneWithGadgets.getTitle());
     }
 
-    private void buildCD_Player(){
+    private void buildCD_Player() {
         System.out.println();
         ApplianceFactory applianceFactory = new LocalFactory();
         Appliance cdPlayer = applianceFactory.buildAppliance(ElectronicAppliance.CD_PLAYER);
@@ -89,7 +92,7 @@ public class Tester_SODIF {
         System.out.println(cdPlayerWithSpeakers.getTitle());
     }
 
-    private void iteratorOverItems(){
+    private void iteratorOverItems() {
         System.out.println();
         ApplianceFactory applianceFactory = new LocalFactory();
         Appliance[] domesticAppliances = applianceFactory.buildAppliances(ItemType.DOMESTIC_APPLIANCE);

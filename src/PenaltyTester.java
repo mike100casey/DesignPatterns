@@ -8,7 +8,7 @@ import template_method.Striker;
  *
  * Created by Michael on 11/28/2015.
  */
-public class Tester_AST {
+public class PenaltyTester {
 
     public static void main(String[] args) {
 

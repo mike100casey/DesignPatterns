@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="2" />
+    <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/strategy/USPS.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8436e49-0fc4-4c8b-94da-7c8f26f9edab" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\Adapter_Template_Tester.java" afterPath="$PROJECT_DIR$/src/Tester_AST.java" />
-      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\Strategy_Observer_Tester.java" afterPath="$PROJECT_DIR$/src/Tester_SODIF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliverType.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliverType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliveryItem.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/DeliveryItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/Fedex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/IShipment.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/IShipment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/observer/Observer.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/observer/Observer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/UPC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/strategy/USPS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/penaltyRoutine.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/template_method/penaltyRoutine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" afterPath="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\Tester_AST.java" afterPath="$PROJECT_DIR$/src/PenaltyTester.java" />
+      <change type="MOVED" beforePath="C:\git\DesignPatterns\src\Tester_SODIF.java" afterPath="$PROJECT_DIR$/src/CompanyTester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -43,27 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tester_SODIF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tester_SODIF.java">
+      <file leaf-file-name="CompanyTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompanyTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#fedexDeliveryCharges#0;class#Tester_SODIF#0" expanded="false" />
-                <element signature="method#buildPhone#0;class#Tester_SODIF#0" expanded="false" />
-                <element signature="method#buildCD_Player#0;class#Tester_SODIF#0" expanded="false" />
-                <element signature="method#iteratorOverItems#0;class#Tester_SODIF#0" expanded="false" />
+                <element signature="method#buildPhone#0;class#CompanyTester#0" expanded="false" />
+                <element signature="method#buildCD_Player#0;class#CompanyTester#0" expanded="false" />
+                <element signature="method#iteratorOverItems#0;class#CompanyTester#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester_AST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tester_AST.java">
+      <file leaf-file-name="PenaltyTester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PenaltyTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.11805555">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -96,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/state_after/Medium.java" />
-        <option value="$PROJECT_DIR$/src/state_after/CeilingFan.java" />
         <option value="$PROJECT_DIR$/src/state_after/FanState.java" />
         <option value="$PROJECT_DIR$/src/state_after/Hign.java" />
         <option value="$PROJECT_DIR$/src/state_after/Low.java" />
@@ -143,10 +130,12 @@
         <option value="$PROJECT_DIR$/src/strategy/Fedex.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/Appliance.java" />
         <option value="$PROJECT_DIR$/src/Strategy_Observer_Tester.java" />
-        <option value="$PROJECT_DIR$/src/Tester_SODIF.java" />
         <option value="$PROJECT_DIR$/src/Adapter_Template_Tester.java" />
         <option value="$PROJECT_DIR$/src/template_method/penaltyRoutine.java" />
+        <option value="$PROJECT_DIR$/src/Tester_SODIF.java" />
+        <option value="$PROJECT_DIR$/src/CompanyTester.java" />
         <option value="$PROJECT_DIR$/src/Tester_AST.java" />
+        <option value="$PROJECT_DIR$/src/PenaltyTester.java" />
       </list>
     </option>
   </component>
@@ -216,8 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +240,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,10 +311,10 @@
       <recent name="strategy_penalty" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tester_AST">
-    <configuration default="false" name="Tester_AST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Unnamed (2)">
+    <configuration default="false" name="PenaltyTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Tester_AST" />
+      <option name="MAIN_CLASS_NAME" value="PenaltyTester" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -594,7 +583,7 @@
     </configuration>
     <configuration default="false" name="Unnamed (2)" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Tester_SODIF" />
+      <option name="MAIN_CLASS_NAME" value="CompanyTester" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -609,11 +598,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Tester_AST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PenaltyTester" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Tester_AST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PenaltyTester" />
       </list>
     </recent_temporary>
   </component>
@@ -667,13 +656,8 @@
       <workItem from="1453295242654" duration="565000" />
       <workItem from="1453309600280" duration="735000" />
       <workItem from="1453320745604" duration="5897000" />
-      <workItem from="1453405220188" duration="2302000" />
-    </task>
-    <task id="LOCAL-00044" summary="Created volkswagen, vw engine class">
-      <created>1448810775780</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1448810775780</updated>
+      <workItem from="1453405220188" duration="2739000" />
+      <workItem from="1453454776777" duration="449000" />
     </task>
     <task id="LOCAL-00045" summary="Created tester for the factory method">
       <created>1448811598287</created>
@@ -963,25 +947,29 @@
       <option name="project" value="LOCAL" />
       <updated>1453327658132</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Updated tester classes">
+      <created>1453407553751</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1453407553752</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183351000" />
+    <option name="totallyTimeSpent" value="184237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1047" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188406" sideWeight="0.50213903" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3188406" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188406" sideWeight="0.49786097" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17379679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -990,13 +978,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1013,7 +1003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Analyzed code in strategy package and applied changes&#10;" />
     <MESSAGE value="Analyzed code in template method package, adapter singleton, decorator and applied changes&#10;" />
     <MESSAGE value="Analyzed code in factory method, composite  and applied changes&#10;" />
     <MESSAGE value="Created test classes in factory and adapter. removed unused code" />
@@ -1038,7 +1027,8 @@
     <MESSAGE value="Rename letter composite in composite class" />
     <MESSAGE value="Formatted code" />
     <MESSAGE value="Renamed method in factory method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed method in factory method" />
+    <MESSAGE value="Updated tester classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated tester classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1157,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09837963">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,10 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059027776">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,25 +1395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tester_SODIF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#fedexDeliveryCharges#0;class#Tester_SODIF#0" expanded="false" />
-            <element signature="method#buildPhone#0;class#Tester_SODIF#0" expanded="false" />
-            <element signature="method#buildCD_Player#0;class#Tester_SODIF#0" expanded="false" />
-            <element signature="method#iteratorOverItems#0;class#Tester_SODIF#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/template_method/penaltyRoutine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5115741">
           <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,14 +1406,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.114583336">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tester_AST.java">
+    <entry file="file://$PROJECT_DIR$/src/CompanyTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildPhone#0;class#CompanyTester#0" expanded="false" />
+            <element signature="method#buildCD_Player#0;class#CompanyTester#0" expanded="false" />
+            <element signature="method#iteratorOverItems#0;class#CompanyTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PenaltyTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11805555">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
